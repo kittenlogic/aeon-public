@@ -14527,7 +14527,7 @@ h5 {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 677px) {
   #carousel-testimonial {
     padding: 0 20px;
   }
@@ -14535,10 +14535,10 @@ h5 {
     height: 670px;
   }
   #carousel-showroom h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   #carousel-showroom h5 {
-    display: none;
+    font-size: 14px;
   }
   #carousel-showroom .carousel-caption {
     position: absolute;
@@ -14547,8 +14547,8 @@ h5 {
     bottom: 0;
     left: 0;
     z-index: 10;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #ffffff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
