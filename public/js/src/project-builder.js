@@ -105,6 +105,27 @@ jQuery(document).ready(function($){
       console.log('just clicked on nova14');
     });
 
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA10"] a', function(event){
+      event.preventDefault();
+      $('.options-list .condition-size.selected').trigger('click');
+      $('.cd-product-powers .SUPERNOVA10-default a').trigger('click');
+      console.log('just clicked on supernova10');
+    });
+
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA14"] a', function(event){
+      event.preventDefault();
+      $('.options-list .condition-size.selected').trigger('click');
+      $('.cd-product-powers .SUPERNOVA14-default a').trigger('click');
+      console.log('just clicked on supernova14');
+    });
+
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA16"] a', function(event){
+      event.preventDefault();
+      $('.options-list .condition-size.selected').trigger('click');
+      $('.cd-product-powers .SUPERNOVA16-default a').trigger('click');
+      console.log('just clicked on supernova16');
+    });
+
   };
 
 
