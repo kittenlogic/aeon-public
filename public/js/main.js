@@ -8182,25 +8182,25 @@ jQuery(document).ready(function($){
       console.log('just clicked on nova14');
     });
 
-    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA10"] a', function(event){
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA10S"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .SUPERNOVA10-default a').trigger('click');
-      console.log('just clicked on supernova10');
+      $('.cd-product-powers .NOVA10S-default a').trigger('click');
+      console.log('just clicked on NOVA10S');
     });
 
-    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA14"] a', function(event){
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA14S"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .SUPERNOVA14-default a').trigger('click');
-      console.log('just clicked on supernova14');
+      $('.cd-product-powers .NOVA14S-default a').trigger('click');
+      console.log('just clicked on NOVA14S');
     });
 
-    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="SUPERNOVA16"] a', function(event){
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA16S"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .SUPERNOVA16-default a').trigger('click');
-      console.log('just clicked on supernova16');
+      $('.cd-product-powers .NOVA16S-default a').trigger('click');
+      console.log('just clicked on NOVA16S');
     });
 
   };
