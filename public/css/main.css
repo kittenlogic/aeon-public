@@ -14069,6 +14069,22 @@ h5 {
   display: none;
 }
 
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
 .footer {
   min-height: 400px;
   background: #333;
@@ -14405,6 +14421,11 @@ h5 {
 
 .carousel-inner > .item > img {
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .carousel-control {
