@@ -183,3 +183,15 @@ function dropDownSelect(selected) {
 $('#carousel-testimonial').carousel({
   interval: 15000
 })
+
+/******************
+ notification bar
+******************/
+$('#notify').click(function (e) {
+    e.stopPropagation();
+});
+$('.notifications').click(function (e) {
+    if (!$('.notify').is($(e.target))) {
+        $('#notify').prop("checked", false);
+    }
+});
