@@ -87,22 +87,29 @@ jQuery(document).ready(function($){
     this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA7"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .nova-default a').trigger('click');
+      $('.cd-product-powers .NOVA7-default a').trigger('click');
       console.log('just clicked on nova7');
     });
 
     this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA10"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .nova-default a').trigger('click');
+      $('.cd-product-powers .NOVA10-default a').trigger('click');
       console.log('just clicked on nova10');
     });
 
     this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA14"] a', function(event){
       event.preventDefault();
       $('.options-list .condition-size.selected').trigger('click');
-      $('.cd-product-powers .nova-default a').trigger('click');
+      $('.cd-product-powers .NOVA14-default a').trigger('click');
       console.log('just clicked on nova14');
+    });
+
+    this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA16"] a', function(event){
+      event.preventDefault();
+      $('.options-list .condition-size.selected').trigger('click');
+      $('.cd-product-powers .NOVA16-default a').trigger('click');
+      console.log('just clicked on nova16');
     });
 
     this.stepsWrapper.on('click', '.cd-product-sizes li[data-modelsize="NOVA10S"] a', function(event){
