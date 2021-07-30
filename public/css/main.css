@@ -39,6 +39,7 @@
 #     Subcategory
 #     About
 #     Application
+#     Help Center
 # 7. Themes
 #     Default
 # 8. Misc
@@ -15765,6 +15766,11 @@ h5 {
   .application .samples img {
     max-height: 300px;
   }
+}
+
+iframe #kb-footer,
+iframe #kb-header #header-top {
+  display: none !important;
 }
 
 .print-header {

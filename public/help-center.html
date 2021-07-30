@@ -121,12 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container-iframe">
     <div class="row">
       <div class="col-xs-12 centered">
-        <iframe src="https://aeonlaserusa.tawk.help/" width="100%" height="700px" frameborder="0" allowfullscreen>
-          <p>
-            <a href="https://aeonlaserusa.tawk.help/">
-              Vist the Aeon Laser USA Help Center!
-            </a>
-          </p>
+        <iframe src="http://help.aeonlaser.us" width="100%" height="700px" frameborder="0" allowfullscreen>
         </iframe>
 
       </div>
@@ -223,6 +218,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   vgo('process');
 </script>
 <!--END: ACTIVE CAMPAIGN-->
+  <!--START: HELP CENTER IFRAME-->
+  <script>
+    var iframe = document.getElementsByTagName('iframe')[0];
+
+    iframe.addEventListener("load", function() {
+      var node = document.createElement('style');
+      node.appendChild(document.createTextNode('#kb-footer, #kb-header #header-top { display: none !important;}'));
+      window.frames[0].document.head.appendChild(node);
+    });
+  </script>
+  <!--END: HELP CENTER IFRAME-->
 </body>
 
 </html>
