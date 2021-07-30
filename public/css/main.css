@@ -15252,37 +15252,6 @@ h5 {
   background: #fff;
 }
 
-.product .invisible-fullwidth {
-  height: 30px;
-  background: #fff;
-}
-
-.product .description {
-  background: #fff;
-  margin-top: 20px;
-  margin-bottom: 0;
-  padding: 10px 25px 20px 25px;
-}
-
-.product .btn {
-  margin-bottom: 10px;
-}
-
-.product .details {
-  background: #fff;
-  margin-top: 0;
-  margin-bottom: 20px;
-  padding: 60px 25px 20px 25px;
-}
-
-.product .tab-pane {
-  min-height: 300px;
-}
-
-.product .video {
-  margin: 20px 0;
-}
-
 .product li a[href="#applications"] {
   display: none;
 }
@@ -15304,13 +15273,35 @@ h5 {
   font-weight: 500;
 }
 
+.product .btn {
+  margin-bottom: 10px;
+}
+
+.product .details {
+  background: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 60px 25px 20px 25px;
+}
+
 .product .description {
+  background: #fff;
+  padding: 10px 5px;
   margin: 2em 0;
 }
 
 .product .description li {
   list-style: none;
   padding: 4px 0;
+}
+
+.product .description .price {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.product .description .price-helper {
+  text-transform: uppercase;
 }
 
 .product .contact-form {
@@ -15406,6 +15397,10 @@ h5 {
   color: #fff;
 }
 
+.product .tab-pane {
+  min-height: 300px;
+}
+
 .product .tab-pane .faq p,
 .product .tab-pane .faq h4 {
   margin: 5px 0;
@@ -15435,6 +15430,15 @@ h5 {
   color: #ea5529;
 }
 
+.product .video {
+  margin: 20px 0;
+}
+
+.product .invisible-fullwidth {
+  height: 30px;
+  background: #fff;
+}
+
 @media (max-width: 414px) {
   .product .cta {
     margin: 0;
@@ -15445,6 +15449,9 @@ h5 {
   }
   .product h1 {
     font-size: 20px;
+  }
+  .description .price-helper {
+    font-size: 12px;
   }
 }
 
