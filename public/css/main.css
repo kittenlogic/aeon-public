@@ -15718,6 +15718,33 @@ h5 {
   border-top: 1px solid #ccc;
 }
 
+.page .bg-light {
+  background-color: #f9f9fb;
+}
+
+.page .content-container {
+  padding-top: 5em;
+}
+
+@media (max-width: 767px) {
+  .page .content-container {
+    padding-top: 1em;
+  }
+}
+
+.page .margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.page .brand-color {
+  color: #ea5529;
+}
+
+.page figcaption {
+  margin-top: 1em;
+  color: #999999;
+}
+
 .application p {
   font-size: 16pt;
   color: #444444;
