@@ -14103,12 +14103,46 @@ h5 {
   padding: 3em 0;
 }
 
+.py-4 {
+  padding: 4em 0;
+}
+
+.py-5 {
+  padding: 5em 0;
+}
+
+.py-6 {
+  padding: 6em 0;
+}
+
 .mb--3 {
   margin-bottom: -3em;
 }
 
 .highlight {
   color: #ea5529;
+}
+
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.svg-icon {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.svg-icon svg, .icon img {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+}
+
+.svg-icon.baseline svg, .icon img {
+  top: .125em;
+  position: relative;
 }
 
 .footer {
@@ -15248,6 +15282,12 @@ h5 {
   margin: 0 auto;
 }
 
+.slate-regular a.btn-brand {
+  font-weight: normal;
+  color: #fff;
+  border-bottom: 0;
+}
+
 .product {
   background: #fff;
 }
@@ -15700,6 +15740,10 @@ h5 {
   margin-bottom: 0px;
 }
 
+.page .title.black h1 {
+  color: #000;
+}
+
 .page h4 {
   padding-top: 1em;
   padding-bottom: .75em;
@@ -15730,10 +15774,6 @@ h5 {
   .page .content-container {
     padding-top: 1em;
   }
-}
-
-.page .margin-b-10 {
-  margin-bottom: 10px;
 }
 
 .page .brand-color {
