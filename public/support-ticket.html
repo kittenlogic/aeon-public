@@ -94,9 +94,43 @@ src="https://www.facebook.com/tr?id=709308716599367&ev=PageView&noscript=1"
 <!-- END GOAFFPRO -->
 
 
+  <style>
+    .support-ticket {
+      background-color: #fbeac9;
+    }
+
+    .support-ticket iframe {
+      width: 100%;
+      height: 2390px;
+      border: 0;
+      box-shadow: none;
+      margin-bottom: 100px;
+    }
+
+    .bg-canary {
+      background-color: #fff9ed;
+    }
+
+    .content-container {
+      padding-bottom: 3em;
+    }
+
+    @media (min-width: 376px) and (max-width: 640px) {
+      .support-ticket iframe {
+        height: 2560px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .support-ticket iframe {
+        height: 2770px;
+      }
+    }
+  </style>
+
 </head>
 
-<body class="page">
+<body class="page support-ticket">
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HTS6RJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -155,20 +189,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--END: NAV -->
 
   <!--START: TITLE-->
-  <div class="title">
-    <h1>Support Ticket Request</h1>
-  </div>
-  <!--END: TITLE-->
-  <div class="container">
+  <div class="container-fluid bg-canary">
     <div class="row">
-      <div class="col-xs-12">
-        <iframe src=https://forms.monday.com/forms/embed/7c78d5cebc5bc01f042d75972cfba162?r=use1 width="100%" height="2400" style="border: 0; box-shadow: 5px 5px 46px 0px rgba(0,0,0,0.15); margin-bottom:100px;"></iframe>
+      <div class="col-xs-12 col-sm-6">
+        <img class="img-responsive" src="img/customer-support.jpg" alt="person sitting at a table with a laptop and a cute house plant.">
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="content-container">
+          <h2 class="brand-color">Need help?</h2>
+          <h3>We're here for you!</h3>
+          <p>Fill out a Support Ticket Request and we will help you Laser ON!</p>
+        </div>
       </div>
     </div>
   </div>
-  <!--end .container-->
+  <!--END: TITLE-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <iframe class="support-iframe" src=https://forms.monday.com/forms/embed/7c78d5cebc5bc01f042d75972cfba162?r=use1> </iframe> </div> </div> </div> <!--end .container-->
 
-      <!--START: FOOTER-->
+              <!--START: FOOTER-->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -234,10 +275,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!--end .container-->
     </footer>
     <!--END: FOOTER-->
-  <!-- ============= Javascript ============= -->
+          <!-- ============= Javascript ============= -->
 <script src="js/main.js"></script> 
 
-  <!--START: ACTIVE CAMPAIGN-->
+          <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
   (function(e, t, o, n, p, r, i) {
     e.visitorGlobalObjectAlias = n;
