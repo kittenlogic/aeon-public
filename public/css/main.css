@@ -33,6 +33,7 @@
 #     Modal
 #     Notification
 #     Pricing
+#     Cards
 # 6. Pages
 #     Home
 #     Product
@@ -14352,8 +14353,8 @@ h5 {
 
 @media (max-width: 767px) {
   .navbar-brand > img {
-    height: 48px;
-    margin-top: 0;
+    height: 42px;
+    margin-top: 3px;
     top: 0;
   }
 }
@@ -14983,6 +14984,111 @@ h5 {
   .pricing-list.highlight .pricing-footer {
     padding: 2em 0 3em;
   }
+}
+
+.cards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 6rem;
+  background-color: #f5f5f5;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+@media (max-width: 60em) {
+  .cards {
+    padding: 3rem;
+  }
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  width: 114rem;
+  height: auto !important;
+  grid-gap: 6rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  -ms-flex-align: start;
+      align-items: start;
+}
+
+.grid__item {
+  background-color: #fff;
+  border-radius: .4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid__item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 60em) {
+  .grid {
+    grid-gap: 3rem;
+  }
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.card__content {
+  padding: 3rem 3rem;
+}
+
+.card__header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+
+.card__text {
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card__btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #EA5529;
+  border: none;
+  border-radius: .4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.card__btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card__btn:hover, .card__btn:active {
+  background-color: #e94a1b;
+  color: #fff;
+}
+
+.card__btn:hover span, .card__btn:active span {
+  margin-left: 1.5rem;
 }
 
 .home {
