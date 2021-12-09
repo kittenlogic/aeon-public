@@ -14154,6 +14154,12 @@ h5 {
   margin-top: -5px;
 }
 
+@media (max-width: 767px) {
+  .center-text-mobile {
+    text-align: center;
+  }
+}
+
 footer.footer {
   min-height: 400px;
   background: #333;
@@ -14646,6 +14652,16 @@ footer.footer .legal {
 #carousel-testimonial .carousel-indicators .active {
   background: #ea5529;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#carousel-spotlight .carousel-indicators {
+  bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #carousel-spotlight .carousel-indicators {
+    bottom: 0;
+  }
 }
 
 @media (min-width: 541px) and (max-width: 765px) {
@@ -15966,16 +15982,30 @@ footer.footer .legal {
   color: #212B38;
 }
 
-.label-spotlight {
-  background-color: #FDEDE9;
-  color: #EA5529;
+.spotlight .sandy {
+  background-color: #FFF9ED;
+  padding: 2em;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
 }
 
-@media (max-width: 767px) {
-  .spotlight h1,
-  .spotlight h2 {
-    text-align: center;
-  }
+.spotlight .skyblue {
+  background-color: #E0EDFF;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.label-orange {
+  background-color: #ea5529;
+  color: #FDEDE9;
+}
+
+.label-blue {
+  background-color: #212b38;
+  color: #E0EDFF;
 }
 
 @media (max-width: 1024px) {
