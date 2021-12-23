@@ -14096,6 +14096,11 @@ h5 {
   padding-top: 1em;
 }
 
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .py-1 {
   padding: 1em 0;
 }
@@ -14120,12 +14125,24 @@ h5 {
   padding: 6em 0;
 }
 
+.my-10 {
+  margin: 10px 0;
+}
+
+.my-20 {
+  margin: 20px 0;
+}
+
 .my-50 {
   margin: 50px 0;
 }
 
 .my-100 {
   margin: 100px 0;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mb--3 {
