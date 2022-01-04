@@ -14394,7 +14394,7 @@ footer.footer .legal {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1184px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .navbar .stacked {
     display: none;
   }
@@ -15938,6 +15938,37 @@ footer.footer .legal {
 .page figcaption {
   margin-top: 1em;
   color: #999999;
+}
+
+.page .panel-group.faq p,
+.page .panel-group.faq h4 {
+  padding: 7px 10px 5px 10px;
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page .panel-group.faq {
+  margin-top: 10px;
+}
+
+.page .panel-default > .panel-heading {
+  color: #444444;
+  background-color: #F4F4F4;
+  border-color: #F4F4F4;
+}
+
+.page .panel-group .panel {
+  border-radius: 0;
+}
+
+.page .panel-default {
+  border-color: #F4F4F4;
+}
+
+.page .faq-header {
+  color: #ea5529;
+  font-size: 24px;
 }
 
 .application p {
