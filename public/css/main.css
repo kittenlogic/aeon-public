@@ -13889,7 +13889,7 @@ a:focus {
 }
 
 a:hover, a:active, a:focus {
-  color: #222222;
+  color: #D73D0E;
   text-decoration: none;
 }
 
@@ -13899,6 +13899,11 @@ a:hover, a:active, a:focus {
 
 legend {
   border-bottom: 0;
+}
+
+.panel-title a:hover, .panel-title a:active, .panel-title a:focus {
+  color: #222222;
+  text-decoration: none;
 }
 
 @font-face {
