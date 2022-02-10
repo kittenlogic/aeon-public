@@ -8828,25 +8828,7 @@ window._load_script = function(url, callback) {
  * ========================================================================*/
 
 
-$(document).ready(function(){
-
-  /******************
-   scroll-to-top
-  ******************/
-
-  $('#roll_top').hide();
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-      $('#roll_top').fadeIn(400);
-    } else {
-      $('#roll_top').fadeOut(0);
-    }
-  });
-  $('#roll_top').click(function () {
-    $('html,body').animate({
-      scrollTop : '0px'
-    }, 300);
-  });
+jQuery(document).ready(function($){
 
   /******************
    scroll-to-element
