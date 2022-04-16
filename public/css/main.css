@@ -41,6 +41,7 @@
 #     About
 #     Application
 #     Spotlight
+#     Ad
 # 7. Themes
 #     Default
 # 8. Misc
@@ -14070,11 +14071,16 @@ h5 {
 
 .centered {
   text-align: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center-text {
   text-align: center;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .img-shadow {
@@ -14107,27 +14113,58 @@ h5 {
 }
 
 .py-1 {
-  padding: 1em 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .py-2 {
-  padding: 2em 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .py-3 {
-  padding: 3em 0;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .py-4 {
-  padding: 4em 0;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .py-5 {
-  padding: 5em 0;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .py-6 {
-  padding: 6em 0;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.my-1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.my-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.my-3 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.my-4 {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.my-5 {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .my-10 {
@@ -14148,6 +14185,10 @@ h5 {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mb--3 {
@@ -16072,6 +16113,135 @@ footer.footer .legal {
 @media (max-width: 1024px) {
   .spotlight h2 {
     font-size: 30px;
+  }
+}
+
+.ad h1 {
+  font-size: 48px;
+  color: #212B38;
+}
+
+.ad h2 {
+  font-size: 36px;
+  color: #212B38;
+}
+
+.ad h3 {
+  font-size: 24px;
+  color: #212B38;
+}
+
+.ad .sandy {
+  background-color: #FFF9ED;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.ad .skyblue {
+  background-color: #E0EDFF;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.ad .btn-auto {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.label-orange {
+  background-color: #ea5529;
+  color: #FDEDE9;
+}
+
+.label-blue {
+  background-color: #212b38;
+  color: #E0EDFF;
+}
+
+.sample {
+  padding-left: 22%;
+}
+
+.sample img {
+  width: 200px;
+  margin-top: -100px;
+}
+
+.card {
+  border: 3px solid #ea5529;
+  margin: 1px;
+}
+
+.card-text h4 {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.card-text p {
+  font-size: 16px;
+}
+
+.card-avatar {
+  margin-left: -15px;
+}
+
+.svg-img svg {
+  height: auto;
+  width: 100%;
+  max-width: 284px;
+  fill: #ea5529;
+}
+
+@media (max-width: 1024px) {
+  .spotlight h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  img,
+  .btn-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center-xs h3,
+  .center-xs p {
+    text-align: center;
+  }
+  .center-xs .svg-img svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 558px) {
+  .sample {
+    padding-left: 10%;
+  }
+  .sample img {
+    width: 200px;
+    margin-top: -130px;
+  }
+}
+
+@media (max-width: 474px) {
+  .sample {
+    padding-left: 1%;
+  }
+  .sample img {
+    width: 190px;
+    margin-top: -180px;
+  }
+}
+
+@media (max-width: 474px) {
+  .sample img {
+    width: 180px;
+    margin-top: -250px;
   }
 }
 
