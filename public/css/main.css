@@ -16149,6 +16149,10 @@ footer.footer .legal {
   width: fit-content;
 }
 
+.ad figcaption {
+  color: #6d6d6d;
+}
+
 .label-orange {
   background-color: #ea5529;
   color: #FDEDE9;
@@ -16229,12 +16233,23 @@ footer.footer .legal {
 }
 
 .quote::before {
-  content: "❝";
+  content: "";
   color: #ea5528;
   font-size: 4em;
   position: absolute;
   margin-left: -0.75em;
   margin-top: -0.75em;
+}
+
+.quote .svg-icon {
+  position: absolute;
+  font-size: 4em;
+  margin-left: -1em;
+  margin-top: -0.25em;
+}
+
+.quote .svg-icon svg {
+  fill: #ea5528;
 }
 
 .quote-flex {
