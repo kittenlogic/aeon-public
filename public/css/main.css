@@ -16227,7 +16227,7 @@ footer.footer .legal {
 .quote-side {
   margin-top: 25%;
   margin-right: 6em;
-  height: 300px;
+  height: auto;
 }
 
 .quote-bottom {
@@ -16307,7 +16307,7 @@ footer.footer .legal {
 @media (max-width: 991px) {
   .quote-side {
     margin-right: 0em;
-    height: 320px;
+    height: auto;
   }
   .quote-img {
     margin-left: 2em;
