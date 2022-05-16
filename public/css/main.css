@@ -13980,19 +13980,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 52px;
-}
-
-h3 {
   font-size: 36px;
 }
 
-h4 {
+h3 {
   font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 h5 {
@@ -14002,28 +14002,28 @@ h5 {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 }
 
 @media (max-width: 414px) {
   h2 {
-    font-size: 41px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 320px) {
   h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   h4 {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -14608,7 +14608,6 @@ footer.footer .legal {
 
 #carousel-home h2 {
   text-align: left;
-  text-transform: uppercase;
   padding: 0;
 }
 
@@ -15141,6 +15140,7 @@ footer.footer .legal {
   width: 100%;
   height: 30rem;
   object-fit: cover;
+  object-position: 50% 0;
 }
 
 .card__content {
@@ -15957,7 +15957,6 @@ footer.footer .legal {
 .page h4 {
   padding-top: 1em;
   padding-bottom: .75em;
-  font-weight: bold;
 }
 
 .page .footer h4 {
@@ -16084,7 +16083,7 @@ footer.footer .legal {
 }
 
 .spotlight h2 {
-  font-size: 36px;
+  font-size: 30px;
   color: #212B38;
 }
 
@@ -16094,7 +16093,7 @@ footer.footer .legal {
 }
 
 .spotlight .sandy {
-  background-color: #FFF9ED;
+  background-color: #FFF9E7;
   padding: 2em;
   margin-left: 5px;
   margin-right: 5px;
@@ -16141,7 +16140,7 @@ footer.footer .legal {
 }
 
 .ad .sandy {
-  background-color: #FFF9ED;
+  background-color: #FFF9E7;
   padding: 2em;
   border-radius: 15px;
 }
