@@ -14228,9 +14228,14 @@ h5 {
 }
 
 .svg-icon svg, .icon img {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+}
+
+.svg-icon.baseline svg {
   height: 6em;
   width: 6em;
-  fill: currentColor;
 }
 
 .svg-icon.baseline svg, .icon img {
