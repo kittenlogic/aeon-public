@@ -13984,7 +13984,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 h3 {
@@ -14083,8 +14083,17 @@ h5 {
   font-weight: 600;
 }
 
+.featured {
+  font-size: 1em;
+  font-weight: 600;
+}
+
 .img-shadow {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.img-border {
+  border: 1px solid #999;
 }
 
 .pb-100 {
@@ -14219,8 +14228,8 @@ h5 {
 }
 
 .svg-icon svg, .icon img {
-  height: 1em;
-  width: 1em;
+  height: 6em;
+  width: 6em;
   fill: currentColor;
 }
 
@@ -15536,7 +15545,7 @@ footer.footer .legal {
 .product .description {
   background: #fff;
   padding: 10px 5px;
-  margin: 2em 0;
+  margin: 0 0 2em 0;
 }
 
 .product .description li {
@@ -15935,25 +15944,6 @@ footer.footer .legal {
   box-shadow: none;
 }
 
-.page .title {
-  background: #fff;
-  width: 100%;
-  margin-top: -20px;
-}
-
-.page .title h1 {
-  font-family: "Gilroy", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  text-align: center;
-  padding: 40px 0;
-  color: #ea5529;
-  margin-bottom: 0px;
-  font-size: 48px;
-}
-
-.page .title.black h1 {
-  color: #000;
-}
-
 .page h4 {
   padding-top: 1em;
   padding-bottom: .75em;
@@ -16023,6 +16013,25 @@ footer.footer .legal {
 .page .faq-header {
   color: #ea5529;
   font-size: 24px;
+}
+
+.title {
+  background: #fff;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.title h1 {
+  font-family: "Gilroy", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  padding: 40px 0;
+  color: #ea5529;
+  margin-bottom: 0px;
+  font-size: 48px;
+}
+
+.title.black h1 {
+  color: #000;
 }
 
 .application p {
