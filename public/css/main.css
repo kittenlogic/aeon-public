@@ -14013,12 +14013,18 @@ h5 {
 }
 
 @media (max-width: 414px) {
+  h1 {
+    font-size: 36px;
+  }
   h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 320px) {
+  h1 {
+    font-size: 36px;
+  }
   h2 {
     font-size: 30px;
   }
@@ -15067,7 +15073,7 @@ footer.footer .legal {
 .pricing-list .pricing-cost {
   margin: 0;
   padding: .2em 0;
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: bold;
   color: #ea5529;
 }
@@ -15080,8 +15086,8 @@ footer.footer .legal {
 
 .pricing-list .pricing-icon {
   padding: 20px 0 0 0;
-  width: 100px;
-  opacity: 0.8;
+  width: 50%;
+  opacity: 1;
 }
 
 .pricing-list .pricing-bonus {
