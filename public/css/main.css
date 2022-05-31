@@ -15082,6 +15082,10 @@ footer.footer .legal {
   color: #ea5529;
 }
 
+.pricing-list .pricing-cost.slate {
+  color: #212b38;
+}
+
 .pricing-list .pricing-footer {
   padding: 1em 0;
   border-bottom: none;
