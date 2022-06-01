@@ -14218,6 +14218,10 @@ h5 {
   margin-top: 0;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-50 {
   margin-top: 50px;
 }
@@ -14648,12 +14652,12 @@ footer.footer .legal {
 }
 
 #carousel-home ul {
-  padding: 2em 0;
+  padding: 1em 0 1.5em 0;
 }
 
 #carousel-home li {
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #carousel-home .fa {
@@ -14934,6 +14938,100 @@ footer.footer .legal {
 
 .modal-body h5 {
   color: #ea5529;
+}
+
+.notification-clock .countdown-banner.dark {
+  background: #212b38;
+}
+
+.notification-clock .countdown-banner {
+  padding: 8px 0px 5px 0px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transform: translate3d(0, -100%, 0);
+  transition: 0.2s all ease-in-out;
+}
+
+.notification-clock .countdown-container {
+  text-align: center;
+  color: white;
+}
+
+.notification-clock .countdown-text {
+  font-family: arial;
+  line-height: 1.3em;
+  text-align: left;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.notification-clock .countdown-text a {
+  text-decoration: underline;
+}
+
+.notification-clock .countdown-banner.activate {
+  transform: translate3d(0, 0, 0) !important;
+  transition: 0s all ease-in-out;
+}
+
+.notification-clock .d-inline-block {
+  display: inline-block;
+}
+
+.notification-clock .clock-item-container {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.notification-clock .clock-item-value {
+  color: white;
+  padding: 3px 5px;
+  border: solid white 1px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.notification-clock .clock-item-label {
+  font-size: 0.7em;
+  font-family: arial;
+  margin-bottom: 0;
+}
+
+.notification-clock .hide-countdown-banner-button {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  color: white;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.notification-clock .countdown-coupon-code {
+  color: #ea5529;
+  font-weight: bold;
+}
+
+.notification-clock .countdown-coupon-code:hover,
+.notification-clock .countdown-coupon-code:focus {
+  color: #D73D0E;
+}
+
+@media (max-width: 480px) {
+  .notification-clock .clock-item-container {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .notification-clock .countdown-text {
+    text-align: center;
+    margin: 0px 10px;
+  }
 }
 
 .notifications {
@@ -16054,7 +16152,6 @@ footer.footer .legal {
   padding: 40px 0;
   color: #ea5529;
   margin-bottom: 0px;
-  font-size: 48px;
 }
 
 .title.black h1 {
