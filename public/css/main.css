@@ -14466,8 +14466,8 @@ footer.footer .legal {
     margin: 0 -15px;
   }
   .navbar-brand > img {
-    height: 24px;
-    margin-top: -12px;
+    height: 36px;
+    margin-top: -18px;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -14487,6 +14487,12 @@ footer.footer .legal {
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar .stacked {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav > li > a {
+    font-size: 1.2em;
   }
 }
 
@@ -16070,8 +16076,8 @@ footer.footer .legal {
 }
 
 .page h4 {
-  padding-top: 1em;
-  padding-bottom: .75em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .page .footer h4 {
@@ -16138,6 +16144,16 @@ footer.footer .legal {
 .page .faq-header {
   color: #ea5529;
   font-size: 24px;
+}
+
+.page .contact-hours {
+  margin: 0;
+  padding: 0;
+}
+
+.page .contact-hours li {
+  list-style: none;
+  font-size: 18px;
 }
 
 .title {
@@ -16336,7 +16352,7 @@ footer.footer .legal {
 .svg-img svg {
   height: auto;
   width: 100%;
-  max-width: 284px;
+  max-width: 200px;
   fill: #ea5529;
 }
 
