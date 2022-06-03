@@ -15285,6 +15285,7 @@ footer.footer .legal {
 
 .card__content {
   padding: 3rem 3rem;
+  background-color: #fff;
 }
 
 .card__header {
@@ -16347,6 +16348,30 @@ footer.footer .legal {
 
 .ad .card-avatar {
   margin-left: -15px;
+}
+
+.sandy {
+  background-color: #FFF9E7;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.skyblue {
+  background-color: #E0EDFF;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.stormy {
+  background-color: #f8f8f8;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.btn-auto {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .svg-img svg {
