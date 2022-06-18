@@ -34,6 +34,7 @@
 #     Notification
 #     Pricing
 #     Cards
+#     Sidebar
 # 6. Pages
 #     Home
 #     Product
@@ -15329,6 +15330,56 @@ footer.footer .legal {
 
 .card__btn:hover span, .card__btn:active span, .card__btn:focus span {
   margin-left: 1.5rem;
+}
+
+.sidebar .sidebar-menu .panel-heading {
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sidebar .sidebar-menu .panel-body {
+  padding: 15px 0;
+}
+
+.sidebar .sidebar-menu .panel-title {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.sidebar .sidebar-menu .panel-title .collapsed:hover {
+  color: #ea5529;
+}
+
+.sidebar .sidebar-menu .panel-heading + .panel-collapse > .panel-body,
+.sidebar .sidebar-menu .panel-heading + .panel-collapse > .list-group {
+  border-top: 1px solid transparent;
+}
+
+.sidebar .sidebar-menu .badge {
+  float: right;
+  background-color: #ea5529;
+}
+
+.sidebar .sidebar-menu .badge:hover {
+  background-color: #ea5529;
+}
+
+.sidebar .sidebar-menu .list-group-item:hover {
+  background-color: #fff;
+}
+
+.no-list {
+  padding-left: 1em;
+}
+
+.no-list li {
+  margin: 0.5em 0;
+  list-style: none;
 }
 
 .home {
