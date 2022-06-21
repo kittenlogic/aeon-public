@@ -14235,12 +14235,12 @@ h5 {
   margin-bottom: -3em;
 }
 
-.highlight {
-  color: #ea5529;
-}
-
 .margin-b-10 {
   margin-bottom: 10px;
+}
+
+.highlight {
+  color: #ea5529;
 }
 
 .svg-icon {
@@ -14250,7 +14250,8 @@ h5 {
       align-self: center;
 }
 
-.svg-icon svg, .icon img {
+.svg-icon svg,
+.icon img {
   height: 1em;
   width: 1em;
   fill: currentColor;
@@ -14261,7 +14262,8 @@ h5 {
   width: 6em;
 }
 
-.svg-icon.baseline svg, .icon img {
+.svg-icon.baseline svg,
+.icon img {
   top: .125em;
   position: relative;
 }
