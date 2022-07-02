@@ -13986,7 +13986,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h3 {
@@ -15140,7 +15140,7 @@ footer.footer .legal {
 
 .pricing-list {
   margin: 0 1em 1.625em;
-  padding: 1em 1em 0;
+  padding: 1em 1em 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -15169,12 +15169,15 @@ footer.footer .legal {
     float: right;
     border-left: none;
   }
+  .pricing-list.half {
+    width: 50%;
+  }
 }
 
 .pricing-list .pricing-header {
   border-bottom: none;
   margin: 0;
-  padding: .2em;
+  padding: .3em .2em .2em;
   font-size: 2em;
   color: white;
   background: #212b38;
@@ -15934,20 +15937,6 @@ time {
   box-shadow: none;
 }
 
-.product .label-series {
-  font-weight: 600;
-  padding: 5px;
-  margin: 10px 0;
-  border: 1px solid #fdede9;
-  font-size: 16px;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  color: #ea5529;
-  text-transform: uppercase;
-  background: #fdede9;
-}
-
 .product .tab-pane img {
   margin: 20px 0;
 }
@@ -16051,6 +16040,20 @@ time {
 .product .invisible-fullwidth {
   height: 30px;
   background: #fff;
+}
+
+.label-series {
+  font-weight: 600;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #fdede9;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #ea5529;
+  text-transform: uppercase;
+  background: #fdede9;
 }
 
 @media (max-width: 414px) {

@@ -479,55 +479,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });</script>
 <!--END: REVIEWS-->
 
-  <!--START: CLIENT LOGOS-->
-<section class="client-logos pb-100">
-  <div class="container">
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-          <h2>You'll be in good company</h2>
-          <h4>We're proud to have had the opportunity to work with such great companies over the years!</h4>
-        </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 ">
-        <div class="row">
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-michelin.png" alt="Michelin logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-godadddy.png" alt="Go Daddy logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-americanairlines.png" alt="American Airlines logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-usarmy.png" alt="U.S. Army logo">
-          </div>
-        </div><!--end row-->
-      </div>
-      <div class="col-xs-12 ">
-        <div class="row">
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-boeing.png" alt="Boeing logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-mitsubishi.png" alt="Mitsubishi logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-ge.png" alt="General Electric logo">
-          </div>
-          <div class="col-xs-6 col-sm-3">
-              <img class="img-responsive" src="img/logo-fast-fix.png" alt="Fast Fix logo">
-          </div>
-        </div><!--end row-->
-      </div>
-    </div><!--end row-->
-  </div><!--end container-->
-</section>
-<!--END: CLIENT LOGOS-->
-
   <!--START: SHOWROOM CAROUSEL-->
 <div id="carousel-showroom" class="carousel slide" data-ride="carousel">
   <!-- <ol class="carousel-indicators">
@@ -659,50 +610,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ============= Javascript ============= -->
 <script src="/js/main.js"></script>
-  <!--START: NOTIFICATION BAR JS-->
-<script>
-  function showBanner(){
-      $(".countdown-banner").addClass("activate");
-    }
-
-    $('#hideBanner').on('click', function() {
-       $(".countdown-banner").removeClass("activate");
-    });
-
-    // Set the date we're counting down to
-    var countDownDate = new Date("June 10, 2022 23:59:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = ("0" + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
-      var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-      var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-      var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("clock-item-days").innerHTML = days;
-      document.getElementById("clock-item-hours").innerHTML = hours;
-      document.getElementById("clock-item-minutes").innerHTML = minutes;
-      document.getElementById("clock-item-seconds").innerHTML = seconds;
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-</script>
-
-<!--END: NOTIFICATION BAR JS-->
-
   <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
   (function(e, t, o, n, p, r, i) {
