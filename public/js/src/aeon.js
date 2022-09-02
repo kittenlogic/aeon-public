@@ -83,6 +83,50 @@ jQuery(document).ready(function($){
     focusOnSelect: true
   });
 
+  $('.carousel-banner').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 12000,
+    lazyLoad: 'ondemand'
+  });
+
+  $('.carousel-whyus').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 12000,
+    lazyLoad: 'ondemand'
+  });
+
+  $('.carousel-webinar').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 15000,
+    lazyLoad: 'ondemand'
+  });
+
+  $('.carousel-spotlight').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 8000,
+    lazyLoad: 'ondemand'
+  });
+
   /******************
    lightbox
   ******************/
