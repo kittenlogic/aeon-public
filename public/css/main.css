@@ -13910,6 +13910,16 @@ legend {
   text-decoration: none;
 }
 
+.list {
+  padding-left: 1em;
+}
+
+.list li {
+  margin: 0.5em 0;
+  list-style: none;
+  font-size: initial;
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-weight: 400;
@@ -14154,9 +14164,19 @@ figcaption {
   padding-right: 10px;
 }
 
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .px-1 {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.px-2 {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .py-1 {
@@ -14812,7 +14832,7 @@ footer.footer .legal {
 }
 
 #carousel-home ul {
-  padding: 1em 0 1.5em 0;
+  padding: 0;
 }
 
 #carousel-home li {
@@ -14826,7 +14846,7 @@ footer.footer .legal {
 
 #carousel-home .bg-banner {
   background-color: whitesmoke;
-  height: 520px;
+  height: auto;
 }
 
 #carousel-home .slick-next {
@@ -14837,6 +14857,10 @@ footer.footer .legal {
   left: 0;
 }
 
+#carousel-home .slick-dots {
+  bottom: 0;
+}
+
 @media screen and (max-width: 414px) {
   #carousel-home .carousel-content {
     padding: 0;
@@ -14844,17 +14868,23 @@ footer.footer .legal {
   #carousel-home .carousel-content ul {
     display: none;
   }
+  #carousel-home .slick-slide img {
+    max-width: 260px;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #carousel-home .bg-banner {
-    height: 460px;
+    height: 400px;
   }
 }
 
 @media (max-width: 767px) {
   #carousel-home .bg-banner {
     height: auto;
+  }
+  #carousel-home .slick-dots {
+    display: none !important;
   }
 }
 
@@ -14892,6 +14922,10 @@ footer.footer .legal {
 
 #carousel-whyus .slick-prev {
   left: -10px;
+}
+
+#carousel-whyus .slick-prev:before, #carousel-whyus .slick-next:before {
+  color: #ea5529;
 }
 
 .fx {
