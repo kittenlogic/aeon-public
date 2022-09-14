@@ -14380,6 +14380,10 @@ figcaption {
   .flex.xs-reset {
     display: block;
   }
+  .flex.xs-reset .px-10 {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .title {
