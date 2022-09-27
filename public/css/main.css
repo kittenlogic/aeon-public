@@ -15138,7 +15138,7 @@ footer.footer .legal {
 
 .notifications {
   background: #212b38;
-  height: 45px;
+  height: 70px;
   overflow: hidden;
   position: relative;
   transition: all .35s ease-in;
@@ -15147,7 +15147,7 @@ footer.footer .legal {
 .notifications p {
   color: #fff;
   text-align: center;
-  padding: 8px 0 0 0;
+  padding: 8px 20px;
   margin: 0;
 }
 
@@ -15166,7 +15166,7 @@ footer.footer .legal {
   height: 25px;
   float: right;
   top: 10px;
-  right: 50px;
+  right: 0;
   z-index: 1;
 }
 
@@ -15175,37 +15175,18 @@ footer.footer .legal {
 }
 
 #notify:checked ~ .notifications {
-  margin-top: -45px;
+  margin-top: -70px;
   transition: all .35s ease-in;
 }
 
 #notify:checked ~ .notify {
-  margin-top: -45px;
+  margin-top: -70px;
 }
 
-@media (min-width: 470px) and (max-width: 767px) {
-  .notifications {
-    height: 70px;
-  }
-  .notifications p {
-    padding: 8px 4em;
-  }
-  #notify:checked ~ .notifications {
-    margin-top: -70px;
-    transition: all .35s ease-in;
-  }
-  #notify:checked ~ .notify {
-    margin-top: -70px;
-  }
-}
-
-@media (max-width: 469px) {
+@media (min-width: 533px) and (max-width: 991px) {
   .notifications {
     height: 90px;
   }
-  .notifications p {
-    padding: 8px 1em;
-  }
   #notify:checked ~ .notifications {
     margin-top: -90px;
     transition: all .35s ease-in;
@@ -15213,8 +15194,18 @@ footer.footer .legal {
   #notify:checked ~ .notify {
     margin-top: -90px;
   }
-  .notify {
-    right: 5px;
+}
+
+@media (max-width: 532px) {
+  .notifications {
+    height: 110px;
+  }
+  #notify:checked ~ .notifications {
+    margin-top: -110px;
+    transition: all .35s ease-in;
+  }
+  #notify:checked ~ .notify {
+    margin-top: -110px;
   }
 }
 
