@@ -8951,6 +8951,7 @@ jQuery(document).ready(function($){
     lazyLoad: 'ondemand'
   });
 
+
   /******************
    lightbox
   ******************/
@@ -9032,7 +9033,7 @@ function dropDownSelect(selected) {
 ******************/
 $('#carousel-testimonial').carousel({
   interval: 15000
-})
+});
 
 /******************
  notification bar
