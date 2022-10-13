@@ -116,6 +116,17 @@ jQuery(document).ready(function($){
     lazyLoad: 'ondemand'
   });
 
+  $('.carousel-support').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 15000,
+    lazyLoad: 'ondemand'
+  });
+
   $('.carousel-spotlight').slick({
     dots: true,
     infinite: true,

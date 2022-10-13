@@ -14900,16 +14900,20 @@ footer.footer .legal {
   left: -30px;
 }
 
-#carousel-webinar .slick-next {
+#carousel-webinar .slick-next,
+#carousel-support .slick-next {
   right: -10px;
 }
 
-#carousel-webinar .slick-prev {
+#carousel-webinar .slick-prev,
+#carousel-support .slick-prev {
   left: -10px;
 }
 
 @media screen and (min-width: 768px) {
-  #carousel-webinar .slick-prev, #carousel-webinar .slick-next {
+  #carousel-webinar .slick-prev, #carousel-webinar .slick-next,
+  #carousel-support .slick-prev,
+  #carousel-support .slick-next {
     display: none !important;
   }
 }
