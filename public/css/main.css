@@ -16650,6 +16650,19 @@ time {
   font-size: 18px;
 }
 
+.page.lasercats {
+  background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  color: #fff;
+}
+
+.page.lasercats .title {
+  background: transparent;
+}
+
+.page.lasercats .footer {
+  background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+
 .application p {
   font-size: 16pt;
   color: #444444;
