@@ -16663,6 +16663,10 @@ time {
   background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
 }
 
+.page.lasercats .modal-content {
+  background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+
 .application p {
   font-size: 16pt;
   color: #444444;
