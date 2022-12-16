@@ -14334,6 +14334,27 @@ figcaption {
   color: #e15031;
 }
 
+.label-wrapper {
+  position: relative;
+  margin-top: 2em;
+}
+
+.label-tr {
+  position: absolute;
+  top: -2%;
+  right: -2%;
+  font-size: 1.5em;
+  border-radius: 0;
+}
+
+.label-br {
+  position: absolute;
+  bottom: -2%;
+  right: -2%;
+  font-size: 1.5em;
+  border-radius: 0;
+}
+
 @media (max-width: 767px) {
   .center-text-mobile {
     text-align: center;
