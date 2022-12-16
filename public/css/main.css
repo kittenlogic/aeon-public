@@ -15234,6 +15234,7 @@ footer.footer .legal {
   padding: 1em 1em 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   text-align: center;
+  background-color: #fff;
 }
 
 .pricing-list ul {
@@ -15267,6 +15268,7 @@ footer.footer .legal {
 
 .pricing-list .pricing-cost.slate {
   color: #212b38;
+  font-size: 2em;
 }
 
 .pricing-list .pricing-footer {
@@ -15534,6 +15536,7 @@ footer.footer .legal {
 .quote-card {
   border: 3px solid #ea5529;
   margin: 1px;
+  background: #fff;
 }
 
 .quote-card-text h4 {
