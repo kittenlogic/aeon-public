@@ -6,189 +6,225 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://aeonlaser.us/</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://aeonlaser.us/promos</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://aeonlaser.us/mira</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/mira-pro</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/nova</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/supernova</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/multi-roller</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/support</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/training</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/support-ticket</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/community</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/partner-with-us</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/faq</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/financing</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aeonlaser.us/catalog</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/contact</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/about</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/whyus</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aeonlaser.us/aeon-experience</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/reviews</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/terms-and-conditions</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/privacy</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/cookie-policy</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/shipping-policy</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/return-policy</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://aeonlaser.us/pdfs/ST30R-Spec-Sheet.pdf</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aeonlaser.us/pdfs/ST50R-Spec-Sheet.pdf</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aeonlaser.us/pdfs/ST50J-Spec-Sheet.pdf</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://aeonlaser.us/img/brochure-Aeon-Mira-2019.pdf</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/warranty</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/img/brochure-Aeon-Mira-Pro-2019.pdf</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/getting-started-mira-pro</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/getting-started-nova</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/laser-101</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/home-bound-custom-decor</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/beyond-laser-creations</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/that-mom-with-a-laser</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/designs-by-hope-yoder</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/lobo-designs</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/customer-spotlight/pearl-and-pine</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/guides/lightburn-camera-setup</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aeonlaser.us/pdfs/AeonLaserUSA-Freedom-to-Create-catalog-2022.pdf</loc>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://aeonlaser.us/pdfs/Setting-Up-LightBurn-Camera.pdf</loc>
-  <lastmod>2022-08-17T01:52:07+00:00</lastmod>
+  <lastmod>2022-12-17T04:44:41+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
