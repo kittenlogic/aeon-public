@@ -16857,6 +16857,11 @@ time {
   background-color: #212b38;
 }
 
+.bg-dark {
+  background: #212b38;
+  color: #E0EDFF;
+}
+
 .sandy {
   background-color: #FFF9E7;
 }
