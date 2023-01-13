@@ -14143,6 +14143,10 @@ figcaption {
   border-radius: 30px;
 }
 
+.img-invert {
+  filter: invert(100%);
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -14355,6 +14359,10 @@ figcaption {
   border-radius: 0;
 }
 
+.nerd-alert:before {
+  content: url("/img/co2-nerd.png");
+}
+
 @media (max-width: 767px) {
   .center-text-mobile {
     text-align: center;
@@ -14395,6 +14403,26 @@ figcaption {
 .flex-content {
   -ms-flex: 1;
       flex: 1;
+}
+
+.flex-start {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.flex-end {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.space-between {
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.space-around {
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
 }
 
 @media (max-width: 767px) {
