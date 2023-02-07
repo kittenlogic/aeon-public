@@ -198,6 +198,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       min-height: auto;
     }
   }
+  @media print {
+    .img-invert,
+    .x-box img {
+      filter: invert(100%) !important;
+    }
+    .print-hide {
+      display: none !important;
+    }
+    .print-center {
+	    margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
   </style>
 
 </head>
@@ -249,7 +263,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <ul class="dropdown-menu">
             <li><a href="/community.html">Aeon Family</a></li>
             <li><a href="/customer-spotlight.html">Customer Spotlight</a></li>
-            <li><a href="/partner-with-us.html">Partner Program</a></li>
+            <li><a href="/partner-with-us.html">Rewards</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -294,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <section class="bg-cloudy">
+  <section class="bg-cloudy print-hide">
     <div class="container">
       <div class="row py-4">
         <div class="col-xs-12 col-sm-5 col-sm-offset-1">
@@ -487,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
-          <img src="/img/co2-galvanometers.jpg" class="img-responsive" alt="two small mirrors mounted onto tiny galvanometers"/>
+          <img src="/img/co2-galvanometers.jpg" class="img-responsive print-center" alt="two small mirrors mounted onto tiny galvanometers"/>
           <figcaption class="text-center">Fig 1. Mirrors mounted on galvanometers</figcaption>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-5">
@@ -499,7 +513,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row py-1">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <img src="/img/co2-flying-optics.jpg" class="img-responsive" alt="small mirrors mounted on a movable X and Y axis"/>
+          <img src="/img/co2-flying-optics.jpg" class="img-responsive print-center" alt="small mirrors mounted on a movable X and Y axis"/>
           <figcaption class="text-center">Fig 2. Flying Optics - mirrors mounted on moveable X and Y axis</figcaption>
         </div>
     </div>
@@ -546,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
-          <img src="/img/co2-plano-meniscus.jpg" class="img-responsive" alt="Plano-convex vs. Meniscus Lenses"/>
+          <img src="/img/co2-plano-meniscus.jpg" class="img-responsive print-center" alt="Plano-convex vs. Meniscus Lenses"/>
           <figcaption class="text-center">Fig 3. Plano-convex and Meniscus Lenses</figcaption>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-5">
@@ -560,7 +574,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h3>Focal Distance, Focus Tolerance, Spot Diameter and Beam Density</h3>
           <p>Focal lenses are usually referred to by their focal distances. As the focal distance is increased, so does the distance from the laser head to the work surface and the tolerance in which the the laser beam remains concentrated enough to burn effectively. Focus tolerance is particularly important for cutting applications.</p>
           <p>Conversely, as the focal distance is decreased so does the diameter of the spot size. The smaller the spot size, the higher the resolution you can achieve and the greater the intensity of the laser beam becomes. Smaller focal distances are most often used for detailed engraving and fine cutting applications where having a high focus tolerance is not as important.</p>
-          <img src="/img/co2-focusing.jpg" class="img-responsive" alt="diagram showing how focal lenses work"/>
+          <img src="/img/co2-focusing.jpg" class="img-responsive print-center" alt="diagram showing how focal lenses work"/>
           <figcaption class="text-center">Fig 4. Focal lenses and how they work</figcaption>
         </div>
       </div>
@@ -620,7 +634,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
-          <img src="/img/co2-venting-out.png" class="img-responsive" alt="diagram of laser setup to vent outdoors"/>
+          <img src="/img/co2-venting-out.png" class="img-responsive print-center" alt="diagram of laser setup to vent outdoors"/>
           <figcaption class="text-center">Fig 5. Venting outdoors</figcaption>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -634,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h3>Fume Extractors</h3>
           <p>The simplest and most responsible way to ventilate a CO2 laser is with a fume extractor. Fume extractors are basically tightly sealed cabinets containing an exhaust fan and a series of various filtration media divided into stages. The fumes are sucked out from the laser, pushed through each of the filtration stages and then spit back out into the room where they are once again safe for the environment and for everyone in it. There is no need to worry about ducting, replacement air, temperature control or harming the environment.</p>
           <p>However, the cost of replacement filters now becomes a consumable item that will add to your cost of ownership. Therefore, it's important that you choose the proper fume extractor for your CO2 laser. The exhaust fan in the fume extractor will need to remove a certain volume of air (CFM) from the CO2 laser's cabinet. In addition, the combination of filter layers and types of chemicals used, will determine how effective and how efficient your fume extractor will operate. Matching your fume extractor to your laser's cabinet size and to your unique application(s) is fundamental to maximizing the performance of the laser and the life of your filters.</p>
-          <img src="/img/co2-airflow-filters.png" class="img-responsive" alt="diagram of airflow through filters"/>
+          <img src="/img/co2-airflow-filters.png" class="img-responsive print-center" alt="diagram of airflow through filters"/>
           <figcaption class="text-center">Fig 6. Airflow through filters</figcaption>
         </div>
       </div>
@@ -748,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p>Things like training, technical support, quality control, fast response times, and expedited repairs will all be reflected in that initial price tag. Furthermore, the rate at which you'll be able to produce, is also a big part of that equation. As with most things in life, what you don't pay for upfront with money, you'll end up financing with your precious time. But one thing is certain, the bill will always come. Waster your money, and you're only out of money, but waste you time, and you've lost part of your life.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="/img/co2-time-v-money.jpg" class="img-responsive" alt="women in a business suit holding a balance with money on one side and time on the other side"/>
+          <img src="/img/co2-time-v-money.jpg" class="img-responsive print-center" alt="women in a business suit holding a balance with money on one side and time on the other side"/>
         </div>
       </div>
       <div class="row py-1">
@@ -760,11 +774,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-2 py-1">
-          <img src="/img/co2-glass-laser-tube.jpg" class="img-responsive" alt="DC or Glass Laser Tube"/>
+          <img src="/img/co2-glass-laser-tube.jpg" class="img-responsive print-center" alt="DC or Glass Laser Tube"/>
           <figcaption class="text-center">Fig 7. DC or "Glass" Laser Tube</figcaption>
         </div>
         <div class="col-xs-12 col-sm-4 py-1">
-          <img src="/img/co2-rf-laser-tube.jpg" class="img-responsive" alt="diagram of airflow through filters"/>
+          <img src="/img/co2-rf-laser-tube.jpg" class="img-responsive print-center" alt="diagram of airflow through filters"/>
           <figcaption class="text-center">Fig 8. RF Laser Tube</figcaption>
         </div>
       </div>
@@ -788,23 +802,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="row pb-50">
         <div class="col-xs-12 col-sm-4 py-1">
-          <img src="/img/support-3.jpg" class="img-responsive centered" alt="support staff on a video call"/>
+          <img src="/img/support-3.jpg" class="img-responsive centered print-hide" alt="support staff on a video call"/>
           <h3 class="brand-color center-text-mobile">Unlimited Domestic Support</h3>
           <p>For the life of your laser, we’re committed to reducing downtime with free remote support. US techs are standing by to walk you step by step through a repair via phone, Zoom, Skype or Facetime.</p>
         </div>
         <div class="col-xs-12 col-sm-4 py-1">
-          <img src="/img/why-emergency.jpg" class="img-responsive centered" alt="support staff visits a customer at home"/>
+          <img src="/img/why-emergency.jpg" class="img-responsive centered print-hide" alt="support staff visits a customer at home"/>
           <h3 class="brand-color center-text-mobile">Emergency Response</h3>
           <p>Sleep better at night knowing you’ll have a qualified technician at your doorstep for those complex instances where your laser needs in-home care.</p>
         </div>
         <div class="col-xs-12 col-sm-4 py-1">
-          <img src="/img/why-parts.jpg" class="img-responsive centered" alt="person prepping a package"/>
+          <img src="/img/why-parts.jpg" class="img-responsive centered print-hide" alt="person prepping a package"/>
           <h3 class="brand-color center-text-mobile">Parts on Demand</h3>
           <p>All major parts are stocked and ready to ship directly from our US facility; so we can keep your laser lit and avoid unexpected delays from having to rely on 3rd parties.</p>
         </div>
       </div>
 
-      <div class="row py-4">
+      <div class="row py-4 print-hide">
         <div class="col-xs-12">
           <h2 class="text-center mb-20">See what our <span class="brand-color">customers</span> have to say.</h2>
           <!--START: FB REVIEWS-->
@@ -821,7 +835,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <section>
+  <section class="print-hide">
     <div class="container">
       <div class="row py-4">
         <div class="col-xs-12">
