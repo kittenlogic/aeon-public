@@ -160,37 +160,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Some of our features will not work. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <!--START: NOTIFICATION BAR-->
-<div class="notification-clock">
-  <div class="countdown-banner activate dark">
-   <div class="countdown-container">
-     <p class="countdown-text">Check Out Our Latest Promotions<br/> <a href="/promos.html">Save $1000s on Your Next Laser</a> 😍
-     </p>
-
-    <div class="countdown-clock d-inline-block">
-      <div class="clock-item-container">
-        <div id="clock-item-days" class="clock-item-value">__</div>
-        <div class="clock-item-label">Days</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-hours" class="clock-item-value">__</div>
-        <div class="clock-item-label">Hrs</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-minutes" class="clock-item-value">__</div>
-        <div class="clock-item-label">Min</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-seconds"  class="clock-item-value">__</div>
-        <div class="clock-item-label">Sec</div>
-      </div>
-     </div>
-    </div>
-    <!-- <div class="hide-countdown-banner-button" id="hideBanner"> &times; </div> -->
-  </div>
-</div>
-<!--END: NOTIFICATION BAR-->
-
   <!--START: NAV-->
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
@@ -306,9 +275,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <hr />
         <p>
           Aeon Laser USA<br />
-          2778 N Harbor City Blvd<br />
-          Ste#101<br />
-          Melbourne, FL 32935<br />
+          7600 Technology Drive<br/>
+West Melbourne, FL 32904<br />
           <br />
           <span class="fa fa-xs fa-phone shake-vertical-slow shake-constant shake-constant--hover"></span> Phone: <a href="tel:321-821-7774" rel="nofollow">321-821-7774</a><br />
           <span class="fa fa-xs fa-fax"></span> Fax: 321-821-9431<br />
@@ -348,9 +316,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <span class="fa fa-xs fa-envelope-o"></span> <a href="mailto:sales@aeonlaser.us?Subject=Help%20me%20find%20the%20right%20laser" rel="nofollow" target="_top" id="Email-Footer"> sales@aeonlaser.us</a>
                 <br /><br />
                 Aeon Laser USA<br />
-                2778 N Harbor City Blvd<br />
-                Ste#101<br />
-                Melbourne, FL 32935</p>
+                7600 Technology Drive<br/>
+                West Melbourne, FL 32904</p>
             </div>
           </div>
           <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
@@ -391,56 +358,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ============= Javascript ============= -->
 <script src="/js/main.js"></script>
-  <!--START: NOTIFICATION BAR JS-->
-<script>
-    function showBanner(){
-      $(".countdown-banner").addClass("activate");
-    }
-    function hideBanner(){
-      $(".countdown-banner").removeClass("activate");
-      $(".countdown-over").addClass("activate");
-    }
-    function destroyBanner(){
-      $(".notification-clock").remove();
-    }
-
-    $('#hideBanner').on('click', function() {
-       $(".countdown-banner").removeClass("activate");
-    });
-
-    // Set the date we're counting down to
-    var countDownDate = new Date("February 28, 2023 17:00:00 GMT-05:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = ("0" + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
-      var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-      var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-      var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
-
-      // Display the results
-      document.getElementById("clock-item-days").innerHTML = days;
-      document.getElementById("clock-item-hours").innerHTML = hours;
-      document.getElementById("clock-item-minutes").innerHTML = minutes;
-      document.getElementById("clock-item-seconds").innerHTML = seconds;
-
-      // If the count down is finished, do something
-      if (distance < 0) {
-        clearInterval(x);
-        destroyBanner();
-      }
-    }, 1000);
-</script>
-<!--END: NOTIFICATION BAR JS-->
-
   <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
   (function(e, t, o, n, p, r, i) {
