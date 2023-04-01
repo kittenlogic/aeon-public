@@ -135,37 +135,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Some of our features will not work. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <!--START: NOTIFICATION BAR-->
-<div class="notification-clock">
-  <div class="countdown-banner activate dark">
-   <div class="countdown-container">
-     <p class="countdown-text">The Laser "Everything Sale" is back!<br/><a href="/promos.html">Get up to $14K+ in Savings!</a> 🤑
-     </p>
-
-    <div class="countdown-clock d-inline-block">
-      <div class="clock-item-container">
-        <div id="clock-item-days" class="clock-item-value">__</div>
-        <div class="clock-item-label">Days</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-hours" class="clock-item-value">__</div>
-        <div class="clock-item-label">Hrs</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-minutes" class="clock-item-value">__</div>
-        <div class="clock-item-label">Min</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-seconds"  class="clock-item-value">__</div>
-        <div class="clock-item-label">Sec</div>
-      </div>
-     </div>
-    </div>
-    <!-- <div class="hide-countdown-banner-button" id="hideBanner"> &times; </div> -->
-  </div>
-</div>
-<!--END: NOTIFICATION BAR-->
-
   <!--START: NAV-->
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
@@ -242,7 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section>
  <div class="carousel-banner" id="carousel-home">
 
-   <div>
+   <!-- <div>
      <div class="container-fluid py-2 bg-banner">
        <div class="row">
          <div class="container">
@@ -264,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          </div>
        </div>
      </div>
-   </div>
+   </div> -->
 
     <div>
       <div class="container-fluid py-2 bg-banner">
@@ -366,52 +335,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 <!--END: BANNER CAROUSEL-->
-
-  <!--START: PROMOS-->
-<section>
-  <div class="container py-4">
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 text-center">
-        <h2>It's March Madness!<br/>The AEON Laser <span class="brand-color">&#34;EVERYTHING SALE&#34;</span> is back!</h2>
-      </div>
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
-        <p class="lead">Purchase Select Models Of AEON Lasers Before March 31st And You Can Literally Laser EVERYTHING!</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 py-1">
-        <div class="label-wrapper">
-          <img src="/img/promo-laserart.jpg" class="img-responsive centered" alt="laser cut art"/>
-          <span class="label label-success label-tr">$3000 value! 🤩</span>
-        </div>
-        <h3 class="center-text"><span class="brand-color">450 FREE Laser Art Projects*</span></h3>
-      </div>
-      <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 py-1">
-        <div class="label-wrapper">
-          <img src="/img/promo-metalclub.jpg" class="img-responsive centered" alt="person holding a large round metal cut sign"/>
-          <span class="label label-success label-tr">Endless Value! 🤑</span>
-        </div>
-        <h3 class="center-text"><span class="brand-color">FREE 1 Year Membership to our Exclusive Aeon VIP Metal Cutting Club*</span></h3>
-      </div>
-      <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 py-1">
-        <div class="label-wrapper">
-          <img src="/img/promo-fiberlaser.jpg" class="img-responsive  centered" alt="EMP fiber galvo laser"/>
-          <span class="label label-success label-tr">Save up to $8500! 😵</span>
-        </div>
-        <h3 class="center-text"><span class="brand-color">FREE Galvo Fiber Laser + More*</span></h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-        <div class="centered">
-          <p class="lead">Don't Miss Out On $14K+ In Savings! While Supplies Last. Exclusively At Aeon Laser USA. *Purchase required.</p>
-          <a class="btn btn-brand btn-lg btn-auto" href="/promos.html">Learn More &amp; Save!</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--END: PROMOS-->
 
   <!--START: PRODUCTS-->
 <section class="bg-smokey">
@@ -1203,56 +1126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ============= Javascript ============= -->
 <script src="/js/main.js"></script>
-  <!--START: NOTIFICATION BAR JS-->
-<script>
-    function showBanner(){
-      $(".countdown-banner").addClass("activate");
-    }
-    function hideBanner(){
-      $(".countdown-banner").removeClass("activate");
-      $(".countdown-over").addClass("activate");
-    }
-    function destroyBanner(){
-      $(".notification-clock").remove();
-    }
-
-    $('#hideBanner').on('click', function() {
-       $(".countdown-banner").removeClass("activate");
-    });
-
-    // Set the date we're counting down to
-    var countDownDate = new Date("March 31, 2023 17:00:00 GMT-05:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = ("0" + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
-      var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-      var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-      var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
-
-      // Display the results
-      document.getElementById("clock-item-days").innerHTML = days;
-      document.getElementById("clock-item-hours").innerHTML = hours;
-      document.getElementById("clock-item-minutes").innerHTML = minutes;
-      document.getElementById("clock-item-seconds").innerHTML = seconds;
-
-      // If the count down is finished, do something
-      if (distance < 0) {
-        clearInterval(x);
-        destroyBanner();
-      }
-    }, 1000);
-</script>
-<!--END: NOTIFICATION BAR JS-->
-
+  
   <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
   (function(e, t, o, n, p, r, i) {
