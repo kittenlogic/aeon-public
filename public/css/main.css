@@ -14151,6 +14151,10 @@ figcaption {
   padding-top: 50px;
 }
 
+.pt-20 {
+  padding-top: 20px;
+}
+
 .px-10 {
   padding-left: 10px;
   padding-right: 10px;
@@ -14354,6 +14358,11 @@ figcaption {
 @media (max-width: 767px) {
   .center-text-mobile {
     text-align: center;
+  }
+  .xs-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -15480,10 +15489,6 @@ footer.footer .legal {
   margin-left: 1.5rem;
 }
 
-.quote-img {
-  margin-right: -4em;
-}
-
 .quote-box {
   background: #212b38;
   border-radius: 30px;
@@ -15491,7 +15496,7 @@ footer.footer .legal {
 }
 
 .quote-side {
-  margin-top: 50%;
+  margin-top: 30%;
   height: auto;
 }
 
@@ -15593,25 +15598,17 @@ footer.footer .legal {
 
 @media (max-width: 767px) {
   .quote-side {
-    margin-left: 0;
-    margin-right: 1em;
     margin-top: -4em;
     height: auto;
-    max-width: 60vw;
-    float: right;
+    max-width: 70vw;
+    margin-right: -20%;
   }
   .quote-img {
-    margin-left: 1em;
-    margin-right: 0;
-    max-width: 50vw;
+    max-width: 80vw;
   }
   .quote-bottom {
     height: auto;
     margin-top: -4em;
-  }
-  .quote-banner-img {
-    margin-left: -2em;
-    margin-right: 2em;
   }
 }
 
@@ -15626,12 +15623,6 @@ footer.footer .legal {
 }
 
 @media (max-width: 474px) {
-  .quote-bottom {
-    margin-right: -2em;
-  }
-  .quote-banner-img {
-    margin-left: -2em;
-  }
   .quote-sample {
     padding-left: 1%;
   }
