@@ -119,6 +119,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     }
 
+    [data-toggle="tooltip"] {
+      color: grey;
+    }
   </style>
 
 </head>
@@ -224,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <tr>
                     <th>Model</th>
                     <th>
-                      <img class="img-responsive centered" src="/img/gf-glowforge.jpg" alt="Glowforge Pro desktop laser">
+                      <img class="img-responsive centered" src="/img/gf-glowforge-sm.jpg" alt="Glowforge Pro desktop laser">
                       <br/><span class="label-series">GlowForge Pro</span>
                     </th>
                     <th>
@@ -278,14 +281,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <td>5 <small>7/8</small>&Prime; (150mm)</td>
                   </tr>
                   <tr>
-                    <th>Front Open Access Door</th>
+                    <th>Front Open Access Door <a href="#" data-toggle="tooltip" data-placement="right" title="Access Door allows you to work with oversized items"><i class="fa fa-question-circle"></i></a></th>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                   </tr>
                   <tr>
-                    <th>Front to Back Passthrough</th>
+                    <th>Front to Back Passthrough <a href="#" data-toggle="tooltip" data-placement="right" title="Passthrough allows you to work with oversized items"><i class="fa fa-question-circle"></i></a></th>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-remove" style="color:red;"></i></td>
                     <td><i class="fa fa-remove" style="color:red;"></i></td>
@@ -334,7 +337,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <td>1.0mm x 1.0mm</td>
                   </tr>
                   <tr>
-                    <th>Motorized Bed</th>
+                    <th>Motorized Bed <a href="#" data-toggle="tooltip" data-placement="right" title="Moves up and down on Z-axis"><i class="fa fa-question-circle"></i></a></th>
                     <td><i class="fa fa-remove" style="color:red;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
@@ -385,12 +388,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <tr>
                     <th>Camera</th>
                     <td>Wide Angle Camera (on lid) and Macro Camera (on the head)</td>
-                    <td>LightBurn Camera (Paid add-on)</td>
+                    <td><i class="fa fa-remove" style="color:red;"></i></td>
                     <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
                     <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
                   </tr>
                   <tr>
-                    <th>Rotary Option</th>
+                    <th>Rotary Option <a href="#" data-toggle="tooltip" data-placement="right" title="Engrave on round and cylindrical items"><i class="fa fa-question-circle"></i></a></th>
                     <td><i class="fa fa-remove" style="color:red;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
                     <td><i class="fa fa-check" style="color:green;"></i></td>
@@ -430,6 +433,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <td>60 Hz</td>
                     <td>60 Hz</td>
                     <td>60 Hz</td>
+                  </tr>
+                  <tr>
+                    <th>Laser Class <a href="#" data-toggle="tooltip" data-placement="right" title="The classification refers to the safety standards that are defined for each laser class"><i class="fa fa-question-circle"></i></a></th>
+                    <td>Class 4</td>
+                    <td>Class 4</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
                   </tr>
                   <tr>
                     <th>Engraving Software</th>
@@ -986,6 +996,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   vgo('process');
 </script>
 <!--END: ACTIVE CAMPAIGN-->
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip(
+        {
+          placement: 'right',
+          trigger: 'hover focus'
+        }
+      )
+    })
+
+    $('[data-toggle="tooltip"]').on('click', function(e){
+      e.preventDefault();
+    })
+  </script>
 
 </body>
 
