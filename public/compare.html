@@ -107,6 +107,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="https://api.goaffpro.com/loader.js?shop=kk9rhvliy0"></script>
 <!-- END GOAFFPRO -->
 
+
+  <!--START BOOTSTRAP-TABLE -->
+  <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/themes/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!--END BOOTSTRAP-TABLE -->
   <style>
     @media screen and (max-width: 767px) {
       .table-responsive > .table > thead > tr > th, 
@@ -123,6 +128,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     [data-toggle="tooltip"]:focus {
       color: grey;
     }
+    .bootstrap-table input.form-control {
+      height: 100%;
+    }
+
+    @media screen and (max-width: 767px) {
+      .table-responsive {
+        border: none;
+      }
+    }
+   
+    .bootstrap-table.fullscreen {
+      left:2px;
+    }
+
+    /* table#compare-table th:first-child {
+      position:sticky;
+      left:0;
+      z-index:2;
+      background-color: #fff;
+    }
+    table#compare-table td:first-child {
+      position:sticky;
+      left:0;
+      border-right-color:#000000;
+    } */
+
   </style>
 
 </head>
@@ -223,19 +254,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="centered">MIRA, MIRA Pro, NOVA, SUPERNOVA</p>
           <div class="py-3"> 
             <div class="table-responsive">
-              <table class="table table-bordered">
+              <div class="toolbar">
+                <button id="button" class="btn btn-secondary">Show All</button>
+              </div>
+              <table class="table table-bordered" id="compare-table"
+                    data-toggle="table"
+                    data-search="true"
+                    data-buttons-align="right"
+                    data-toolbar=".toolbar"
+                    data-toolbar-align="left"
+                    data-show-columns="true"
+                    data-show-columns-toggle-all="false"
+                    data-show-fullscreen="true"
+                    >
                 <thead>
                   <tr>
-                    <th>Model</th>
-                    <th>
+                    <th data-switchable="false">Model</th>
+                    <th data-field="MIRA5">
                       <img class="img-responsive centered" src="/img/gf-mira5.jpg" alt="Mira 5 CO2 desktop laser cutting machine">
                       <br/><span class="label-series">Aeon MIRA 5</span>
                     </th>
-                    <th>
+                    <th data-field="MIRA7">
                       <img class="img-responsive centered" src="/img/gf-mira7.jpg" alt="Mira 7 Pro CO2 laser cutting and engraving machine">
                       <br/><span class="label-series">Aeon MIRA 7</span>
                     </th>
-                    <th>
+                    <th data-field="MIRA9">
                       <img class="img-responsive centered" src="/img/gf-mira9.jpg" alt="Mira 9 Pro CO2 laser cutting and engraving machinee">
                       <br/><span class="label-series">Aeon MIRA 9</span>
                     </th>
@@ -589,7 +632,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 <!--END: ACTIVE CAMPAIGN-->
 
+    <!--START BOOTSTRAP-TABLE -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+    
+    <!--END BOOTSTRAP-TABLE -->
+
   <script>
+
+var $table = $('#compare-table');
+
     $(function () {
       $('[data-toggle="tooltip"]').tooltip(
         {
@@ -597,7 +650,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           'trigger': 'hover click'
         }
       )
+ 
+      $table.bootstrapTable('showColumns');
+
     })
+
+  var $button = $('#button');
+
+  $(function() {
+    $button.click(function() {
+      $table.bootstrapTable('showAllColumns')
+    });
+
+  })
 
 
   </script>
