@@ -14899,6 +14899,12 @@ footer.footer .legal {
   height: auto;
 }
 
+#carousel-home .bg-night {
+  background-color: #060f1e;
+  height: auto;
+  color: #fff;
+}
+
 #carousel-home .slick-next {
   right: 0;
 }
