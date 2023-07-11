@@ -138,6 +138,17 @@ jQuery(document).ready(function($){
     lazyLoad: 'ondemand'
   });
 
+  $('.carousel-cabinet').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 8000,
+    lazyLoad: 'ondemand'
+  });
+
 
   /******************
    lightbox
