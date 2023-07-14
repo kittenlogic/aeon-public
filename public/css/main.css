@@ -14095,6 +14095,10 @@ h5 {
   font-weight: 600;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .featured {
   font-size: 1em;
   font-weight: 600;
