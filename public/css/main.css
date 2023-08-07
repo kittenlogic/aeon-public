@@ -15111,6 +15111,10 @@ footer.footer .legal {
   text-decoration: underline;
 }
 
+.notification-clock .countdown-text.center {
+  text-align: center;
+}
+
 .notification-clock .countdown-banner.activate,
 .notification-clock .countdown-over.activate {
   transform: translate3d(0, 0, 0) !important;
