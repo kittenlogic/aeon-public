@@ -102,6 +102,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- END GOAFFPRO -->
 
 
+  <style>
+    .underline a,
+    .underline a:hover,
+    .underline a:focus
+      {text-decoration: underline;}
+  </style>
+
 </head>
 
 <body class="page">
@@ -194,32 +201,96 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="title">
     <h1>Laser Tracker <i class="fa fa-map-marker brand-color"></i></h1>
   </div>
+
+<section>
   <div class="container">
-    <div class="row py-2">
-      <div class="col-xs-12 col-sm-4">
-        <img src="/img/laser-tracker-bird.jpg" class="img-responsive img-circle centered" width="200" alt="a parrot on a ship carrying orange containers">
-        <p class="text-center py-1"><strong>Ahoy there, Aeon Family! 👋</strong></p>
+    <div class="row py-4">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="flex xs-reset">
+          <div class="flex-center">
+            <div>
+              <img src="/img/laser-tracker-bird.jpg" class="img-responsive img-circle centered" width="200" alt="a parrot on a ship carrying orange containers">
+              <p class="text-center py-1"><strong>Ahoy there, Aeon Family! 👋</strong></p>
+            </div>
+          </div>         
+          <div class="flex-center px-2">
+            <div>
+              <h2 class="xs-center pb-20">Follow <span class="brand-color">your AEON laser</span> shipment from assembly to delivery</h2>
+              <p class="xs-center"><a class="btn btn-brand-inverse btn-lg btn-auto" href="#stage">Find Your Shipment</a></p>
+            </div>
+          </div>
+        </div>  
       </div>
-      <div class="col-xs-12 col-sm-8">
-        <p>Welcome to the Laser Tracker!</p> 
-        <p>Follow <b>AEON laser shipments</b> (highlighted in <span style="color:#ea5529;">orange</span>) and <b>EMP fiber shipments</b> (highlighted in <span style="color:red;">red</span>) from assembly to delivery!</p>
-        <p>Wondering why certain shipments are highlighted in <span style="color:green;">green</span>? Those are the machines that are currently being assembled in Aeon China right now!</p>
-        <p><b>Estimated Shipping time</b> reflects when you can expect your laser to be in route to your business or home. ETAs may change, as we adjust to our increased production and efficient processing.</p>
-        <p><b>Ship names</b> will be updated as they become available. Once they set sail, your shipment can be tracked on www.marinetraffic.com or on our LIVE map below. </p>
-        <p>If you have any questions regarding your shipment, please reach out to your sales representative.</p>
+    </div>
+  </div>
+</section> 
+
+<section class="bg-ghost"> 
+  <div class="container ">
+    <div class="row py-4">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <h2 class="text-center brand-color">Live Map</h3>
+        <p class="lead text-center">Follow your laser's journey accross the ocean.</p>  
+        <script type="text/javascript">
+          width='100%';		// the width of the embedded map in pixels or percentage 
+          height='450';		// the height of the embedded map in pixels or percentage
+          border='0';		// the width of the border around the map (zero means no border)
+          shownames='true';	// to display ship names on the map (true or false)
+          latitude='30.7531';	// the latitude of the center of the map, in decimal degrees
+          longitude='-143.4375';	// the longitude of the center of the map, in decimal degrees
+          zoom='2';		// the zoom level of the map (values between 2 and 17)
+          maptype='0';		// use 0 for Normal Map, 1 for Satellite
+          trackvessel='0';	// MMSI of a vessel (note: vessel will be displayed only if within range of the system) - overrides "zoom" option
+          fleet='emily@aeonlaser.us';		// the registered email address of a user-defined fleet (user's default fleet is used) - overrides "zoom" option
+        </script>
+        <script type="text/javascript" src="//www.marinetraffic.com/js/embed.js"></script>
+      </div>
+      <div class="col-xs-12 col-md-10 col-md-offset-1"><p><strong>Tips:</strong> 1. Click on the neon green ship or <i class="fa fa-circle" style="color:greenyellow"></i> circle icons to see the ship name and get more info. 2. Use the Zoom <i class="fa fa-plus"></i> and <i class="fa fa-map"></i> Map Type tools on the right to adjust visibility. Note: If you don't see the map, please allow Cookies on this page.</p></div>
+    </div>   
+  </div> 
+</section>
+
+<section>
+  <div class="container">
+    <div class="row py-4">
+      <h2 class="text-center brand-color">The Laser Journey</h2>
+      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+        <h3>Where is my laser?</h3>
+        <p>Your laser will go through the following stages from assembly to delivery:</p>
+        <div class="well">
+          <ol style="font-size: 18px;">  
+            <li><i class="fa fa-tasks"></i> <strong>Allocating Parts</strong> - Machines that are in queue to begin assembly.</li>
+            <li><i class="fa fa-cog"></i> <strong>Assembly in Progress</strong> - Machines that are currently being assembled in Aeon China right now.</li>
+            <li><i class="fa fa-spinner"></i> <strong>Loading Soon</strong> - Machines leaving the Aeon China factory on their way to the loading dock.</li>
+            <li><i class="fa fa-ship"></i> <strong>Ship Name</strong> - Machines that are on a cargo ship, crossing the ocean.</li>
+            <li><i class="fa fa-building"></i> <strong>Warehouse</strong> - Machines that are at the Aeon Laser USA facility in Melbourne, Florida.</li> 
+            <li><i class="fa fa-truck"></i> <strong>Shipping Now</strong> - Machines en route to your home or business! </li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-5">
+        <h3>When will my laser arrive?</h3>   
+        <p>Estimated Shipping time reflects when you can expect your laser to be in route to your business or home. ETAs may change, as we adjust to our increased production and efficient processing.</p>
+
+        <h3>How can I track my laser once it sets sail?</h3>
+        <p>Ship names will be updated as they become available. Once they set sail, your shipment can be tracked on our Live Map or on www.marinetraffic.com. </p>
+
+        <h3>What if I have other questions?</h3>
+        <p>If you have any questions regarding your shipment, please reach out to your sales representative.</p> 
         <p>Your continued patience is appreciated!</p>
       </div>
     </div>
-    <div class="row py-2">
-      <div class="col-xs-12">
-        <h3 class="brand-color">UPDATED ON AUGUST 25, 2023</H3> 
-        <img class="img-responsive" src="/img/laser-tracker-8-25-2023.jpg" alt="Laser Tracker map with the most recent locations of lasers en route to Aeon Laser USA in Melbourne, Florida from the factory in China">
-      </div>
-    </div>
-    <div class="row py-2">
-      <div class="col-xs-12 col-sm-6">
-        <h3 class="brand-color">AEON LASERS</h3>
-        <p>
+  </div>
+</section>
+
+<section class="bg-ghost">
+  <div class="container"> 
+    <div class="row py-4">
+      <h2 class="text-center brand-color" id="stage">Your Shipment Number and ETA</h2>
+      <p class="text-center">Locate your shipment number below to see what stage your laser is in.<br/> <span class="text-center"><strong>Updated Aug 25 2023</strong></span></p>
+      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+        <h3>AEON Lasers</h3>
+        <p class="underline">
         SHIPMENT 66 - <i class="fa fa-truck"></i> Shipping Now <br/>
         SHIPMENT 67 - <i class="fa fa-truck"></i> Shipping Now <br/>
         SHIPMENT 68 - Aug <i class="fa fa-building"></i> Warehouse <br/>
@@ -243,37 +314,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         SHIPMENT 86 - Dec <i class="fa fa-tasks"></i> Allocating Parts<br/>
         </p>
       </div> 
-      <div class="col-xs-12 col-sm-6">
-        <h3 class="brand-color">EMP FIBER LASERS</h3>
+      <div class="col-xs-12 col-sm-6 col-md-51">
+        <h3>EMP Fiber Lasers</h3>
         <p>
         FIBER 4 - <i class="fa fa-truck"></i> Shipping Now <br/>
         </p>
       </div>
     </div>
   </div>
-  <div class="container pb-100">
-    <div class="row py-2">
-      <div class="col-xs-12">
-        <h3 class="brand-color">LIVE MAP</h3>
-        <script type="text/javascript">
-          width='100%';		// the width of the embedded map in pixels or percentage 
-          height='450';		// the height of the embedded map in pixels or percentage
-          border='0';		// the width of the border around the map (zero means no border)
-          shownames='true';	// to display ship names on the map (true or false)
-          latitude='30.7531';	// the latitude of the center of the map, in decimal degrees
-          longitude='-143.4375';	// the longitude of the center of the map, in decimal degrees
-          zoom='2';		// the zoom level of the map (values between 2 and 17)
-          maptype='0';		// use 0 for Normal Map, 1 for Satellite
-          trackvessel='0';	// MMSI of a vessel (note: vessel will be displayed only if within range of the system) - overrides "zoom" option
-          fleet='emily@aeonlaser.us';		// the registered email address of a user-defined fleet (user's default fleet is used) - overrides "zoom" option
-        </script>
-        <script type="text/javascript" src="//www.marinetraffic.com/js/embed.js"></script>
-      </div>
-      <div class="col-xs-12"><p><strong>Tips:</strong> 1. Click on the neon green ship or <i class="fa fa-circle" style="color:greenyellow"></i> circle icons to see the ship name and get more info. 2. Use the Zoom <i class="fa fa-plus"></i> and <i class="fa fa-map"></i> Map Type tools on the right to adjust visibility. Note: If you don't see the map, please allow Cookies on this page.</p></div>
-    </div>   
-  </div> 
+</section>  
 
-  <!--end .container-->
   <!--END: MAIN-->
       <!--START: FOOTER-->
     <footer class="footer">
