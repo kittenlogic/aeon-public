@@ -114,37 +114,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Some of our features will not work. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <!--START: NOTIFICATION BAR-->
-<div class="notification-clock">
-  <div class="countdown-banner activate dark">
-   <div class="countdown-container">
-     <p class="countdown-text center">Summer Sale Extended! <a href="/promos.html">Get 100s of FREE Materials</a> worth $12-29K in Resale Value. ⏰ While Supplies Last ⏰ 
-     </p>
-
-    <div class="countdown-clock d-inline-block hidden">
-      <div class="clock-item-container">
-        <div id="clock-item-days" class="clock-item-value">__</div>
-        <div class="clock-item-label">Days</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-hours" class="clock-item-value">__</div>
-        <div class="clock-item-label">Hrs</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-minutes" class="clock-item-value">__</div>
-        <div class="clock-item-label">Min</div>
-      </div>
-      <div class="clock-item-container">
-        <div id="clock-item-seconds"  class="clock-item-value">__</div>
-        <div class="clock-item-label">Sec</div>
-      </div>
-     </div>
-    </div>
-    <!-- <div class="hide-countdown-banner-button" id="hideBanner"> &times; </div> -->
-  </div>
-</div>
-<!--END: NOTIFICATION BAR-->
-
   <!--START: NAV-->
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
@@ -229,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
           <div class="row banner">
             <div class="col-xs-12 col-sm-5 banner-col">
-              <img class="img-responsive" src="/img/why-triangle.png" alt="Aeon prism with images of Aeon customers and partners">
+              <img class="img-responsive" src="/img/why-ftc.jpg" alt="photo collage of Aeon customers and partners">
             </div>
             <div class="col-xs-12 col-sm-7 banner-col center-text-mobile">
               <div class="carousel-content">
@@ -861,56 +830,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ============= Javascript ============= -->
 <script src="/js/main.js"></script>
-  <!--START: NOTIFICATION BAR JS-->
-<script>
-    function showBanner(){
-      $(".countdown-banner").addClass("activate");
-    }
-    function hideBanner(){
-      $(".countdown-banner").removeClass("activate");
-      $(".countdown-over").addClass("activate");
-    }
-    function destroyBanner(){
-      $(".notification-clock").remove();
-    }
-
-    $('#hideBanner').on('click', function() {
-       $(".countdown-banner").removeClass("activate");
-    });
-
-    // Set the date we're counting down to
-    var countDownDate = new Date("August 31, 2023 3:00:00 GMT-04:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = ("0" + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
-      var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-      var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-      var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
-
-      // Display the results
-      document.getElementById("clock-item-days").innerHTML = days;
-      document.getElementById("clock-item-hours").innerHTML = hours;
-      document.getElementById("clock-item-minutes").innerHTML = minutes;
-      document.getElementById("clock-item-seconds").innerHTML = seconds;
-
-      // If the count down is finished, do something
-      if (distance < 0) {
-        clearInterval(x);
-        destroyBanner();
-      }
-    }, 1000);
-</script>
-<!--END: NOTIFICATION BAR JS-->
-
   <!--START: COOKIE CONSENT-->
 
 <!--END: COOKIE CONSENT-->
