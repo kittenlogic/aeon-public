@@ -102,6 +102,58 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- END GOAFFPRO -->
 
 
+    <!--START BOOTSTRAP-TABLE -->
+    <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/themes/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--END BOOTSTRAP-TABLE -->
+    <style>
+      @media screen and (max-width: 767px) {
+        .table-responsive > .table > thead > tr > th, 
+        .table-responsive > .table > tbody > tr > th, 
+        .table-responsive > .table > tfoot > tr > th, 
+        .table-responsive > .table > thead > tr > td, 
+        .table-responsive > .table > tbody > tr > td, 
+        .table-responsive > .table > tfoot > tr > td {
+            white-space: inherit;
+        }
+      }
+  
+      [data-toggle="tooltip"],
+      [data-toggle="tooltip"]:focus,
+      [data-bs-toggle="tooltip"],
+      [data-bs-toggle="tooltip"]:focus {
+        color: grey;
+      }
+      .bootstrap-table input.form-control {
+        height: 100%;
+      }
+  
+      @media screen and (max-width: 767px) {
+        .table-responsive {
+          border: none;
+        }
+      }
+     
+      .bootstrap-table.fullscreen {
+        left:2px;
+      }
+  
+      table#compare-table td:first-child {
+        position:sticky;
+        left:0;
+        z-index:2;
+        background-color: #fafafa;
+      }
+  
+      .aeon-experience {
+        background-color: ghostwhite; 
+      }
+      .label-series {
+        font-size: 12px;
+      }
+  
+    </style>
+
 </head>
 
 <body class="page">
@@ -192,29 +244,300 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!--START: MAIN-->
   <div class="title">
-    <h1>EMP Laser</h1>
+    <h1><span class="brand-color">EMP</span> Galvo Fiber Lasers</h1>
   </div>
-  <div class="container">
-    <div class="row pb-100">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
-        <img src="/img/promo-fiberlaser.jpg" class="img-responsive" alt="EMP fiber galvo laser"/>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <h4 class="center-text">Machine Specifications</h4>
-        <ul class="no-list">
-          <li class="list-group-item"><a href="/pdfs/ST30R-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST30R Fiber Marker Laser specs</a></li>
-          <li class="list-group-item"><a href="/pdfs/ST50R-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST50R Fiber Marker Laser specs</a></li>
-          <li class="list-group-item"><a href="/pdfs/ST30J-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST30J Fiber Marker Laser specs</a></li>
-          <li class="list-group-item"><a href="/pdfs/ST50J-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST50J Fiber Marker Laser specs</a></li>
-        </ul>
-        <h4 class="center-text">Getting Started</h4>
-        <ul class="no-list">
-          <li class="list-group-item"><a href="/emp-fiber.html">User Manual, LightBurn Setup, Unboxing, etc</a></li>
-        </ul>
 
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="centered">Compare Models</h2>
+          <p class="centered">Split Type Fiber Laser Marking Machines</p>
+          <div class="py-3"> 
+            <div class="table-responsive">
+              <div class="toolbar">
+                <button id="button" class="btn btn-secondary">Show All</button>
+              </div>
+              <table class="table table-bordered" id="compare-table"
+                    data-toggle="table"
+                    data-search="true"
+                    data-buttons-align="right"
+                    data-toolbar=".toolbar"
+                    data-toolbar-align="left"
+                    data-show-columns="true"
+                    data-show-columns-toggle-all="false"
+                    data-show-fullscreen="true"
+                    >
+                <thead>
+                  <tr>
+                    <th data-switchable="false">Model</th>
+                    <th data-field="ST30R">
+                      <img class="img-responsive centered" src="/img/emp-fiber-30R-thumb.jpg" alt="EMP ST30R Fiber Marker Laser">
+                      <br/><span class="label-series">EMP ST30R Fiber Marker Laser</span>
+                    </th>
+                    <th data-field="ST50R">
+                      <img class="img-responsive centered" src="/img/emp-fiber-50R-thumb.jpg" alt="EMP ST50R Fiber Marker Laser">
+                      <br/><span class="label-series">EMP ST50R Fiber Marker Laser</span>
+                    </th>
+                    <th data-field="ST30J">
+                      <img class="img-responsive centered" src="/img/emp-fiber-30J-thumb.jpg" alt="EMP ST30J Fiber Marker Laser">
+                      <br/><span class="label-series">EMP ST30J Fiber Marker Laser</span>
+                    </th>
+                    <th data-field="ST50J">
+                      <img class="img-responsive centered" src="/img/emp-fiber-50J-thumb.jpg" alt="EMP ST50J Fiber Marker Laser">
+                      <br/><span class="label-series">EMP ST50J Fiber Marker Laser</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Pricing</th>
+                    <td>$5000</td>
+                    <td>$7000</td>
+                    <td>$7000</td>
+                    <td>$8495</td>
+                  </tr>
+                  <tr>
+                    <th>Laser Output Power</th>
+                    <td>30W</td>
+                    <td>50W</td>
+                    <td>30W</td>
+                    <td>50W</td>
+                  </tr>
+                  <tr>
+                    <th>Laser Source</th>
+                    <td>Raycus RFL-P30QS</td>
+                    <td>Raycus RFL-P50QB</td>
+                    <td>JPT LP+ 30W</td>
+                    <td>JPT LP+ 50W</td>
+                  </tr>
+                  <tr>
+                    <th>Best For</th>
+                    <td>If you don't have a need for annealing or working with plastic, the Raycus would be a great option for you</td>
+                    <td>If you don't have a need for annealing or working with plastic, the Raycus would be a great option for you</td>
+                    <td>JPT has a much higher adjustable frequency range which makes it perfect for techniques like annealing on SS, color changes on plastics, and anything else that requires a softer touch</td>
+                    <td>JPT has a much higher adjustable frequency range which makes it perfect for techniques like annealing on SS, color changes on plastics, and anything else that requires a softer touch</td>
+                  </tr>
+                  <tr>
+                    <th>Pulse Width</th>
+                    <td>90-130ns</td>
+                    <td>120-150ns @ 50Hz</td>
+                    <td>200ns</td>
+                    <td>200ns</td>
+                  </tr>
+                  <tr>
+                    <th>Frequency Range</th>
+                    <td>30-60kHz</td>
+                    <td>50-100kHz</td>
+                    <td>37-600kHz</td>
+                    <td>40-600kHz</td>
+                  </tr>
+                  <tr>
+                    <th>Controller</th>
+                    <td>JCZ FBLI-V4 (Lite)</td>
+                    <td>JCZ FBLI-V4 (Lite)</td>
+                    <td>JCZ FBLI-V4 (Lite)</td>
+                    <td>JCZ FBLI-V4 (Lite)</td>
+                  </tr>
+                  <tr>
+                    <th>Galvo Head</th>
+                    <td>ZBTK 2D 10C</td>
+                    <td>ZBTK 2D 10C</td>
+                    <td>ZBTK 2D 10C</td>
+                    <td>ZBTK 2D 10C</td>
+                  </tr>
+                  <tr>
+                    <th>F-theta Lens</th>
+                    <td>K9,F290 D200x200 (M85) (0-100W)</td>
+                    <td>K9,F290 D200x200 (M85) (0-100W)</td>
+                    <td>K9,F290 D200x200 (M85) (0-100W)</td>
+                    <td>K9,F290 D200x200 (M85) (0-100W)</td>
+                  </tr>
+                  <tr>
+                    <th>Software</th>
+                    <td>Lightburn - Galvo</td>
+                    <td>Lightburn - Galvo</td>
+                    <td>Lightburn - Galvo</td>
+                    <td>Lightburn - Galvo</td>
+                  </tr>
+                  <tr>
+                    <th>Supported OS</th>
+                    <td>WIN 10/11 MAC OS</td>
+                    <td>WIN 10/11 MAC OS</td>
+                    <td>WIN 10/11 MAC OS</td>
+                    <td>WIN 10/11 MAC OS</td>
+                  </tr>
+                  <tr>
+                    <th>Supported File Formats</th>
+                    <td>AI, PDF, DXF, SVG, BMP, GIF, JPEG, PNG, TIFF</td>
+                    <td>AI, PDF, DXF, SVG, BMP, GIF, JPEG, PNG, TIFF</td>
+                    <td>AI, PDF, DXF, SVG, BMP, GIF, JPEG, PNG, TIFF</td>
+                    <td>AI, PDF, DXF, SVG, BMP, GIF, JPEG, PNG, TIFF</td>
+                  </tr>
+                  <tr>
+                    <th>Laser Wavelength</th>
+                    <td>1064nm</td>
+                    <td>1064nm</td>
+                    <td>1064nm</td>
+                    <td>1064nm</td>
+                  </tr>
+                  <tr>
+                    <th>Max Speed</th>
+                    <td>196.85 ips (5000 mm/sec)</td>
+                    <td>196.85 ips (5000 mm/sec)</td>
+                    <td>196.85 ips (5000 mm/sec)</td>
+                    <td>196.85 ips (5000 mm/sec)</td>
+                  </tr>
+                  <tr>
+                    <th>Marking Area</th>
+                    <td>7.87" x 7.87" (200x200mm)</td>
+                    <td>7.87" x 7.87" (200x200mm)</td>
+                    <td>7.87" x 7.87" (200x200mm)</td>
+                    <td>7.87" x 7.87" (200x200mm)</td>
+                  </tr>
+                  <tr>
+                    <th>Max Height Adjustment</th>
+                    <td>19.96" (500mm)</td>
+                    <td>19.96" (500mm)</td>
+                    <td>19.96" (500mm)</td>
+                    <td>31.5" (800mm)</td>
+                  </tr>
+                  <tr>
+                    <th>Marking Depth</th>
+                    <td><=0.4mm Adjustable (subject to material type)</td>
+                    <td><=0.4mm Adjustable (subject to material type)</td>
+                    <td><=1.0mm Adjustable (subject to material type)</td>
+                    <td><=1.0mm Adjustable (subject to material type)</td>
+                  </tr>
+                  <tr>
+                    <th>Min Line Width</th>
+                    <td>±0.01mm (subject to material type)</td>
+                    <td>±0.01mm (subject to material type)</td>
+                    <td>±0.01mm (subject to material type)</td>
+                    <td>±0.01mm (subject to material type)</td>
+                  </tr>
+                  <tr>
+                    <th>Rotary</th>
+                    <td>Optional</td>
+                    <td>Optional</td>
+                    <td>Optional</td>
+                    <td>Optional</td>
+                  </tr>
+                  <tr>
+                    <th>Rotary Drive</th>
+                    <td>DM542S</td>
+                    <td>DM542S</td>
+                    <td>DM542S</td>
+                    <td>DM542S</td>
+                  </tr>
+                  <tr>
+                    <th>Safe Temperature and Humidity Range</th>
+                    <td>0~35°C / 10~95%</td>
+                    <td>0~35°C / 10~95%</td>
+                    <td>0~35°C / 10~95%</td>
+                    <td>0~35°C / 10~95%</td>
+                  </tr>
+                  <tr>
+                    <th>Cooling System</th>
+                    <td>Air Cooled</td>
+                    <td>Air Cooled</td>
+                    <td>Air Cooled</td>
+                    <td>Air Cooled</td>
+                  </tr>
+                  <tr>
+                    <th>Rated Voltage</th>
+                    <td>110v</td>
+                    <td>110v</td>
+                    <td>110v</td>
+                    <td>110v</td>
+                  </tr>
+                  <tr>
+                    <th>Frequency</th>
+                    <td>50Hz-60Hz</td>
+                    <td>50Hz-60Hz</td>
+                    <td>50Hz-60Hz</td>
+                    <td>50Hz-60Hz</td>
+                  </tr>
+                  <tr>
+                    <th>Phases</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <th>Circuit</th>
+                    <td>15 amp</td>
+                    <td>15 amp</td>
+                    <td>15 amp</td>
+                    <td>15 amp</td>
+                  </tr>
+                  <tr>
+                    <th>Machine Dimensions</th>
+                    <td>20.05&Prime; x 21.65&Prime; x 26.77>&Prime; / 56CM x 55CM x 68CM</td>
+                    <td>20.05&Prime; x 21.65&Prime; x 26.77>&Prime; / 56CM x 55CM x 68CM</td>
+                    <td>20.05&Prime; x 21.65&Prime; x 26.77>&Prime; / 56CM x 55CM x 68CM</td>
+                    <td>20.05&Prime; x 21.65&Prime; x 26.77>&Prime; / 56CM x 55CM x 68CM</td>
+                  </tr>
+                  <tr>
+                    <th>Machine Weight</th>
+                    <td>99 lbs. / 45KG</td>
+                    <td>99 lbs. / 45KG</td>
+                    <td>99 lbs. / 45KG</td>
+                    <td>99 lbs. / 45KG</td>
+                  </tr>
+                  <tr>
+                    <th>Compatible Materials</th>
+                    <td>Metals: Aluminum, Gold, Silver, Copper, Stainless Steel, Brass, Titanium and Tungsten Nonmetals: Colored Acrylic, Hard Plastics, Brick, Granite, Marble, Tile, Nylon, ABS, Ceramic, River Rock, Precious Stones, Marble, Artificial Leather and Cardboard</td>
+                    <td>Metals: Aluminum, Gold, Silver, Copper, Stainless Steel, Brass, Titanium and Tungsten Nonmetals: Colored Acrylic, Hard Plastics, Brick, Granite, Marble, Tile, Nylon, ABS, Ceramic, River Rock, Precious Stones, Marble, Artificial Leather and Cardboard</td>
+                    <td>Metals: Aluminum, Gold, Silver, Copper, Stainless Steel, Brass, Titanium and Tungsten Nonmetals: Colored Acrylic, Hard Plastics, Brick, Granite, Marble, Tile, Nylon, ABS, Ceramic, River Rock, Precious Stones, Marble, Artificial Leather and Cardboard</td>
+                    <td>Metals: Aluminum, Gold, Silver, Copper, Stainless Steel, Brass, Titanium and Tungsten Nonmetals: Colored Acrylic, Hard Plastics, Brick, Granite, Marble, Tile, Nylon, ABS, Ceramic, River Rock, Precious Stones, Marble, Artificial Leather and Cardboard</td>
+                  </tr>  
+                  <tr>
+                    <th>Warranty</th>
+                    <td>24 months for the entire machine and laser source. 12 months for all other electrical components</td>
+                    <td>24 months for the entire machine and laser source. 12 months for all other electrical components</td>
+                    <td>24 months for the entire machine and laser source. 12 months for all other electrical components</td>
+                    <td>24 months for the entire machine and laser source. 12 months for all other electrical components</td>
+                  </tr>
+                  <tr>
+                    <th>Download Specs</th>
+                    <td><a href="/pdfs/ST30R-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST30R specs</a></td>
+                    <td><a href="/pdfs/ST50R-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST50R specs</a></td>
+                    <td><a href="/pdfs/ST30J-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST30J specs</a></td>
+                    <td><a href="/pdfs/ST50J-Spec-Sheet.pdf" target="_blank" rel="noopener"><span class="fa fa-file-pdf-o"></span> EMP ST50J specs</a></td>
+                  </tr>   
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>  
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="bg-ghost">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <div class="flex xs-reset">
+            <div class="flex-center">
+              <div>
+                <img src="/img/promo-fiberlaser.png" class="img-responsive" alt="EMP fiber galvo laser"/>
+              </div>
+            </div>         
+            <div class="flex-center">
+              <div>
+                <h2 class="xs-center">Just got your <span class="brand-color">EMP fiber</span> laser?</h2>
+                <p class="xs-center pb-20">Download the User Manual and setup LightBurn</p>
+                <p class="xs-center"><a class="btn btn-brand btn-lg btn-auto" href="/emp-fiber.html">Get Started</a></p>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section> 
 
   <!--end .container-->
   <!--END: MAIN-->
@@ -311,6 +634,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   vgo('process');
 </script>
 <!--END: ACTIVE CAMPAIGN-->
+
+  <!--START BOOTSTRAP-TABLE -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+  <!--END BOOTSTRAP-TABLE -->
+
+  <script>  
+    var $table = $('#compare-table');
+    var $button = $('#button');
+    $(function() {
+      $button.click(function() {
+        $table.bootstrapTable('showAllColumns')
+      });
+  
+    })
+  </script>    
 
 </body>
 
