@@ -14377,6 +14377,11 @@ figcaption {
   .text-xl {
     font-size: 26px;
   }
+  .sm-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .flex {
