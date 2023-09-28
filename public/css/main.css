@@ -16338,6 +16338,13 @@ time {
   font-size: 18px;
 }
 
+.product .panel-group.faq h4 {
+  padding: 7px 10px 5px 10px;
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .product .panel-group.faq {
   margin-top: 10px;
 }
