@@ -14883,7 +14883,7 @@ footer.footer .legal {
       justify-content: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .banner {
     display: block;
   }
@@ -14893,13 +14893,56 @@ footer.footer .legal {
   z-index: 9;
 }
 
+.slick-track {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.slider,
+.carousel-banner,
+.carousel-whyus,
+.carousel-webinar,
+.carousel-support,
+.carousel-spotlight,
+.carousel-cabinet {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+}
+
+.slider.slick-initialized,
+.carousel-banner.slick-initialized,
+.carousel-whyus.slick-initialized,
+.carousel-webinar.slick-initialized,
+.carousel-support.slick-initialized,
+.carousel-spotlight.slick-initialized,
+.carousel-cabinet.slick-initialized {
+  visibility: visible;
+  opacity: 1;
+}
+
+#carousel-home {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
 #carousel-home ul {
-  padding: 0;
+  padding: 1.5em 0;
 }
 
 #carousel-home li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+#carousel-home h3 {
+  margin-top: 0;
 }
 
 #carousel-home .carousel-content {
@@ -14941,18 +14984,12 @@ footer.footer .legal {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  #carousel-home .bg-banner {
-    height: 400px;
-  }
-}
-
-@media (max-width: 767px) {
-  #carousel-home .bg-banner {
-    height: auto;
-  }
+@media screen and (max-width: 767px) {
   #carousel-home .slick-dots {
     display: none !important;
+  }
+  #carousel-home .slick-slide img {
+    max-width: 300px;
   }
 }
 
@@ -15885,313 +15922,6 @@ time {
   }
 }
 
-.home {
-  background-color: #fff;
-}
-
-.home h1, .home h2 {
-  font-family: "Gilroy", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  text-align: center;
-  padding: 60px 0 30px 0;
-}
-
-.home h4 {
-  font-family: "Gilroy", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 100;
-}
-
-.home hr {
-  border-bottom: 1px solid #ea5529;
-}
-
-.home .about {
-  padding-bottom: 100px;
-}
-
-.home .about img {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
-.home .featured {
-  background: #222;
-  width: 100%;
-  min-height: 600px;
-  padding-bottom: 160px;
-}
-
-.home .featured h2, .home .featured h4 {
-  color: #ea5529;
-  text-align: center;
-}
-
-.home .featured h4 {
-  font-weight: 400;
-  font-family: "Open Sans";
-  padding-bottom: 10px;
-}
-
-.home .featured img {
-  width: 100%;
-  display: block;
-}
-
-.home .featured .featured-product {
-  background: #fff;
-}
-
-.client-logos {
-  background-color: #fff;
-}
-
-.client-logos img {
-  padding: 2em 0;
-  margin: 0 auto;
-  opacity: 0.8;
-}
-
-.client-logos h4 {
-  margin-bottom: 30px;
-  color: #999999;
-}
-
-.client-logos h2 {
-  color: #ea5529;
-}
-
-.testimonial {
-  background-color: #f0f6ff;
-}
-
-.testimonial h2 {
-  color: #212b38;
-}
-
-.testimonial h4 {
-  margin-bottom: 30px;
-  color: #212b38;
-}
-
-.testimonial p {
-  margin-top: 20px;
-  color: #212b38;
-}
-
-.testimonial blockquote {
-  border-left: 0;
-}
-
-.testimonial blockquote small:before {
-  content: ' ';
-}
-
-.testimonial .fa.fa-quote-left {
-  color: #212b38;
-  padding-right: 8px;
-}
-
-.testimonial-inverse {
-  background-color: #212b38;
-}
-
-.testimonial-inverse h2 {
-  color: #E0EDFF;
-}
-
-.testimonial-inverse h4 {
-  margin-bottom: 30px;
-  color: #E0EDFF;
-}
-
-.testimonial-inverse p {
-  margin-top: 20px;
-  color: #E0EDFF;
-}
-
-.testimonial-inverse blockquote {
-  border-left: 0;
-}
-
-.testimonial-inverse blockquote small:before {
-  content: ' ';
-}
-
-.testimonial-inverse .fa.fa-quote-left {
-  color: #E0EDFF;
-  padding-right: 8px;
-}
-
-.uvp {
-  background-color: #fff;
-}
-
-.uvp h2 {
-  color: #ea5529;
-  padding-top: 0;
-}
-
-.uvp h4 {
-  margin-bottom: 50px;
-  color: #999999;
-}
-
-.uvp p {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
-.uvp blockquote {
-  border-left: 0;
-}
-
-.uvp blockquote small:before {
-  content: ' ';
-}
-
-.uvp figcaption {
-  color: #212b38;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.uvp li {
-  list-style: none;
-  font-size: 18px;
-}
-
-.uvp .fa.fa-quote-left {
-  color: #ea5529;
-  padding-right: 8px;
-}
-
-.uvp .fa.fa-star-o {
-  color: #ea5529;
-  padding-right: 8px;
-  margin-left: -35px;
-}
-
-@media (max-width: 991px) {
-  .uvp.mb--3 {
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .uvp {
-    padding-bottom: 4em;
-    padding-top: 4em;
-  }
-}
-
-@media (max-width: 320px) {
-  .uvp p {
-    font-size: 16px;
-  }
-}
-
-.slate-inverse {
-  background-color: #E0EDFF;
-}
-
-.slate-inverse h2 {
-  color: #212b38;
-  padding-top: 0;
-}
-
-.slate-inverse h4 {
-  color: #212b38;
-  margin-bottom: 50px;
-}
-
-.slate-inverse p {
-  color: #212b38;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
-.slate-inverse blockquote {
-  border-left: 0;
-}
-
-.slate-inverse blockquote small:before {
-  content: ' ';
-}
-
-.slate-inverse figcaption {
-  color: #212b38;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.slate-inverse li {
-  list-style: none;
-  font-size: 18px;
-}
-
-.slate-inverse .fa.fa-quote-left {
-  color: #212b38;
-  padding-right: 8px;
-}
-
-.slate-inverse .fa.fa-star-o {
-  color: #212b38;
-  padding-right: 8px;
-  margin-left: -35px;
-}
-
-.slate-inverse.fat-bottom {
-  padding-bottom: 6em;
-}
-
-@media (max-width: 767px) {
-  .slate-inverse {
-    padding-bottom: 2em;
-  }
-}
-
-.slate-regular {
-  background-color: #212b38;
-  padding-bottom: 3em;
-}
-
-.slate-regular h2 {
-  color: #E0EDFF;
-}
-
-.slate-regular h4 {
-  color: #ea5529;
-  font-size: 26px;
-  font-weight: bold;
-  letter-spacing: 0.7px;
-}
-
-.slate-regular p, .slate-regular a {
-  color: #E0EDFF;
-}
-
-.slate-regular a {
-  font-weight: bold;
-  border-bottom: 2px solid #E0EDFF;
-}
-
-.slate-regular a:hover, .slate-regular a:focus {
-  color: #ea5529;
-  border-bottom: 2px solid #ea5529;
-}
-
-.slate-regular img {
-  margin: 0 auto;
-}
-
-.slate-regular a.btn-brand {
-  font-weight: normal;
-  color: #fff;
-  border-bottom: 0;
-}
-
 .product {
   background: #fff;
 }
@@ -16931,6 +16661,10 @@ time {
 
 .text-yt {
   color: #fff;
+}
+
+.text-bb {
+  color: #E0EDFF;
 }
 
 .print-header {

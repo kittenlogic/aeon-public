@@ -8890,88 +8890,88 @@ jQuery(document).ready(function($){
    slick slider
   ******************/
 
-  $('.slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    fade: false,
-    asNavFor: '.slider-nav-thumbnails',
-  });
+    $('.slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      fade: false,
+      asNavFor: '.slider-nav-thumbnails',
+    });
 
-  $('.slider-nav-thumbnails').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    asNavFor: '.slider',
-    dots: true,
-    centerMode: false,
-    focusOnSelect: true
-  });
+    $('.slider-nav-thumbnails').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: '.slider',
+      dots: true,
+      centerMode: false,
+      focusOnSelect: true
+    });
 
-  $('.carousel-banner').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 12000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-banner').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 12000,
+      lazyLoad: 'ondemand'
+    });
 
-  $('.carousel-whyus').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 12000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-whyus').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 12000,
+      lazyLoad: 'ondemand'
+    });
 
-  $('.carousel-webinar').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 15000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-webinar').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 15000,
+      lazyLoad: 'ondemand'
+    });
 
-  $('.carousel-support').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 15000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-support').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 15000,
+      lazyLoad: 'ondemand'
+    });
 
-  $('.carousel-spotlight').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 8000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-spotlight').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 8000,
+      lazyLoad: 'ondemand'
+    });
 
-  $('.carousel-cabinet').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 8000,
-    lazyLoad: 'ondemand'
-  });
+    $('.carousel-cabinet').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 8000,
+      lazyLoad: 'ondemand'
+    });
 
 
   /******************
