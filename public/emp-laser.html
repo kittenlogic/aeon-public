@@ -169,6 +169,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       .price small {
         font-size: 14px;
       }
+
+      .bootstrap-table .dropdown-item.dropdown-item-marker:nth-child(3),
+      .bootstrap-table .dropdown-item.dropdown-item-marker:nth-child(4){
+          display: none;
+      }
  
     </style>
 
@@ -330,7 +335,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <ul class="description">
             <li>Split Type Fiber Laser Marking Machines. Designed by EMP for performance, ease of use, and long term reliability.<br/><br/>Features include:</li>
             <li><span class="fa fa-check"></span> High Quality Scan Head</li>
-            <li><span class="fa fa-check"></span> Raycus, JPT, MOPA Laser Source</li>
+            <li><span class="fa fa-check"></span> Raycus or JPT MOPA Laser Source</li>
             <li><span class="fa fa-check"></span> 30W, 50W, 60W or 100W Power</li>
             <li><span class="fa fa-check"></span> Full Option Board</li>
             <li><span class="fa fa-check"></span> Rotary Option</li>
@@ -374,16 +379,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <img class="img-responsive centered" src="/img/emp-fiber-50R-thumb.jpg" alt="EMP ST50R Fiber Marker Laser">
                       <br/><span class="label-series">EMP ST50R</span>
                     </th>
-                    <th data-field="ST30J">
-                      <img class="img-responsive centered" src="/img/emp-fiber-30J-thumb.jpg" alt="EMP ST30J Fiber Marker Laser">
-                      <br/><span class="label-series">EMP ST30J</span>
+                    <th data-field="ST30J" class="hidden">
+                      <img class="img-responsive hidden centered" src="/img/emp-fiber-30J-thumb.jpg" alt="EMP ST30J Fiber Marker Laser">
+                      <br/><span class="label-serie hidden">EMP ST30J</span>
                     </th>
-                    <th data-field="ST50J">
-                      <img class="img-responsive centered" src="/img/emp-fiber-50J-thumb.jpg" alt="EMP ST50J Fiber Marker Laser">
-                      <br/><span class="label-series">EMP ST50J</span>
+                    <th data-field="ST50J" class="hidden">
+                      <img class="img-responsive hidden centered" src="/img/emp-fiber-50J-thumb.jpg" alt="EMP ST50J Fiber Marker Laser">
+                      <br/><span class="label-series hidden">EMP ST50J</span>
                     </th>
                     <th data-field="ST60J">
-                      <img class="img-responsive centered" src="/img/emp-fiber-60J-thumb.jpg" alt="EMP ST60J">
+                      <img class="img-responsive centered" src="/img/emp-fiber-60J-light-thumb.jpg" alt="EMP ST60J">
                       <br/><span class="label-series">EMP ST60J</span>
                     </th>
                     <th data-field="ST100J">
@@ -426,8 +431,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <td>Raycus is a great option if you don't have a need for annealing or working with plastic</td>
                     <td>JPT has a much higher adjustable frequency range which makes it perfect for techniques like annealing on stainless steel, color changes on plastics, and anything else that requires a softer touch</td>
                     <td>JPT has a much higher adjustable frequency range which makes it perfect for techniques like annealing on stainless steel, color changes on plastics, and anything else that requires a softer touch</td>
-                    <td></td>
-                    <td></td>
+                    <td>MOPA lasers allow for greater control over pulse parameters, which makes it perfect for techniques like annealing on stainless steel, color changes on plastics,  and marking on materials that are sensitive to heat</td>
+                    <td>MOPA lasers allow for greater control over pulse parameters, which makes it perfect for techniques like annealing on stainless steel, color changes on plastics,  and marking on materials that are sensitive to heat</td>
                   </tr>
                   <tr>
                     <th>Pulse Width</th>
@@ -882,7 +887,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div id="collapsefaq1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq1">
       <div class="panel-body">
-        <p>We can not achieve colors on a standard Fiber laser, that will require a MOPA laser on steel, something which is very difficult to reproduce consistently.</p>
+        <p>We can not achieve colors with a standard Fiber laser.</p>
+        <p>MOPA lasers can be used for creating color markings on metals. By adjusting pulse parameters, including pulse duration, MOPA lasers can generate a wider range of colors compared to traditional fiber lasers.</p>
       </div>
     </div>
   </div>
@@ -1080,6 +1086,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       });
   
     })
+    
   </script>    
 
 </body>
