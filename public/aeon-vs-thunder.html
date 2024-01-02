@@ -5,18 +5,18 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aeon vs Glowforge | Aeon Laser USA</title>
+  <title>Aeon vs Thunder | Aeon Laser USA</title>
   <meta name="author" content="Aeon Laser USA">
-  <meta name="description" content="Wondering if you should breakup with your GF? Compare Glowforge Pro with Aeon MIRA Lasers.">
+  <meta name="description" content="Not sure which laser to get? Compare Aeon and Thunder models.">
   <meta name="keywords"
     content="laser cutter, laser engraving machine, laser engraver machine, CO2 laser cutter, CO2 laser engraving machine, CO2 laser engraver, tabletop laser cutter, desktop laser cutter, diy laser cutter, desktop laser cutting machine, personal laser engraver, personal laser cutter, benchtop laser cutter, laser cutter engraver, desktop laser cutting machine, laser engraving and cutting machines, laser cut machine for sale, affordable laser cutter,  laser engraving business plan, glowforge laser cutter, glowforge laser">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Aeon vs Glowforge" />
+  <meta property="og:title" content="Aeon vs Thunder" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://aeonlaser.us/aeon-vs-glowforge" />
-  <meta property="og:image" content="https://aeonlaser.us/img/og-glowforge.jpg" />
-  <meta property="og:description" content="Wondering if you should breakup with your GF? Compare Glowforge Pro with Aeon MIRA Lasers." />
+  <meta property="og:url" content="https://aeonlaser.us/aeon-vs-thunder" />
+  <meta property="og:image" content="https://aeonlaser.us/img/og-aeon-vs-thunder.jpg" />
+  <meta property="og:description" content="Not sure which laser to get? Compare Aeon and Thunder models." />
   <meta property="og:site_name" content="Aeon Laser USA" />
   <meta property="fb:app_id" content="152351391599356"/>
   <meta property="fb:admins" content="1952808698153924" />
@@ -24,11 +24,11 @@
   <!--Twitter Meta-->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@aeonlaserusa" />
-  <meta name="twitter:title" content="Aeon vs Glowforge | Aeon Laser USA">
-  <meta name="twitter:description" content="Wondering if you should breakup with your GF? Compare Glowforge Pro with Aeon MIRA Lasers.">
-  <meta name="twitter:image:src" content="https://aeonlaser.us/img/og-glowforge.jpg">
+  <meta name="twitter:title" content="Aeon vs Thunder | Aeon Laser USA">
+  <meta name="twitter:description" content="Not sure which laser to get? Compare Aeon and Thunder models.">
+  <meta name="twitter:image:src" content="https://aeonlaser.us/img/og-aeon-vs-thunder.jpg">
 
-  <link rel="canonical" href="https://aeonlaser.us/aeon-vs-glowforge">
+  <link rel="canonical" href="https://aeonlaser.us/aeon-vs-thunder">
 
   <!-- START G4A -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2L91DNLXX2"></script>
@@ -105,6 +105,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="https://api.goaffpro.com/loader.js?shop=kk9rhvliy0"></script>
 <!-- END GOAFFPRO -->
 
+
+  <!--START BOOTSTRAP-TABLE -->
+  <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/themes/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!--END BOOTSTRAP-TABLE -->
   <style>
     @media screen and (max-width: 767px) {
       .table-responsive > .table > thead > tr > th, 
@@ -118,20 +123,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 
     [data-toggle="tooltip"],
-    [data-toggle="tooltip"]:focus {
+    [data-toggle="tooltip"]:focus,
+    [data-bs-toggle="tooltip"],
+    [data-bs-toggle="tooltip"]:focus {
       color: grey;
     }
-    .aeon-difference {background-color: ghostwhite;}
-    blockquote {
-      border-left: 5px solid #fff;
+    .bootstrap-table input.form-control {
+      height: 100%;
     }
-    .svg-icon.baseline svg {
-      height: 10em;
-      width: 10em;
+
+    @media screen and (max-width: 767px) {
+      .table-responsive {
+        border: none;
+      }
     }
-    .yt-goodbye {
-      background: ghostwhite;
+   
+    .bootstrap-table.fullscreen {
+      left:2px;
     }
+
+    table#compare-table td:first-child {
+      position:sticky;
+      left:0;
+      z-index:2;
+      background-color: #fafafa;
+    }
+
+    .aeon-experience {
+      background-color: ghostwhite; 
+    }
+    .label-series {
+      font-size: 12px;
+    }
+
+    .bootstrap-table .fixed-table-container .table thead th .th-inner {
+      white-space: normal;
+    }
+
   </style>
 
 </head>
@@ -261,244 +289,630 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!--START: MAIN-->
   <div class="title">
-    <h1>GlowForge vs <span class="brand-color">Aeon Laser</span></h1>
+    <h1>Thunder vs <span class="brand-color">Aeon Laser</span></h1>
   </div>
   <section>
-    <div class="container">
+    <div class="container pb-50">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="centered">Compare Models</h2>
-          <p class="centered">Aeon MIRA Lasers vs GlowForge Pro</p>
+          <p class="centered">Aeon MIRA, MIRA Pro, NOVA, SUPERNOVA vs Thunder Bolt and NOVA</p>
           <div class="py-3"> 
             <div class="table-responsive">
-              <table class="table table-bordered">
+              <div class="toolbar">
+                <button id="button" class="btn btn-secondary">Show All</button>
+              </div>
+              <table class="table table-bordered" id="compare-table"
+                    data-toggle="table"
+                    data-search="true"
+                    data-buttons-align="right"
+                    data-toolbar=".toolbar"
+                    data-toolbar-align="left"
+                    data-show-columns="true"
+                    data-show-columns-toggle-all="false"
+                    data-show-fullscreen="true"
+                    >
                 <thead>
                   <tr>
-                    <th>Model</th>
-                    <th>
-                      <img class="img-responsive centered" src="/img/gf-glowforge-sm.jpg" alt="Glowforge Pro desktop laser">
-                      <br/><span class="label-series">GlowForge Pro</span>
+                    <th data-switchable="false">Model</th>
+                    <th data-field="BOLT">
+                      <img class="img-responsive centered" src="/img/th-bolt.jpg" alt="Thunder Bolt">
+                      <br/><span class="label-series">Thunder Bolt</span>
                     </th>
-                    <th>
+                    <th data-field="NOVA24">
+                      <img class="img-responsive centered" src="/img/th-nova24.jpg" alt="Thunder NOVA 24">
+                      <br/><span class="label-series">Thunder NOVA 24</span>
+                    </th>
+                    <th data-field="NOVA35">
+                      <img class="img-responsive centered" src="/img/th-nova35.jpg" alt="Thunder NOVA 35">
+                      <br/><span class="label-series">Thunder NOVA 35</span>
+                    </th>
+                    <th data-field="NOVA51">
+                      <img class="img-responsive centered" src="/img/th-nova51.jpg" alt="Thunder NOVA 51">
+                      <br/><span class="label-series">Thunder NOVA 51</span>
+                    </th>
+                    <th data-field="NOVA63">
+                      <img class="img-responsive centered" src="/img/th-nova63.jpg" alt="Thunder NOVA 63">
+                      <br/><span class="label-series">Thunder NOVA 63</span>
+                    </th>
+                    <th data-field="MIRA5">
                       <img class="img-responsive centered" src="/img/gf-mira5.jpg" alt="Mira 5 CO2 desktop laser cutting machine">
                       <br/><span class="label-series">Aeon MIRA 5</span>
                     </th>
-                    <th>
+                    <th data-field="MIRA7">
                       <img class="img-responsive centered" src="/img/gf-mira7.jpg" alt="Mira 7 Pro CO2 laser cutting and engraving machine">
                       <br/><span class="label-series">Aeon MIRA 7</span>
                     </th>
-                    <th>
+                    <th data-field="MIRA9">
                       <img class="img-responsive centered" src="/img/gf-mira9.jpg" alt="Mira 9 Pro CO2 laser cutting and engraving machinee">
-                      <br/><span class="label-series">Aeon MIRA 9</span>
+                      <br/><span class="label-series">Aeon  MIRA 9</span>
+                    </th>
+                    <th data-field="NOVA10">
+                      <img class="img-responsive centered" src="/img/gf-nova10.jpg" alt="Nova 10 Professional CO2 Laser Cutter & Engraving Machine">
+                      <br/><span class="label-series">Aeon NOVA 10</span>
+                    </th>
+                    <th data-field="NOVA14">
+                      <img class="img-responsive centered" src="/img/gf-nova14.jpg" alt="Nova 14 Professional CO2 Laser Cutter & Engraving Machine">
+                      <br/><span class="label-series">Aeon NOVA 14</span>
+                    </th>
+                    <th data-field="NOVA16">
+                      <img class="img-responsive centered" src="/img/gf-nova16.jpg" alt="Nova 16 Professional CO2 Laser Cutter & Engraving Machine">
+                      <br/><span class="label-series">Aeon NOVA 16</span>
+                    </th>
+                    <th data-field="NOVA10S">
+                      <img class="img-responsive centered" src="/img/gf-nova10.jpg" alt="Super NOVA 10 CO2 Laser Cutter & Engraving Machine">
+                      <br/><span class="label-series">Aeon NOVA 10S</span>
+                    </th>
+                    <th data-field="NOVA14S">
+                      <img class="img-responsive centered" src="/img/gf-nova14.jpg" alt="Super NOVA 14 CO2 Laser Cutter & Engraving Machine">
+                      <br/><span class="label-series">Aeon NOVA 14S</span>
+                    </th>
+                    <th data-field="NOVA16S">
+                      <img class="img-responsive centered" src="/img/gf-nova16s.jpg" alt="Super NOVA 16 CO2 Laser Cutter & Engraving Machine ">
+                      <br/><span class="label-series">Aeon NOVA 16S</span>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th>Pricing</th>
-                    <td>$6995</td>
-                    <td>Starting at $5995</td>
-                    <td>Starting at $7495</td>
-                    <td>Starting at $9995</td>
+                    <td>Starting at $4,995</td>
+                    <td>Starting at $7,400</td>
+                    <td>Starting at $9,900</td>
+                    <td>Starting at $12,000</td>
+                    <td>Starting at $15,100</td>
+                    <td>Starting at $5,995</td>
+                    <td>Starting at $7,495</td>
+                    <td>Starting at $9,995</td>
+                    <td>Starting at $11,995</td>
+                    <td>Starting at $14,495</td>
+                    <td>Starting at $16,995</td>
+                    <td>Starting at $17,495</td>
+                    <td>Starting at $19,495</td>
+                    <td>Starting at $21,995</td>
                   </tr>
                   <tr>
-                    <th>Best For</th>
-                    <td>Hobbyists, Crafters, Beginners</td>
+                    <th>Recommended For</th>
+                    <td>Hobbyists, Crafters, Beginners, Launching a Side Hustle</td>
+                    <td>Side Hustle or Scaling a Full-Time Business</td>
+                    <td>Full-Time Business</td>
+                    <td>Full-Time Business</td>
+                    <td>Full-Time Business</td>
                     <td>Hobbyists, Crafters, Beginners, Launching a Side Hustle</td>
                     <td>Side Hustle or Scaling a Full-Time Business</td>
                     <td>Side Hustle or Scaling a Full-Time Business</td>
+                    <td>Full-Time Business</td>
+                    <td>Full-Time Business</td>
+                    <td>Full-Time Business</td>
+                    <td>Full-Time Business, Laser Experts</td>
+                    <td>Full-Time Business, Laser Experts</td>
+                    <td>Full-Time Business, Laser Experts</td>
                   </tr>
                   <tr>
                     <th>Space Needed</th>
                     <td>Home Use or Small Spaces</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td>Home Use or Small Spaces</td>
                     <td>Spare Bedroom or Craft Space</td>
                     <td>Spare Bedroom or Craft Space</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
+                    <td>Maximizes Floor Space. Comes apart to fit through a standard doorway.</td>
                   </tr>
                   <tr>
                     <th>The Aeon Difference</th>
                     <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
                     <td>Engraves 2-3 times faster than a hobby grade laser. Makes a great backup or 2nd laser dedicated to tumbler engraving.</td>
                     <td>Engraves 2-3 times faster and cuts thicker materials than a hobby grade laser. Can be used to create much larger projects than a hobby grade laser.</td>
-                    <td>Engraves 2-3 times faster and cuts thicker materials than a hobby grade laser. Can be used to create much larger projects than a hobby grade laser.</td> 
+                    <td>Engraves 2-3 times faster and cuts thicker materials than a hobby grade laser. Can be used to create much larger projects than a hobby grade laser.</td>
+                    <td>Higher precision and shorter cycle times than any comparable laser. Great for batch engraving or cutting large sheet stock.</td>
+                    <td>Higher precision and shorter cycle times than any comparable laser. Great for batch engraving or cutting large sheet stock.</td>
+                    <td>Higher precision and shorter cycle times than any comparable laser. Great for batch engraving or cutting large sheet stock.</td>
+                    <td>Everything the NOVA has to offer plus a second RF laser source. Can achieve even faster engraving speeds and higher resolution.</td>
+                    <td>Everything the NOVA has to offer plus a second RF laser source. Can achieve even faster engraving speeds and higher resolution.</td>
+                    <td>Everything the NOVA has to offer plus a second RF laser source. Can achieve even faster engraving speeds and higher resolution.</td>
                   </tr>
                   <tr>
                     <th>Workspace Area</th>
-                    <td>11 &Prime; x 19 <small>1/2</small>&Prime;</td>
+                    <td>20&Prime; x 12&Prime;</td>
+                    <td>23.6&Prime; x 15.7&Prime; </td>
+                    <td>35.4&Prime; x 23.6&Prime;</td>
+                    <td>51.2&Prime; x 35.4&Prime;</td>
+                    <td>63.0&Prime; x 39.4&Prime; </td>
                     <td>11 <small>3/4</small>&Prime; x 19 <small>3/4</small>&Prime;</td>
                     <td>17 <small>3/4</small>&Prime; x 27 <small>1/2</small>&Prime;</td>
                     <td>23 <small>5/8</small>&Prime; x 35 <small>1/2</small>&Prime;</td>
+                    <td>27 <small>9/16</small>&Prime; x 39 <small>3/8</small>&Prime;</td>
+                    <td>35 <small>7/16</small>&Prime; x 55 <small>1/8</small>&Prime;</td>
+                    <td>39 <small>3/8</small>&Prime; x 63&Prime;</td>
+                    <td>27 <small>9/16</small>&Prime; x 39 <small>3/8</small>&Prime;</td>
+                    <td>35 <small>7/16</small>&Prime; x 55 <small>1/8</small>&Prime;</td>
+                    <td>39 <small>3/8</small>&Prime; x 63&Prime;</td>
                   </tr>
                   <tr>
                     <th>Machine Size</th>
-                    <td>20 <small>3/4</small>&Prime; x 8&Prime; x 8 <small>1/2</small>&Prime;</td>
+                    <th>36&Prime; x 27&Prime; x 18&Prime;</th>
+                    <td>57.1&Prime; x 31.9&Prime; x 26&Prime;</td>
+                    <td>59.1&Prime; x 43.5&Prime; x 40.9&Prime;</td>
+                    <td>74.8&Prime; x 55.3&Prime; x 40.9&Prime;</td>
+                    <td>86.6&Prime; x 59.3&Prime; x 40.9&Prime;</td>
                     <td>35 <small>1/2</small>&Prime; x 28&Prime; x 16 <small>1/2</small>&Prime;</td>
                     <td>43 <small>1/2</small>&Prime; x 34 <small>3/4</small>&Prime; x 20 <small>5/8</small>&Prime;</td>
                     <td>51 <small>3/8</small>&Prime; x 40 <small>3/4</small>&Prime; x 21 <small>1/8</small>&Prime;</td>
+                    <td>47 <small>5/8</small>&Prime; x 59 <small>1/16</small>&Prime; x 40 <small>11/32</small>&Prime;</td>
+                    <td>55 <small>1/2</small>&Prime; x 74 <small>13/16</small>&Prime; x 40 <small>11/32</small>&Prime;″</td>
+                    <td>59 <small>7/16</small>&Prime; x 82 <small>11/16</small>&Prime; x 40 <small>11/32</small>&Prime;</td>
+                    <td>47 <small>5/8</small>&Prime; x 59 <small>1/16</small>&Prime; x 40 <small>11/32</small>&Prime;</td>
+                    <td>55 <small>1/2</small>&Prime; x 74 <small>13/16</small>&Prime; x 40 <small>11/32</small>&Prime;″</td>
+                    <td>59 <small>7/16</small>&Prime; x 82 <small>11/16</small>&Prime; x 40 <small>11/32</small>&Prime;</td>
                   </tr>
                   <tr>
                     <th>Machine Weight</th>
-                    <td>48 lbs</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td>265 lbs</td>
                     <td>392 lbs</td>
                     <td>502 lbs</td>
+                    <td>1000 lbs</td>
+                    <td>1050 lbs</td>
+                    <td>1370 lbs</td>
+                    <td>1000 lbs</td>
+                    <td>1050 lbs</td>
+                    <td>1370 lbs</td>
                   </tr>
                   <tr>
-                    <th>Laser Tube</th>
-                    <td>45w CO2 Glass Tube</td>
-                    <td>40w CO2 Premium CO2 Glass Tube</td>
-                    <td>40w or 60w CO2 Premium CO2 Glass Tube</td>
-                    <td>80w, 90w or 100w CO2 Premium CO2 Glass Tube</td>
+                    <th>Glass CO2 Laser Tube</th>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td>60W</td>
+                    <td>80W or 100W</td>
+                    <td>100W or 130W</td>
+                    <td>100W or 130W</td>
+                    <td>40W Premium CO2 Glass Tube</td>
+                    <td>40W or 60W Premium CO2 Glass Tube</td>
+                    <td>80W, 90W or 100W Premium CO2 Glass Tube</td>
+                    <td>80W, 90W or 100W Premium CO2 Glass Tube</td>
+                    <td>100W or 130W Premium CO2 Glass Tube</td>
+                    <td>100W, 130W or 150W Premium CO2 Glass Tube</td>
+                    <td>80W, 90W or 100W Premium CO2 Glass Tube</td>
+                    <td>100W or 130W Premium CO2 Glass Tube</td>
+                    <td>100W, 130W or 150W Premium CO2 Glass Tube</td>
+                  </tr>
+                  <tr>
+                    <th>Metal RF CO2 Tube</th>
+                    <td>30W RF Metal Tube</td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td>30W or 60W RF Metal Tube</td>
+                    <td>30W or 60W RF Metal Tube</td>
+                    <td>30W or 60W RF Metal Tube</td>
                   </tr>
                   <tr>
                     <th>Z Axis Travel</th>
-                    <td>2&Prime; (50mm)</td>
+                    <td>4.3&Prime;</td>
+                    <td>6.1&Prime;</td>
+                    <td>9.1&Prime;</td>
+                    <td>9.1&Prime;</td>
+                    <td>9.1&Prime;</td>
                     <td>4 <small>3/4</small>&Prime; (120mm)</td>
                     <td>5 <small>7/8</small>&Prime; (150mm)</td>
                     <td>5 <small>7/8</small>&Prime; (150mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
+                    <td>7 <small>7/8</small>&Prime; (200mm)</td>
                   </tr>
                   <tr>
-                    <th>Front Open Access Door <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="Access Door allows you to work with oversized items"><i class="fa fa-question-circle"></i></a></th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <th>Front Open Access Door </th>
+                    <td></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
                   </tr>
                   <tr>
-                    <th>Front to Back Passthrough <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="Passthrough allows you to work with oversized items"><i class="fa fa-question-circle"></i></a></th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
+                    <th>Front to Back Passthrough </th>
+                    <td></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Passthrough / Access Door Thickness</th>
-                    <td><small>1/2</small>&Prime; (13mm)</td>
-                    <td>4 <small>3/4</small>&Prime; (120mm)</td>
-                    <td>5 <small>7/8</small>&Prime; (150mm)</td>
-                    <td>5 <small>7/8</small>&Prime; (150mm)</td>
+                    <td></td>
+                    <td>0.8&Prime; Passthrough</td>
+                    <td>0.8&Prime; Passthrough</td>
+                    <td>0.8&Prime; Passthrough</td>
+                    <td>0.8&Prime; Passthrough</td>
+                    <td>4 <small>3/4</small>&Prime; (120mm) Access Door</td>
+                    <td>5 <small>7/8</small>&Prime; (150mm) Access Door</td>
+                    <td>5 <small>7/8</small>&Prime; (150mm) Access Door</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
+                    <td>1&Prime; (25.4mm) Passthrough</td>
                   </tr>
                   <tr>
                     <th>Engraving Speeds</th>
-                    <td>141mm/second</td>
-                    <td>0-1200mm/second</td>
-                    <td>0-1200mm/second</td>
-                    <td>0-1200mm/second</td>
+                    <td>1,000mm/sec</td>
+                    <td>1,000mm/sec</td>
+                    <td>1,000mm/sec</td>
+                    <td>1,000mm/sec</td>
+                    <td>1,000mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-1200mm/sec</td>
+                    <td>0-2000mm/sec</td>
+                    <td>0-2000mm/sec</td>
+                    <td>0-2000mm/sec</td>
                   </tr>
                   <tr>
                     <th>Cutting Speeds</th>
-                    <td>70mm/second</td>
-                    <td>0-680mm/second</td>
-                    <td>0-680mm/second</td>
-                    <td>0-680mm/second</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>0-680mm/sec</td>
+                    <td>0-680mm/sec</td>
+                    <td>0-680mm/sec</td>
+                    <td>0-800mm/sec</td>
+                    <td>0-800mm/sec</td>
+                    <td>0-800mm/sec</td>
+                    <td>0-800mm/sec</td>
+                    <td>0-800mm/sec</td>
+                    <td>0-800mm/sec</td>
                   </tr>
                   <tr>
                     <th>Cutting Thickness</th>
-                    <td>< <small>1/4</small>&Prime;</td>
-                    <td>< <small>1/4</small>&Prime;</td>
-                    <td>< <small>3/8</small>&Prime;</td>
-                    <td>< <small>1/2</small>&Prime; to 1" <small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>< 1/4</small>&Prime; Max</td>
+                    <td><small>< 3/8</small>&Prime; Max</td>
+                    <td><small>1/2&Prime; or more. Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2&Prime; or more. Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2&Prime; or more. Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>< 1/4</small>&Prime; Max</td>
+                    <td><small>< 3/8</small>&Prime; Max</td>
+                    <td><small>1/2</small>&Prime; to 1" <small> Max<br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max<small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max<small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max <small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max <small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max <small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
+                    <td><small>1/2</small>&Prime; to > 1" Max <small><br/><i class="fa fa-magic"></i> Depends on the wattage of the laser, lens and air compressor</small></td>
                   </tr>
                   <tr>
-                    <th>5G Max Acceleration</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <th>Max Acceleration</th>
+                    <td>3G</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
+                    <td>5G</td>
                   </tr>
                   <tr>
                     <th>Minimum Engraving Size</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1.0mm x 1.0mm</td>
+                    <td>1.0mm x 1.0mm</td>
+                    <td>1.0mm x 1.0mm</td>
+                    <td>1.0mm x 1.0mm</td>
+                    <td>1.0mm x 1.0mm</td>
                     <td>1.0mm x 1.0mm</td>
                     <td>1.0mm x 1.0mm</td>
                     <td>1.0mm x 1.0mm</td>
                     <td>1.0mm x 1.0mm</td>
                   </tr>
                   <tr>
-                    <th>Motorized Bed <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="Moves up and down on Z-axis"><i class="fa fa-question-circle"></i></a></th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <th>Max Scanning Precision</th>
+                    <td>2000DPI</td>
+                    <td>500DPI with 2&Prime; or 800DPI with HR option</td>
+                    <td>500DPI with 2&Prime; or 800DPI with HR option</td>
+                    <td>500DPI with 2&Prime; or 800DPI with HR option</td>
+                    <td>500DPI with 2&Prime; or 800DPI with HR option</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                    <td>4000DPI</td>
+                  </tr>
+                  <tr>
+                    <th>Motorized Bed </th>
+                    <td></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Worktable Honeycomb Tray</th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Worktable Blades</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Red Dot Positioner</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Auto Focus</th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Built-In WIFI</th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Internet Required</th>
-                    <td>Cloud-based only</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Works offline</td>
+                    <td>Works offline</td>
+                    <td>Works offline</td>
+                    <td>Works offline</td>
+                    <td>Works offline</td>
+                    <td>Works offline</td>
                     <td>Works offline</td>
                     <td>Works offline</td>
                     <td>Works offline</td>
                   </tr>
                   <tr>
                     <th>Camera</th>
-                    <td>Wide Angle Camera (on lid) and Macro Camera (on the head)</td>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
+                    <td>Integrated High Resolution Camera</td>
+                    <td>ThunderCam (Paid option, not installed)</td>
+                    <td>ThunderCam (Paid option, not installed)</td>
+                    <td>ThunderCam (Paid option, not installed)</td>
+                    <td>ThunderCam (Paid option, not installed)</td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
+                    <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
                     <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
                     <td>LightBurn Camera (FREE and installed with Pre-Order Special)</td>
                   </tr>
                   <tr>
-                    <th>Rotary Option <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="Engrave on round and cylindrical items"><i class="fa fa-question-circle"></i></a></th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <th>Rotary Option </th>
+                    <td>Paid Option</td>
+                    <td>Paid Option</td>
+                    <td>Paid Option</td>
+                    <td>Paid Option</td>
+                    <td>Paid Option</td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Air Assist</th>
-                    <td>Internal Air Assist</td>
+                    <td></td>
+                    <td>5-7psi Air Pump</td>
+                    <td>5-7psi Air Pump</td>
+                    <td>5-7psi Air Pump</td>
+                    <td>5-7psi Air Pump</td>
                     <td>18W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
+                    <td>105W Built-In Air Pump</td>
                     <td>105W Built-In Air Pump</td>
                     <td>105W Built-In Air Pump</td>
                   </tr>
                   <tr>
                     <th>Cooling</th>
-                    <td>Closed loop self-contained internal cooling</td>
+                    <td>N/A</td>
+                    <td>CW5000</td>
+                    <td>CW5000</td>
+                    <td>CW5000 (100W version) or CW5200 (130W version)</td>
+                    <td>CW5000 (100W version) or CW5200 (130W version)</td>
                     <td>34W Built-In Water Pump</td>
                     <td>Fan Cooled (3000) Water Chiller</td>
                     <td>Vapor Compression (5000) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
+                    <td>Vapor Compression (5200) Water Chiller</td>
                   </tr>
                   <tr>
                     <th>Exhaust Fan</th>
-                    <td>182 cfm Exhaust Fan</td>
+                    <td></td>
+                    <td>375 cfm Exhaust Fan</td>
+                    <td>375 cfm Exhaust Fan</td>
+                    <td>735 cfm Exhaust Fan</td>
+                    <td>735 cfm Exhaust Fan</td>
                     <td>210 cfm Built-In Exhaust Fan</td>
                     <td>300 cfm Built-In Exhaust Fan</td>
                     <td>410 cfm Built-In Exhaust Fan</td>
+                    <td>410 cfm Built-In Exhaust Fan</td>
+                    <td>700 cfm Built-In Exhaust Fan</td>
+                    <td>700 cfm Built-In Exhaust Fan</td>
+                    <td>700 cfm Built-In Exhaust Fan</td>
+                    <td>700 cfm Built-In Exhaust Fan</td>
+                    <td>700 cfm Built-In Exhaust Fan</td>
                   </tr>
                   <tr>
                     <th>Input Voltage</th>
+                    <td></td>
+                    <td>Standard 110v AC</td>
+                    <td>Standard 110v AC</td>
+                    <td>Standard 110v AC</td>
+                    <td>Standard 110v AC</td>
+                    <td>120V AC Single Phase</td>
+                    <td>120V AC Single Phase</td>
+                    <td>120V AC Single Phase</td>
+                    <td>120V AC Single Phase</td>
+                    <td>120V AC Single Phase</td>
                     <td>120V AC Single Phase</td>
                     <td>120V AC Single Phase</td>
                     <td>120V AC Single Phase</td>
@@ -510,91 +924,256 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <td>60 Hz</td>
                     <td>60 Hz</td>
                     <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
+                    <td>60 Hz</td>
                   </tr>
                   <tr>
-                    <th>Laser Class <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="The classification refers to the safety standards that are defined for each laser class"><i class="fa fa-question-circle"></i></a></th>
+                    <th>Amperage</th>
+                    <td></td>
+                    <td>15A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit + additional 5 amps for chiller</td>
+                    <td>15A Dedicated Circuit</td>
+                    <td>15A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                    <td>20A Dedicated Circuit</td>
+                  </tr>
+                  <tr>
+                    <th>Laser Class </th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td>Class 4</td>
-                    <td>Class 4</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
+                    <td>Class 1</td>
                     <td>Class 1</td>
                     <td>Class 1</td>
                   </tr>
                   <tr>
                     <th>Engraving Software</th>
-                    <td>Glowforge Print</td>
+                    <td>RDWorks included, LightBurn can be purchased additionally</td>
+                    <td>LightBurn</td>
+                    <td>LightBurn</td>
+                    <td>LightBurn</td>
+                    <td>LightBurn</td>
+                    <td>LightBurn, RDWorks</td>
+                    <td>LightBurn, RDWorks</td>
+                    <td>LightBurn, RDWorks</td>
+                    <td>LightBurn, RDWorks</td>
+                    <td>LightBurn, RDWorks</td>
+                    <td>LightBurn, RDWorks</td>
                     <td>LightBurn, RDWorks</td>
                     <td>LightBurn, RDWorks</td>
                     <td>LightBurn, RDWorks</td>
                   </tr>
                   <tr>
                     <th>File Formats Supported</th>
-                    <td>Compatible with JPG, PNG, SVG, PDF, and other file formats. Glowforge Premium (Paid Subscription) includes support for DXF files.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
+                    <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
                     <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
                     <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
                     <td>AI, PDF, SC, DXF, HPGL, PLT, RD, SCPRO2, SVG, LBRN, BMP, JPG, JPEG, PNG, GIF, TIF, TIFF, TGA</td>
                   </tr>
                   <tr>
                     <th>Compatible Software</th>
-                    <td>Any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
+                    <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
                     <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
                     <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
                     <td>CorelDraw, Photoshop, AutoCAD, InkScape, or any software that can export into the supported file formats</td>
                   </tr>
                   <tr>
                     <th>Knowledge Base</th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Email Support</th>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Phone / Video Support</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
                     <td>Unlimited</td>
                     <td>Unlimited</td>
                     <td>Unlimited</td>
                   </tr>
                   <tr>
                     <th>On-Site Repairs</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                  </tr>
-                  <tr>
-                    <th>Startup Training</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
                   </tr>
                   <tr>
                     <th>Parts on Demand</th>
-                    <td><i class="fa fa-remove" style="color:red;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
-                    <td><i class="fa fa-check" style="color:green;"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                  </tr>
+                  <tr>
+                    <th>Startup Training</th>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i></td>
+                  </tr>
+                  <tr>
+                    <th>On-Site Orientation</th>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-remove" style="color:red;" title="not included"></i></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i> <br/><small>customer covers travel expenses</small></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i> <br/><small>customer covers travel expenses</small></td>
+                    <td><i class="fa fa-check" style="color:green;" title="included"></i> <br/><small>customer covers travel expenses</small></td>
                   </tr>
                   <tr>
                     <th>Warranty</th>
-                    <td>1 Year Warranty</td>
-                    <td>2 Year Factory Warranty + Extended Warranty options</td>
-                    <td>2 Year Factory Warranty + Extended Warranty options</td>
-                    <td>2 Year Factory Warranty + Extended Warranty options</td>
+                    <td>2 Year Factory Warranty</td>
+                    <td>2 Year Factory Warranty</td>
+                    <td>2 Year Factory Warranty</td>
+                    <td>2 Year Factory Warranty</td>
+                    <td>2 Year Factory Warranty</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
+                    <td>2 Year Factory Warranty + <a href="https://aeonlaser.us/warranty#warrantyperiod" target="_blank" rel="noopener noreferrer">Extended Warranty</a> options</td>
                   </tr>
                   <tr>
                     <th>Build Your Laser</th>
                     <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
                     <td><a href="/mira.html"><i class="fa fa-external-link" aria-hidden="true"></i> MIRA5</a></td>
                     <td><a href="/mira-pro.html"><i class="fa fa-external-link" aria-hidden="true"></i> MIRA7</a></td>
                     <td><a href="/mira-pro.html"><i class="fa fa-external-link" aria-hidden="true"></i> MIRA9</a></td>
-                  </tr>     
+                    <td><a href="/nova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA10</a></td>
+                    <td><a href="/nova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA14</a></td>
+                    <td><a href="/nova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA16</a></td>
+                    <td><a href="/supernova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA10S</a></td>
+                    <td><a href="/supernova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA14S</a></td>
+                    <td><a href="/supernova.html"><i class="fa fa-external-link" aria-hidden="true"></i> NOVA16S</a></td>
+                  </tr>
+       
                 </tbody>
               </table>
             </div>
@@ -655,7 +1234,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h2 class="xs-center"><span class="brand-color">Curious</span> about AEON lasers?</h2>
                 <p class="xs-center pb-20">We'll help guide you no matter which stage you're in.</p>
 
-                <p class="xs-center"><a class="btn btn-brand btn-lg btn-auto gtmcta" id="Glowforge-Lets-Talk" href="#cbb5bdcfdd">Let's Talk</a></p>
+                <p class="xs-center"><a class="btn btn-brand btn-lg btn-auto gtmcta" id="Glowforge-Lets-Talk" href="#">Let's Talk</a></p>
               </div>
             </div>
           </div>  
@@ -664,351 +1243,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section> 
 
-  <section>
-    <div class="container pb-50">
-
-      <div class="row py-1">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <h2 class="centered py-1">What about <span class="brand-color">ROI</span>?</h2>
-          <div class="flex xs-reset">
-            <div class="flex-center">
-              <div class="quote-img">
-                <img class="img-responsive img-rounder" src="/img/ad/mofu-crystal.jpg" alt="photo of Crystal standing over her Aeon laser, smiling">
-              </div>
-            </div>        
-            <div class="flex-center px-2">
-              <div class="quote-box quote-side quote-flex">
-                <div class="quote-flex-child">
-                  <p class="quote">
-                    <span class="svg-icon">
-                      <svg width="72pt" height="72pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <symbol id="w" overflow="visible">
-   <path d="m18.766-1.125c-0.96875 0.5-1.9805 0.875-3.0312 1.125-1.043 0.25781-2.1367 0.39062-3.2812 0.39062-3.3984 0-6.0898-0.94531-8.0781-2.8438-1.9922-1.9062-2.9844-4.4844-2.9844-7.7344 0-3.2578 0.99219-5.8359 2.9844-7.7344 1.9883-1.9062 4.6797-2.8594 8.0781-2.8594 1.1445 0 2.2383 0.13281 3.2812 0.39062 1.0508 0.25 2.0625 0.625 3.0312 1.125v4.2188c-0.98047-0.65625-1.9453-1.1406-2.8906-1.4531-0.94922-0.3125-1.9492-0.46875-3-0.46875-1.875 0-3.3516 0.60547-4.4219 1.8125-1.0742 1.1992-1.6094 2.8555-1.6094 4.9688 0 2.1055 0.53516 3.7617 1.6094 4.9688 1.0703 1.1992 2.5469 1.7969 4.4219 1.7969 1.0508 0 2.0508-0.14844 3-0.45312 0.94531-0.3125 1.9102-0.80078 2.8906-1.4688z"/>
-  </symbol>
-  <symbol id="b" overflow="visible">
-   <path d="m13.734-11.141c-0.4375-0.19531-0.87109-0.34375-1.2969-0.4375-0.41797-0.10156-0.83984-0.15625-1.2656-0.15625-1.2617 0-2.2305 0.40625-2.9062 1.2188-0.67969 0.80469-1.0156 1.9531-1.0156 3.4531v7.0625h-4.8906v-15.312h4.8906v2.5156c0.625-1 1.3438-1.7266 2.1562-2.1875 0.82031-0.46875 1.8008-0.70312 2.9375-0.70312 0.16406 0 0.34375 0.011719 0.53125 0.03125 0.19531 0.011719 0.47656 0.039062 0.84375 0.078125z"/>
-  </symbol>
-  <symbol id="a" overflow="visible">
-   <path d="m17.641-7.7031v1.4062h-11.453c0.125 1.1484 0.53906 2.0078 1.25 2.5781 0.70703 0.57422 1.7031 0.85938 2.9844 0.85938 1.0312 0 2.082-0.14844 3.1562-0.45312 1.082-0.3125 2.1914-0.77344 3.3281-1.3906v3.7656c-1.1562 0.4375-2.3125 0.76562-3.4688 0.98438-1.1562 0.22656-2.3125 0.34375-3.4688 0.34375-2.7734 0-4.9297-0.70312-6.4688-2.1094-1.5312-1.4062-2.2969-3.3789-2.2969-5.9219 0-2.5 0.75391-4.4609 2.2656-5.8906 1.5078-1.4375 3.582-2.1562 6.2188-2.1562 2.4062 0 4.332 0.73047 5.7812 2.1875 1.4453 1.4492 2.1719 3.3828 2.1719 5.7969zm-5.0312-1.625c0-0.92578-0.27344-1.6719-0.8125-2.2344-0.54297-0.57031-1.25-0.85938-2.125-0.85938-0.94922 0-1.7188 0.26562-2.3125 0.79688s-0.96484 1.2969-1.1094 2.2969z"/>
-  </symbol>
-  <symbol id="e" overflow="visible">
-   <path d="m9.2188-6.8906c-1.0234 0-1.793 0.17188-2.3125 0.51562-0.51172 0.34375-0.76562 0.85547-0.76562 1.5312 0 0.625 0.20703 1.1172 0.625 1.4688 0.41406 0.34375 0.98828 0.51562 1.7188 0.51562 0.92578 0 1.7031-0.32812 2.3281-0.98438 0.63281-0.66406 0.95312-1.4922 0.95312-2.4844v-0.5625zm7.4688-1.8438v8.7344h-4.9219v-2.2656c-0.65625 0.92969-1.3984 1.6055-2.2188 2.0312-0.82422 0.41406-1.8242 0.625-3 0.625-1.5859 0-2.8711-0.45703-3.8594-1.375-0.99219-0.92578-1.4844-2.1289-1.4844-3.6094 0-1.7891 0.61328-3.1016 1.8438-3.9375 1.2383-0.84375 3.1797-1.2656 5.8281-1.2656h2.8906v-0.39062c0-0.76953-0.30859-1.332-0.92188-1.6875-0.61719-0.36328-1.5703-0.54688-2.8594-0.54688-1.0547 0-2.0312 0.10547-2.9375 0.3125-0.89844 0.21094-1.7305 0.52344-2.5 0.9375v-3.7344c1.0391-0.25 2.0859-0.44141 3.1406-0.57812 1.0625-0.13281 2.125-0.20312 3.1875-0.20312 2.7578 0 4.75 0.54688 5.9688 1.6406 1.2266 1.0859 1.8438 2.8555 1.8438 5.3125z"/>
-  </symbol>
-  <symbol id="c" overflow="visible">
-   <path d="m7.7031-19.656v4.3438h5.0469v3.5h-5.0469v6.5c0 0.71094 0.14062 1.1875 0.42188 1.4375s0.83594 0.375 1.6719 0.375h2.5156v3.5h-4.1875c-1.9375 0-3.3125-0.39844-4.125-1.2031-0.80469-0.8125-1.2031-2.1797-1.2031-4.1094v-6.5h-2.4219v-3.5h2.4219v-4.3438z"/>
-  </symbol>
-  <symbol id="j" overflow="visible">
-   <path d="m12.766-13.078v-8.2031h4.9219v21.281h-4.9219v-2.2188c-0.66797 0.90625-1.4062 1.5703-2.2188 1.9844s-1.7578 0.625-2.8281 0.625c-1.8867 0-3.4336-0.75-4.6406-2.25-1.2109-1.5-1.8125-3.4258-1.8125-5.7812 0-2.3633 0.60156-4.2969 1.8125-5.7969 1.207-1.5 2.7539-2.25 4.6406-2.25 1.0625 0 2 0.21484 2.8125 0.64062 0.82031 0.42969 1.5664 1.0859 2.2344 1.9688zm-3.2188 9.9219c1.0391 0 1.8359-0.37891 2.3906-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3516-1.1562-2.3906-1.1562-1.043 0-1.8398 0.38672-2.3906 1.1562-0.55469 0.76172-0.82812 1.8711-0.82812 3.3281 0 1.4609 0.27344 2.5742 0.82812 3.3438 0.55078 0.76172 1.3477 1.1406 2.3906 1.1406z"/>
-  </symbol>
-  <symbol id="i" overflow="visible">
-   <path d="m10.5-3.1562c1.0508 0 1.8516-0.37891 2.4062-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3555-1.1562-2.4062-1.1562-1.0547 0-1.8594 0.38672-2.4219 1.1562-0.55469 0.77344-0.82812 1.8828-0.82812 3.3281 0 1.4492 0.27344 2.5586 0.82812 3.3281 0.5625 0.77344 1.3672 1.1562 2.4219 1.1562zm-3.25-9.9219c0.67578-0.88281 1.4219-1.5391 2.2344-1.9688 0.82031-0.42578 1.7656-0.64062 2.8281-0.64062 1.8945 0 3.4453 0.75 4.6562 2.25 1.207 1.5 1.8125 3.4336 1.8125 5.7969 0 2.3555-0.60547 4.2812-1.8125 5.7812-1.2109 1.5-2.7617 2.25-4.6562 2.25-1.0625 0-2.0078-0.21094-2.8281-0.625-0.8125-0.42578-1.5586-1.0859-2.2344-1.9844v2.2188h-4.8906v-21.281h4.8906z"/>
-  </symbol>
-  <symbol id="h" overflow="visible">
-   <path d="m0.34375-15.312h4.8906l4.125 10.391 3.5-10.391h4.8906l-6.4375 16.766c-0.64844 1.6953-1.4023 2.8828-2.2656 3.5625-0.86719 0.6875-2 1.0312-3.4062 1.0312h-2.8438v-3.2188h1.5312c0.83203 0 1.4375-0.13672 1.8125-0.40625 0.38281-0.26172 0.67969-0.73047 0.89062-1.4062l0.14062-0.42188z"/>
-  </symbol>
-  <symbol id="g" overflow="visible">
-   <path d="m14.953-3.7188h-8.2188l-1.3125 3.7188h-5.2812l7.5625-20.406h6.2656l7.5625 20.406h-5.2812zm-6.9062-3.7812h5.5781l-2.7812-8.125z"/>
-  </symbol>
-  <symbol id="v" overflow="visible">
-   <path d="m2.8594-5.2969h4.9219v5.2969h-4.9219z"/>
-  </symbol>
-  <symbol id="u" overflow="visible">
-   <path d="m0.14062-20.406h5.2812l5.4219 15.062 5.4062-15.062h5.2812l-7.5625 20.406h-6.2656z"/>
-  </symbol>
-  <symbol id="t" overflow="visible">
-   <path d="m12.766-2.5938c-0.66797 0.88672-1.4062 1.543-2.2188 1.9688-0.8125 0.41797-1.7578 0.625-2.8281 0.625-1.8672 0-3.4062-0.73438-4.625-2.2031-1.2188-1.4766-1.8281-3.3516-1.8281-5.625 0-2.2891 0.60938-4.1641 1.8281-5.625 1.2188-1.4688 2.7578-2.2031 4.625-2.2031 1.0703 0 2.0156 0.21484 2.8281 0.64062 0.8125 0.41797 1.5508 1.0742 2.2188 1.9688v-2.2656h4.9219v13.766c0 2.457-0.77734 4.3359-2.3281 5.6406-1.5547 1.3008-3.8086 1.9531-6.7656 1.9531-0.94922 0-1.8711-0.074219-2.7656-0.21875-0.89844-0.14844-1.7969-0.37109-2.7031-0.67188v-3.8125c0.86328 0.48828 1.7031 0.85156 2.5156 1.0938 0.82031 0.23828 1.6484 0.35938 2.4844 0.35938 1.6016 0 2.7734-0.35156 3.5156-1.0469 0.75-0.69922 1.125-1.7969 1.125-3.2969zm-3.2188-9.5312c-1.0117 0-1.8047 0.375-2.375 1.125-0.5625 0.74219-0.84375 1.7969-0.84375 3.1719 0 1.3984 0.26953 2.4609 0.8125 3.1875 0.55078 0.71875 1.3516 1.0781 2.4062 1.0781 1.0195 0 1.8125-0.36719 2.375-1.1094 0.5625-0.75 0.84375-1.8008 0.84375-3.1562 0-1.375-0.28125-2.4297-0.84375-3.1719-0.5625-0.75-1.3555-1.125-2.375-1.125z"/>
-  </symbol>
-  <symbol id="f" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1094c0-1.3438-0.03125-2.2656-0.09375-2.7656s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-21.281h4.8906v8.2031c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="s" overflow="visible">
-   <path d="m14.312-14.828v3.7188c-1.043-0.4375-2.0547-0.76562-3.0312-0.98438-0.98047-0.21875-1.9023-0.32812-2.7656-0.32812-0.92969 0-1.6211 0.11719-2.0781 0.34375-0.44922 0.23047-0.67188 0.58984-0.67188 1.0781 0 0.38672 0.17188 0.68359 0.51562 0.89062 0.34375 0.21094 0.95703 0.36719 1.8438 0.46875l0.85938 0.125c2.5078 0.32422 4.1953 0.85156 5.0625 1.5781 0.86328 0.73047 1.2969 1.8711 1.2969 3.4219 0 1.6367-0.60547 2.8672-1.8125 3.6875-1.1992 0.8125-2.9922 1.2188-5.375 1.2188-1.0234 0-2.0742-0.078125-3.1562-0.23438-1.0742-0.15625-2.1797-0.39453-3.3125-0.71875v-3.7188c0.96875 0.48047 1.9609 0.83984 2.9844 1.0781 1.0312 0.23047 2.0781 0.34375 3.1406 0.34375 0.95703 0 1.6758-0.12891 2.1562-0.39062 0.47656-0.26953 0.71875-0.66406 0.71875-1.1875 0-0.4375-0.16797-0.75781-0.5-0.96875-0.33594-0.21875-0.99609-0.38281-1.9844-0.5l-0.85938-0.10938c-2.1797-0.26953-3.7031-0.77344-4.5781-1.5156-0.875-0.73828-1.3125-1.8594-1.3125-3.3594 0-1.625 0.55078-2.8281 1.6562-3.6094 1.1133-0.78906 2.8203-1.1875 5.125-1.1875 0.89453 0 1.8359 0.074219 2.8281 0.21875 1 0.13672 2.082 0.35156 3.25 0.64062z"/>
-  </symbol>
-  <symbol id="r" overflow="visible">
-   <path d="m12.422-21.281v3.2188h-2.7031c-0.6875 0-1.1719 0.125-1.4531 0.375-0.27344 0.25-0.40625 0.6875-0.40625 1.3125v1.0625h4.1875v3.5h-4.1875v11.812h-4.8906v-11.812h-2.4375v-3.5h2.4375v-1.0625c0-1.6641 0.46094-2.8984 1.3906-3.7031 0.92578-0.80078 2.3672-1.2031 4.3281-1.2031z"/>
-  </symbol>
-  <symbol id="d" overflow="visible">
-   <path d="m9.6406-12.188c-1.0859 0-1.9141 0.39062-2.4844 1.1719-0.57422 0.78125-0.85938 1.9062-0.85938 3.375s0.28516 2.5938 0.85938 3.375c0.57031 0.77344 1.3984 1.1562 2.4844 1.1562 1.0625 0 1.875-0.38281 2.4375-1.1562 0.57031-0.78125 0.85938-1.9062 0.85938-3.375s-0.28906-2.5938-0.85938-3.375c-0.5625-0.78125-1.375-1.1719-2.4375-1.1719zm0-3.5c2.6328 0 4.6914 0.71484 6.1719 2.1406 1.4766 1.418 2.2188 3.3867 2.2188 5.9062 0 2.5117-0.74219 4.4805-2.2188 5.9062-1.4805 1.418-3.5391 2.125-6.1719 2.125-2.6484 0-4.7148-0.70703-6.2031-2.125-1.4922-1.4258-2.2344-3.3945-2.2344-5.9062 0-2.5195 0.74219-4.4883 2.2344-5.9062 1.4883-1.4258 3.5547-2.1406 6.2031-2.1406z"/>
-  </symbol>
-  <symbol id="q" overflow="visible">
-   <path d="m16.547-12.766c0.61328-0.94531 1.3477-1.6719 2.2031-2.1719 0.85156-0.5 1.7891-0.75 2.8125-0.75 1.7578 0 3.0977 0.54688 4.0156 1.6406 0.92578 1.0859 1.3906 2.6562 1.3906 4.7188v9.3281h-4.9219v-7.9844-0.35938c0.007813-0.13281 0.015625-0.32031 0.015625-0.5625 0-1.082-0.16406-1.8633-0.48438-2.3438-0.3125-0.48828-0.82422-0.73438-1.5312-0.73438-0.92969 0-1.6484 0.38672-2.1562 1.1562-0.51172 0.76172-0.77344 1.8672-0.78125 3.3125v7.5156h-4.9219v-7.9844c0-1.6953-0.14844-2.7852-0.4375-3.2656-0.29297-0.48828-0.8125-0.73438-1.5625-0.73438-0.9375 0-1.6641 0.38672-2.1719 1.1562-0.51172 0.76172-0.76562 1.8594-0.76562 3.2969v7.5312h-4.9219v-15.312h4.9219v2.2344c0.60156-0.86328 1.2891-1.5156 2.0625-1.9531 0.78125-0.4375 1.6406-0.65625 2.5781-0.65625 1.0625 0 2 0.25781 2.8125 0.76562 0.8125 0.51172 1.4258 1.2305 1.8438 2.1562z"/>
-  </symbol>
-  <symbol id="p" overflow="visible">
-   <path d="m2.5781-20.406h5.875l7.4219 14v-14h4.9844v20.406h-5.875l-7.4219-14v14h-4.9844z"/>
-  </symbol>
-  <symbol id="o" overflow="visible">
-   <path d="m2.1875-5.9688v-9.3438h4.9219v1.5312c0 0.83594-0.007813 1.875-0.015625 3.125-0.011719 1.25-0.015625 2.0859-0.015625 2.5 0 1.2422 0.03125 2.1328 0.09375 2.6719 0.070313 0.54297 0.17969 0.93359 0.32812 1.1719 0.20703 0.32422 0.47266 0.57422 0.79688 0.75 0.32031 0.16797 0.69141 0.25 1.1094 0.25 1.0195 0 1.8203-0.39062 2.4062-1.1719 0.58203-0.78125 0.875-1.8672 0.875-3.2656v-7.5625h4.8906v15.312h-4.8906v-2.2188c-0.74219 0.89844-1.5234 1.5586-2.3438 1.9844-0.82422 0.41406-1.7344 0.625-2.7344 0.625-1.7617 0-3.1055-0.53906-4.0312-1.625-0.92969-1.082-1.3906-2.6602-1.3906-4.7344z"/>
-  </symbol>
-  <symbol id="n" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1406c0-1.3203-0.03125-2.2344-0.09375-2.7344s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-15.312h4.8906v2.2344c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="m" overflow="visible">
-   <path d="m2.5781-20.406h8.7344c2.5938 0 4.582 0.57812 5.9688 1.7344 1.3945 1.1484 2.0938 2.7891 2.0938 4.9219 0 2.1367-0.69922 3.7812-2.0938 4.9375-1.3867 1.1562-3.375 1.7344-5.9688 1.7344h-3.4844v7.0781h-5.25zm5.25 3.8125v5.7031h2.9219c1.0195 0 1.8047-0.25 2.3594-0.75 0.5625-0.5 0.84375-1.2031 0.84375-2.1094 0-0.91406-0.28125-1.6172-0.84375-2.1094-0.55469-0.48828-1.3398-0.73438-2.3594-0.73438z"/>
-  </symbol>
-  <symbol id="l" overflow="visible">
-   <path d="m2.3594-15.312h4.8906v15.031c0 2.0508-0.49609 3.6172-1.4844 4.7031-0.98047 1.082-2.4062 1.625-4.2812 1.625h-2.4219v-3.2188h0.85938c0.92578 0 1.5625-0.21094 1.9062-0.625 0.35156-0.41797 0.53125-1.2461 0.53125-2.4844zm0-5.9688h4.8906v4h-4.8906z"/>
-  </symbol>
-  <symbol id="k" overflow="visible">
-   <path d="m14.719-14.828v3.9844c-0.65625-0.45703-1.3242-0.79688-2-1.0156-0.66797-0.21875-1.3594-0.32812-2.0781-0.32812-1.3672 0-2.4336 0.40234-3.2031 1.2031-0.76172 0.79297-1.1406 1.9062-1.1406 3.3438 0 1.4297 0.37891 2.543 1.1406 3.3438 0.76953 0.79297 1.8359 1.1875 3.2031 1.1875 0.75781 0 1.4844-0.10938 2.1719-0.32812 0.6875-0.22656 1.3203-0.56641 1.9062-1.0156v4c-0.76172 0.28125-1.5391 0.48828-2.3281 0.625-0.78125 0.14453-1.5742 0.21875-2.375 0.21875-2.7617 0-4.9219-0.70703-6.4844-2.125-1.5547-1.4141-2.3281-3.3828-2.3281-5.9062 0-2.5312 0.77344-4.5039 2.3281-5.9219 1.5625-1.4141 3.7227-2.125 6.4844-2.125 0.80078 0 1.5938 0.074219 2.375 0.21875 0.78125 0.13672 1.5547 0.35156 2.3281 0.64062z"/>
-  </symbol>
- </defs>
- <g>
-  <path d="m343.67 237.18c0-63.145-51.184-114.34-114.34-114.34-63.152 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.238-49.992-54.75-86.906 5.168 0.73438 10.398 1.2539 15.758 1.2539 63.152 0 114.34-51.184 114.34-114.34z"/>
-  <path d="m585.2 237.18c0-63.145-51.184-114.34-114.34-114.34-63.145 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.234-49.992-54.75-86.906 5.168 0.73438 10.406 1.2539 15.758 1.2539 63.156 0 114.34-51.184 114.34-114.34z"/>
- </g>
-</svg>
-
-                    </span>
-                    I engraved a full sheet of 42 keychains in about 50 minutes. On my GF, it would've been 2-3 hours, for sure.
-                  </p>
-                  <p class="credit">
-                    <span class="brand-color quote-name">Crystal Aguila</span><br/>
-                    Riley Black Designs<br/>
-                    Fort Lauderdale, Florida
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
+  <!--START: DIFFERENCE-->
+<section class="aeon-difference">
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-xs-12 text-center">
+        <h2>What is The Aeon <span class="brand-color">Difference</span>?</h2>
       </div>
-
-      <div class="row py-1">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <div class="flex xs-reset">
-            <div class="flex-center">
-              <div class="quote-img">
-                <img class="img-responsive img-rounder" src="/img/ad/mofu-rachaelle.jpg" alt="photo of Rachaelle">
-              </div>
-            </div>         
-            <div class="flex-center px-2">
-              <div class="quote-box quote-side quote-flex">
-                <div class="quote-flex-child">
-                  <p class="quote">
-                    <span class="svg-icon">
-                      <svg width="72pt" height="72pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <symbol id="w" overflow="visible">
-   <path d="m18.766-1.125c-0.96875 0.5-1.9805 0.875-3.0312 1.125-1.043 0.25781-2.1367 0.39062-3.2812 0.39062-3.3984 0-6.0898-0.94531-8.0781-2.8438-1.9922-1.9062-2.9844-4.4844-2.9844-7.7344 0-3.2578 0.99219-5.8359 2.9844-7.7344 1.9883-1.9062 4.6797-2.8594 8.0781-2.8594 1.1445 0 2.2383 0.13281 3.2812 0.39062 1.0508 0.25 2.0625 0.625 3.0312 1.125v4.2188c-0.98047-0.65625-1.9453-1.1406-2.8906-1.4531-0.94922-0.3125-1.9492-0.46875-3-0.46875-1.875 0-3.3516 0.60547-4.4219 1.8125-1.0742 1.1992-1.6094 2.8555-1.6094 4.9688 0 2.1055 0.53516 3.7617 1.6094 4.9688 1.0703 1.1992 2.5469 1.7969 4.4219 1.7969 1.0508 0 2.0508-0.14844 3-0.45312 0.94531-0.3125 1.9102-0.80078 2.8906-1.4688z"/>
-  </symbol>
-  <symbol id="b" overflow="visible">
-   <path d="m13.734-11.141c-0.4375-0.19531-0.87109-0.34375-1.2969-0.4375-0.41797-0.10156-0.83984-0.15625-1.2656-0.15625-1.2617 0-2.2305 0.40625-2.9062 1.2188-0.67969 0.80469-1.0156 1.9531-1.0156 3.4531v7.0625h-4.8906v-15.312h4.8906v2.5156c0.625-1 1.3438-1.7266 2.1562-2.1875 0.82031-0.46875 1.8008-0.70312 2.9375-0.70312 0.16406 0 0.34375 0.011719 0.53125 0.03125 0.19531 0.011719 0.47656 0.039062 0.84375 0.078125z"/>
-  </symbol>
-  <symbol id="a" overflow="visible">
-   <path d="m17.641-7.7031v1.4062h-11.453c0.125 1.1484 0.53906 2.0078 1.25 2.5781 0.70703 0.57422 1.7031 0.85938 2.9844 0.85938 1.0312 0 2.082-0.14844 3.1562-0.45312 1.082-0.3125 2.1914-0.77344 3.3281-1.3906v3.7656c-1.1562 0.4375-2.3125 0.76562-3.4688 0.98438-1.1562 0.22656-2.3125 0.34375-3.4688 0.34375-2.7734 0-4.9297-0.70312-6.4688-2.1094-1.5312-1.4062-2.2969-3.3789-2.2969-5.9219 0-2.5 0.75391-4.4609 2.2656-5.8906 1.5078-1.4375 3.582-2.1562 6.2188-2.1562 2.4062 0 4.332 0.73047 5.7812 2.1875 1.4453 1.4492 2.1719 3.3828 2.1719 5.7969zm-5.0312-1.625c0-0.92578-0.27344-1.6719-0.8125-2.2344-0.54297-0.57031-1.25-0.85938-2.125-0.85938-0.94922 0-1.7188 0.26562-2.3125 0.79688s-0.96484 1.2969-1.1094 2.2969z"/>
-  </symbol>
-  <symbol id="e" overflow="visible">
-   <path d="m9.2188-6.8906c-1.0234 0-1.793 0.17188-2.3125 0.51562-0.51172 0.34375-0.76562 0.85547-0.76562 1.5312 0 0.625 0.20703 1.1172 0.625 1.4688 0.41406 0.34375 0.98828 0.51562 1.7188 0.51562 0.92578 0 1.7031-0.32812 2.3281-0.98438 0.63281-0.66406 0.95312-1.4922 0.95312-2.4844v-0.5625zm7.4688-1.8438v8.7344h-4.9219v-2.2656c-0.65625 0.92969-1.3984 1.6055-2.2188 2.0312-0.82422 0.41406-1.8242 0.625-3 0.625-1.5859 0-2.8711-0.45703-3.8594-1.375-0.99219-0.92578-1.4844-2.1289-1.4844-3.6094 0-1.7891 0.61328-3.1016 1.8438-3.9375 1.2383-0.84375 3.1797-1.2656 5.8281-1.2656h2.8906v-0.39062c0-0.76953-0.30859-1.332-0.92188-1.6875-0.61719-0.36328-1.5703-0.54688-2.8594-0.54688-1.0547 0-2.0312 0.10547-2.9375 0.3125-0.89844 0.21094-1.7305 0.52344-2.5 0.9375v-3.7344c1.0391-0.25 2.0859-0.44141 3.1406-0.57812 1.0625-0.13281 2.125-0.20312 3.1875-0.20312 2.7578 0 4.75 0.54688 5.9688 1.6406 1.2266 1.0859 1.8438 2.8555 1.8438 5.3125z"/>
-  </symbol>
-  <symbol id="c" overflow="visible">
-   <path d="m7.7031-19.656v4.3438h5.0469v3.5h-5.0469v6.5c0 0.71094 0.14062 1.1875 0.42188 1.4375s0.83594 0.375 1.6719 0.375h2.5156v3.5h-4.1875c-1.9375 0-3.3125-0.39844-4.125-1.2031-0.80469-0.8125-1.2031-2.1797-1.2031-4.1094v-6.5h-2.4219v-3.5h2.4219v-4.3438z"/>
-  </symbol>
-  <symbol id="j" overflow="visible">
-   <path d="m12.766-13.078v-8.2031h4.9219v21.281h-4.9219v-2.2188c-0.66797 0.90625-1.4062 1.5703-2.2188 1.9844s-1.7578 0.625-2.8281 0.625c-1.8867 0-3.4336-0.75-4.6406-2.25-1.2109-1.5-1.8125-3.4258-1.8125-5.7812 0-2.3633 0.60156-4.2969 1.8125-5.7969 1.207-1.5 2.7539-2.25 4.6406-2.25 1.0625 0 2 0.21484 2.8125 0.64062 0.82031 0.42969 1.5664 1.0859 2.2344 1.9688zm-3.2188 9.9219c1.0391 0 1.8359-0.37891 2.3906-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3516-1.1562-2.3906-1.1562-1.043 0-1.8398 0.38672-2.3906 1.1562-0.55469 0.76172-0.82812 1.8711-0.82812 3.3281 0 1.4609 0.27344 2.5742 0.82812 3.3438 0.55078 0.76172 1.3477 1.1406 2.3906 1.1406z"/>
-  </symbol>
-  <symbol id="i" overflow="visible">
-   <path d="m10.5-3.1562c1.0508 0 1.8516-0.37891 2.4062-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3555-1.1562-2.4062-1.1562-1.0547 0-1.8594 0.38672-2.4219 1.1562-0.55469 0.77344-0.82812 1.8828-0.82812 3.3281 0 1.4492 0.27344 2.5586 0.82812 3.3281 0.5625 0.77344 1.3672 1.1562 2.4219 1.1562zm-3.25-9.9219c0.67578-0.88281 1.4219-1.5391 2.2344-1.9688 0.82031-0.42578 1.7656-0.64062 2.8281-0.64062 1.8945 0 3.4453 0.75 4.6562 2.25 1.207 1.5 1.8125 3.4336 1.8125 5.7969 0 2.3555-0.60547 4.2812-1.8125 5.7812-1.2109 1.5-2.7617 2.25-4.6562 2.25-1.0625 0-2.0078-0.21094-2.8281-0.625-0.8125-0.42578-1.5586-1.0859-2.2344-1.9844v2.2188h-4.8906v-21.281h4.8906z"/>
-  </symbol>
-  <symbol id="h" overflow="visible">
-   <path d="m0.34375-15.312h4.8906l4.125 10.391 3.5-10.391h4.8906l-6.4375 16.766c-0.64844 1.6953-1.4023 2.8828-2.2656 3.5625-0.86719 0.6875-2 1.0312-3.4062 1.0312h-2.8438v-3.2188h1.5312c0.83203 0 1.4375-0.13672 1.8125-0.40625 0.38281-0.26172 0.67969-0.73047 0.89062-1.4062l0.14062-0.42188z"/>
-  </symbol>
-  <symbol id="g" overflow="visible">
-   <path d="m14.953-3.7188h-8.2188l-1.3125 3.7188h-5.2812l7.5625-20.406h6.2656l7.5625 20.406h-5.2812zm-6.9062-3.7812h5.5781l-2.7812-8.125z"/>
-  </symbol>
-  <symbol id="v" overflow="visible">
-   <path d="m2.8594-5.2969h4.9219v5.2969h-4.9219z"/>
-  </symbol>
-  <symbol id="u" overflow="visible">
-   <path d="m0.14062-20.406h5.2812l5.4219 15.062 5.4062-15.062h5.2812l-7.5625 20.406h-6.2656z"/>
-  </symbol>
-  <symbol id="t" overflow="visible">
-   <path d="m12.766-2.5938c-0.66797 0.88672-1.4062 1.543-2.2188 1.9688-0.8125 0.41797-1.7578 0.625-2.8281 0.625-1.8672 0-3.4062-0.73438-4.625-2.2031-1.2188-1.4766-1.8281-3.3516-1.8281-5.625 0-2.2891 0.60938-4.1641 1.8281-5.625 1.2188-1.4688 2.7578-2.2031 4.625-2.2031 1.0703 0 2.0156 0.21484 2.8281 0.64062 0.8125 0.41797 1.5508 1.0742 2.2188 1.9688v-2.2656h4.9219v13.766c0 2.457-0.77734 4.3359-2.3281 5.6406-1.5547 1.3008-3.8086 1.9531-6.7656 1.9531-0.94922 0-1.8711-0.074219-2.7656-0.21875-0.89844-0.14844-1.7969-0.37109-2.7031-0.67188v-3.8125c0.86328 0.48828 1.7031 0.85156 2.5156 1.0938 0.82031 0.23828 1.6484 0.35938 2.4844 0.35938 1.6016 0 2.7734-0.35156 3.5156-1.0469 0.75-0.69922 1.125-1.7969 1.125-3.2969zm-3.2188-9.5312c-1.0117 0-1.8047 0.375-2.375 1.125-0.5625 0.74219-0.84375 1.7969-0.84375 3.1719 0 1.3984 0.26953 2.4609 0.8125 3.1875 0.55078 0.71875 1.3516 1.0781 2.4062 1.0781 1.0195 0 1.8125-0.36719 2.375-1.1094 0.5625-0.75 0.84375-1.8008 0.84375-3.1562 0-1.375-0.28125-2.4297-0.84375-3.1719-0.5625-0.75-1.3555-1.125-2.375-1.125z"/>
-  </symbol>
-  <symbol id="f" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1094c0-1.3438-0.03125-2.2656-0.09375-2.7656s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-21.281h4.8906v8.2031c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="s" overflow="visible">
-   <path d="m14.312-14.828v3.7188c-1.043-0.4375-2.0547-0.76562-3.0312-0.98438-0.98047-0.21875-1.9023-0.32812-2.7656-0.32812-0.92969 0-1.6211 0.11719-2.0781 0.34375-0.44922 0.23047-0.67188 0.58984-0.67188 1.0781 0 0.38672 0.17188 0.68359 0.51562 0.89062 0.34375 0.21094 0.95703 0.36719 1.8438 0.46875l0.85938 0.125c2.5078 0.32422 4.1953 0.85156 5.0625 1.5781 0.86328 0.73047 1.2969 1.8711 1.2969 3.4219 0 1.6367-0.60547 2.8672-1.8125 3.6875-1.1992 0.8125-2.9922 1.2188-5.375 1.2188-1.0234 0-2.0742-0.078125-3.1562-0.23438-1.0742-0.15625-2.1797-0.39453-3.3125-0.71875v-3.7188c0.96875 0.48047 1.9609 0.83984 2.9844 1.0781 1.0312 0.23047 2.0781 0.34375 3.1406 0.34375 0.95703 0 1.6758-0.12891 2.1562-0.39062 0.47656-0.26953 0.71875-0.66406 0.71875-1.1875 0-0.4375-0.16797-0.75781-0.5-0.96875-0.33594-0.21875-0.99609-0.38281-1.9844-0.5l-0.85938-0.10938c-2.1797-0.26953-3.7031-0.77344-4.5781-1.5156-0.875-0.73828-1.3125-1.8594-1.3125-3.3594 0-1.625 0.55078-2.8281 1.6562-3.6094 1.1133-0.78906 2.8203-1.1875 5.125-1.1875 0.89453 0 1.8359 0.074219 2.8281 0.21875 1 0.13672 2.082 0.35156 3.25 0.64062z"/>
-  </symbol>
-  <symbol id="r" overflow="visible">
-   <path d="m12.422-21.281v3.2188h-2.7031c-0.6875 0-1.1719 0.125-1.4531 0.375-0.27344 0.25-0.40625 0.6875-0.40625 1.3125v1.0625h4.1875v3.5h-4.1875v11.812h-4.8906v-11.812h-2.4375v-3.5h2.4375v-1.0625c0-1.6641 0.46094-2.8984 1.3906-3.7031 0.92578-0.80078 2.3672-1.2031 4.3281-1.2031z"/>
-  </symbol>
-  <symbol id="d" overflow="visible">
-   <path d="m9.6406-12.188c-1.0859 0-1.9141 0.39062-2.4844 1.1719-0.57422 0.78125-0.85938 1.9062-0.85938 3.375s0.28516 2.5938 0.85938 3.375c0.57031 0.77344 1.3984 1.1562 2.4844 1.1562 1.0625 0 1.875-0.38281 2.4375-1.1562 0.57031-0.78125 0.85938-1.9062 0.85938-3.375s-0.28906-2.5938-0.85938-3.375c-0.5625-0.78125-1.375-1.1719-2.4375-1.1719zm0-3.5c2.6328 0 4.6914 0.71484 6.1719 2.1406 1.4766 1.418 2.2188 3.3867 2.2188 5.9062 0 2.5117-0.74219 4.4805-2.2188 5.9062-1.4805 1.418-3.5391 2.125-6.1719 2.125-2.6484 0-4.7148-0.70703-6.2031-2.125-1.4922-1.4258-2.2344-3.3945-2.2344-5.9062 0-2.5195 0.74219-4.4883 2.2344-5.9062 1.4883-1.4258 3.5547-2.1406 6.2031-2.1406z"/>
-  </symbol>
-  <symbol id="q" overflow="visible">
-   <path d="m16.547-12.766c0.61328-0.94531 1.3477-1.6719 2.2031-2.1719 0.85156-0.5 1.7891-0.75 2.8125-0.75 1.7578 0 3.0977 0.54688 4.0156 1.6406 0.92578 1.0859 1.3906 2.6562 1.3906 4.7188v9.3281h-4.9219v-7.9844-0.35938c0.007813-0.13281 0.015625-0.32031 0.015625-0.5625 0-1.082-0.16406-1.8633-0.48438-2.3438-0.3125-0.48828-0.82422-0.73438-1.5312-0.73438-0.92969 0-1.6484 0.38672-2.1562 1.1562-0.51172 0.76172-0.77344 1.8672-0.78125 3.3125v7.5156h-4.9219v-7.9844c0-1.6953-0.14844-2.7852-0.4375-3.2656-0.29297-0.48828-0.8125-0.73438-1.5625-0.73438-0.9375 0-1.6641 0.38672-2.1719 1.1562-0.51172 0.76172-0.76562 1.8594-0.76562 3.2969v7.5312h-4.9219v-15.312h4.9219v2.2344c0.60156-0.86328 1.2891-1.5156 2.0625-1.9531 0.78125-0.4375 1.6406-0.65625 2.5781-0.65625 1.0625 0 2 0.25781 2.8125 0.76562 0.8125 0.51172 1.4258 1.2305 1.8438 2.1562z"/>
-  </symbol>
-  <symbol id="p" overflow="visible">
-   <path d="m2.5781-20.406h5.875l7.4219 14v-14h4.9844v20.406h-5.875l-7.4219-14v14h-4.9844z"/>
-  </symbol>
-  <symbol id="o" overflow="visible">
-   <path d="m2.1875-5.9688v-9.3438h4.9219v1.5312c0 0.83594-0.007813 1.875-0.015625 3.125-0.011719 1.25-0.015625 2.0859-0.015625 2.5 0 1.2422 0.03125 2.1328 0.09375 2.6719 0.070313 0.54297 0.17969 0.93359 0.32812 1.1719 0.20703 0.32422 0.47266 0.57422 0.79688 0.75 0.32031 0.16797 0.69141 0.25 1.1094 0.25 1.0195 0 1.8203-0.39062 2.4062-1.1719 0.58203-0.78125 0.875-1.8672 0.875-3.2656v-7.5625h4.8906v15.312h-4.8906v-2.2188c-0.74219 0.89844-1.5234 1.5586-2.3438 1.9844-0.82422 0.41406-1.7344 0.625-2.7344 0.625-1.7617 0-3.1055-0.53906-4.0312-1.625-0.92969-1.082-1.3906-2.6602-1.3906-4.7344z"/>
-  </symbol>
-  <symbol id="n" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1406c0-1.3203-0.03125-2.2344-0.09375-2.7344s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-15.312h4.8906v2.2344c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="m" overflow="visible">
-   <path d="m2.5781-20.406h8.7344c2.5938 0 4.582 0.57812 5.9688 1.7344 1.3945 1.1484 2.0938 2.7891 2.0938 4.9219 0 2.1367-0.69922 3.7812-2.0938 4.9375-1.3867 1.1562-3.375 1.7344-5.9688 1.7344h-3.4844v7.0781h-5.25zm5.25 3.8125v5.7031h2.9219c1.0195 0 1.8047-0.25 2.3594-0.75 0.5625-0.5 0.84375-1.2031 0.84375-2.1094 0-0.91406-0.28125-1.6172-0.84375-2.1094-0.55469-0.48828-1.3398-0.73438-2.3594-0.73438z"/>
-  </symbol>
-  <symbol id="l" overflow="visible">
-   <path d="m2.3594-15.312h4.8906v15.031c0 2.0508-0.49609 3.6172-1.4844 4.7031-0.98047 1.082-2.4062 1.625-4.2812 1.625h-2.4219v-3.2188h0.85938c0.92578 0 1.5625-0.21094 1.9062-0.625 0.35156-0.41797 0.53125-1.2461 0.53125-2.4844zm0-5.9688h4.8906v4h-4.8906z"/>
-  </symbol>
-  <symbol id="k" overflow="visible">
-   <path d="m14.719-14.828v3.9844c-0.65625-0.45703-1.3242-0.79688-2-1.0156-0.66797-0.21875-1.3594-0.32812-2.0781-0.32812-1.3672 0-2.4336 0.40234-3.2031 1.2031-0.76172 0.79297-1.1406 1.9062-1.1406 3.3438 0 1.4297 0.37891 2.543 1.1406 3.3438 0.76953 0.79297 1.8359 1.1875 3.2031 1.1875 0.75781 0 1.4844-0.10938 2.1719-0.32812 0.6875-0.22656 1.3203-0.56641 1.9062-1.0156v4c-0.76172 0.28125-1.5391 0.48828-2.3281 0.625-0.78125 0.14453-1.5742 0.21875-2.375 0.21875-2.7617 0-4.9219-0.70703-6.4844-2.125-1.5547-1.4141-2.3281-3.3828-2.3281-5.9062 0-2.5312 0.77344-4.5039 2.3281-5.9219 1.5625-1.4141 3.7227-2.125 6.4844-2.125 0.80078 0 1.5938 0.074219 2.375 0.21875 0.78125 0.13672 1.5547 0.35156 2.3281 0.64062z"/>
-  </symbol>
- </defs>
- <g>
-  <path d="m343.67 237.18c0-63.145-51.184-114.34-114.34-114.34-63.152 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.238-49.992-54.75-86.906 5.168 0.73438 10.398 1.2539 15.758 1.2539 63.152 0 114.34-51.184 114.34-114.34z"/>
-  <path d="m585.2 237.18c0-63.145-51.184-114.34-114.34-114.34-63.145 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.234-49.992-54.75-86.906 5.168 0.73438 10.406 1.2539 15.758 1.2539 63.156 0 114.34-51.184 114.34-114.34z"/>
- </g>
-</svg>
-
-                    </span>
-                    I've been making notebooks since I bought my Glowforge. It's SOOOO much faster now that I have my Mira. What used to take 40ish minutes now takes me less than 10!
-                  </p>
-                  <p class="credit">
-                    <span class="brand-color quote-name">Rachaelle Larsen-Grimsrud</span><br/>Tree City Creations<br/>Boise, Idaho
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+        <p class="lead">Not all lasers are created equal. After years of research and listening to our customers, Aeon Lasers have evolved into a class of their own.</p>
       </div>
-
-      <div class="row py-1">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <div class="flex xs-reset">
-            <div class="flex-center">
-              <div class="quote-img">
-                <img class="img-responsive img-rounder" src="/img/ad/mofu-hope.jpg" alt="photo of Hope">
-              </div>
-            </div>         
-            <div class="flex-center px-2">
-              <div class="quote-box quote-side quote-flex">
-                <div class="quote-flex-child">
-                  <p class="quote">
-                    <span class="svg-icon">
-                      <svg width="72pt" height="72pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <symbol id="w" overflow="visible">
-   <path d="m18.766-1.125c-0.96875 0.5-1.9805 0.875-3.0312 1.125-1.043 0.25781-2.1367 0.39062-3.2812 0.39062-3.3984 0-6.0898-0.94531-8.0781-2.8438-1.9922-1.9062-2.9844-4.4844-2.9844-7.7344 0-3.2578 0.99219-5.8359 2.9844-7.7344 1.9883-1.9062 4.6797-2.8594 8.0781-2.8594 1.1445 0 2.2383 0.13281 3.2812 0.39062 1.0508 0.25 2.0625 0.625 3.0312 1.125v4.2188c-0.98047-0.65625-1.9453-1.1406-2.8906-1.4531-0.94922-0.3125-1.9492-0.46875-3-0.46875-1.875 0-3.3516 0.60547-4.4219 1.8125-1.0742 1.1992-1.6094 2.8555-1.6094 4.9688 0 2.1055 0.53516 3.7617 1.6094 4.9688 1.0703 1.1992 2.5469 1.7969 4.4219 1.7969 1.0508 0 2.0508-0.14844 3-0.45312 0.94531-0.3125 1.9102-0.80078 2.8906-1.4688z"/>
-  </symbol>
-  <symbol id="b" overflow="visible">
-   <path d="m13.734-11.141c-0.4375-0.19531-0.87109-0.34375-1.2969-0.4375-0.41797-0.10156-0.83984-0.15625-1.2656-0.15625-1.2617 0-2.2305 0.40625-2.9062 1.2188-0.67969 0.80469-1.0156 1.9531-1.0156 3.4531v7.0625h-4.8906v-15.312h4.8906v2.5156c0.625-1 1.3438-1.7266 2.1562-2.1875 0.82031-0.46875 1.8008-0.70312 2.9375-0.70312 0.16406 0 0.34375 0.011719 0.53125 0.03125 0.19531 0.011719 0.47656 0.039062 0.84375 0.078125z"/>
-  </symbol>
-  <symbol id="a" overflow="visible">
-   <path d="m17.641-7.7031v1.4062h-11.453c0.125 1.1484 0.53906 2.0078 1.25 2.5781 0.70703 0.57422 1.7031 0.85938 2.9844 0.85938 1.0312 0 2.082-0.14844 3.1562-0.45312 1.082-0.3125 2.1914-0.77344 3.3281-1.3906v3.7656c-1.1562 0.4375-2.3125 0.76562-3.4688 0.98438-1.1562 0.22656-2.3125 0.34375-3.4688 0.34375-2.7734 0-4.9297-0.70312-6.4688-2.1094-1.5312-1.4062-2.2969-3.3789-2.2969-5.9219 0-2.5 0.75391-4.4609 2.2656-5.8906 1.5078-1.4375 3.582-2.1562 6.2188-2.1562 2.4062 0 4.332 0.73047 5.7812 2.1875 1.4453 1.4492 2.1719 3.3828 2.1719 5.7969zm-5.0312-1.625c0-0.92578-0.27344-1.6719-0.8125-2.2344-0.54297-0.57031-1.25-0.85938-2.125-0.85938-0.94922 0-1.7188 0.26562-2.3125 0.79688s-0.96484 1.2969-1.1094 2.2969z"/>
-  </symbol>
-  <symbol id="e" overflow="visible">
-   <path d="m9.2188-6.8906c-1.0234 0-1.793 0.17188-2.3125 0.51562-0.51172 0.34375-0.76562 0.85547-0.76562 1.5312 0 0.625 0.20703 1.1172 0.625 1.4688 0.41406 0.34375 0.98828 0.51562 1.7188 0.51562 0.92578 0 1.7031-0.32812 2.3281-0.98438 0.63281-0.66406 0.95312-1.4922 0.95312-2.4844v-0.5625zm7.4688-1.8438v8.7344h-4.9219v-2.2656c-0.65625 0.92969-1.3984 1.6055-2.2188 2.0312-0.82422 0.41406-1.8242 0.625-3 0.625-1.5859 0-2.8711-0.45703-3.8594-1.375-0.99219-0.92578-1.4844-2.1289-1.4844-3.6094 0-1.7891 0.61328-3.1016 1.8438-3.9375 1.2383-0.84375 3.1797-1.2656 5.8281-1.2656h2.8906v-0.39062c0-0.76953-0.30859-1.332-0.92188-1.6875-0.61719-0.36328-1.5703-0.54688-2.8594-0.54688-1.0547 0-2.0312 0.10547-2.9375 0.3125-0.89844 0.21094-1.7305 0.52344-2.5 0.9375v-3.7344c1.0391-0.25 2.0859-0.44141 3.1406-0.57812 1.0625-0.13281 2.125-0.20312 3.1875-0.20312 2.7578 0 4.75 0.54688 5.9688 1.6406 1.2266 1.0859 1.8438 2.8555 1.8438 5.3125z"/>
-  </symbol>
-  <symbol id="c" overflow="visible">
-   <path d="m7.7031-19.656v4.3438h5.0469v3.5h-5.0469v6.5c0 0.71094 0.14062 1.1875 0.42188 1.4375s0.83594 0.375 1.6719 0.375h2.5156v3.5h-4.1875c-1.9375 0-3.3125-0.39844-4.125-1.2031-0.80469-0.8125-1.2031-2.1797-1.2031-4.1094v-6.5h-2.4219v-3.5h2.4219v-4.3438z"/>
-  </symbol>
-  <symbol id="j" overflow="visible">
-   <path d="m12.766-13.078v-8.2031h4.9219v21.281h-4.9219v-2.2188c-0.66797 0.90625-1.4062 1.5703-2.2188 1.9844s-1.7578 0.625-2.8281 0.625c-1.8867 0-3.4336-0.75-4.6406-2.25-1.2109-1.5-1.8125-3.4258-1.8125-5.7812 0-2.3633 0.60156-4.2969 1.8125-5.7969 1.207-1.5 2.7539-2.25 4.6406-2.25 1.0625 0 2 0.21484 2.8125 0.64062 0.82031 0.42969 1.5664 1.0859 2.2344 1.9688zm-3.2188 9.9219c1.0391 0 1.8359-0.37891 2.3906-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3516-1.1562-2.3906-1.1562-1.043 0-1.8398 0.38672-2.3906 1.1562-0.55469 0.76172-0.82812 1.8711-0.82812 3.3281 0 1.4609 0.27344 2.5742 0.82812 3.3438 0.55078 0.76172 1.3477 1.1406 2.3906 1.1406z"/>
-  </symbol>
-  <symbol id="i" overflow="visible">
-   <path d="m10.5-3.1562c1.0508 0 1.8516-0.37891 2.4062-1.1406 0.55078-0.76953 0.82812-1.8828 0.82812-3.3438 0-1.457-0.27734-2.5664-0.82812-3.3281-0.55469-0.76953-1.3555-1.1562-2.4062-1.1562-1.0547 0-1.8594 0.38672-2.4219 1.1562-0.55469 0.77344-0.82812 1.8828-0.82812 3.3281 0 1.4492 0.27344 2.5586 0.82812 3.3281 0.5625 0.77344 1.3672 1.1562 2.4219 1.1562zm-3.25-9.9219c0.67578-0.88281 1.4219-1.5391 2.2344-1.9688 0.82031-0.42578 1.7656-0.64062 2.8281-0.64062 1.8945 0 3.4453 0.75 4.6562 2.25 1.207 1.5 1.8125 3.4336 1.8125 5.7969 0 2.3555-0.60547 4.2812-1.8125 5.7812-1.2109 1.5-2.7617 2.25-4.6562 2.25-1.0625 0-2.0078-0.21094-2.8281-0.625-0.8125-0.42578-1.5586-1.0859-2.2344-1.9844v2.2188h-4.8906v-21.281h4.8906z"/>
-  </symbol>
-  <symbol id="h" overflow="visible">
-   <path d="m0.34375-15.312h4.8906l4.125 10.391 3.5-10.391h4.8906l-6.4375 16.766c-0.64844 1.6953-1.4023 2.8828-2.2656 3.5625-0.86719 0.6875-2 1.0312-3.4062 1.0312h-2.8438v-3.2188h1.5312c0.83203 0 1.4375-0.13672 1.8125-0.40625 0.38281-0.26172 0.67969-0.73047 0.89062-1.4062l0.14062-0.42188z"/>
-  </symbol>
-  <symbol id="g" overflow="visible">
-   <path d="m14.953-3.7188h-8.2188l-1.3125 3.7188h-5.2812l7.5625-20.406h6.2656l7.5625 20.406h-5.2812zm-6.9062-3.7812h5.5781l-2.7812-8.125z"/>
-  </symbol>
-  <symbol id="v" overflow="visible">
-   <path d="m2.8594-5.2969h4.9219v5.2969h-4.9219z"/>
-  </symbol>
-  <symbol id="u" overflow="visible">
-   <path d="m0.14062-20.406h5.2812l5.4219 15.062 5.4062-15.062h5.2812l-7.5625 20.406h-6.2656z"/>
-  </symbol>
-  <symbol id="t" overflow="visible">
-   <path d="m12.766-2.5938c-0.66797 0.88672-1.4062 1.543-2.2188 1.9688-0.8125 0.41797-1.7578 0.625-2.8281 0.625-1.8672 0-3.4062-0.73438-4.625-2.2031-1.2188-1.4766-1.8281-3.3516-1.8281-5.625 0-2.2891 0.60938-4.1641 1.8281-5.625 1.2188-1.4688 2.7578-2.2031 4.625-2.2031 1.0703 0 2.0156 0.21484 2.8281 0.64062 0.8125 0.41797 1.5508 1.0742 2.2188 1.9688v-2.2656h4.9219v13.766c0 2.457-0.77734 4.3359-2.3281 5.6406-1.5547 1.3008-3.8086 1.9531-6.7656 1.9531-0.94922 0-1.8711-0.074219-2.7656-0.21875-0.89844-0.14844-1.7969-0.37109-2.7031-0.67188v-3.8125c0.86328 0.48828 1.7031 0.85156 2.5156 1.0938 0.82031 0.23828 1.6484 0.35938 2.4844 0.35938 1.6016 0 2.7734-0.35156 3.5156-1.0469 0.75-0.69922 1.125-1.7969 1.125-3.2969zm-3.2188-9.5312c-1.0117 0-1.8047 0.375-2.375 1.125-0.5625 0.74219-0.84375 1.7969-0.84375 3.1719 0 1.3984 0.26953 2.4609 0.8125 3.1875 0.55078 0.71875 1.3516 1.0781 2.4062 1.0781 1.0195 0 1.8125-0.36719 2.375-1.1094 0.5625-0.75 0.84375-1.8008 0.84375-3.1562 0-1.375-0.28125-2.4297-0.84375-3.1719-0.5625-0.75-1.3555-1.125-2.375-1.125z"/>
-  </symbol>
-  <symbol id="f" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1094c0-1.3438-0.03125-2.2656-0.09375-2.7656s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-21.281h4.8906v8.2031c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="s" overflow="visible">
-   <path d="m14.312-14.828v3.7188c-1.043-0.4375-2.0547-0.76562-3.0312-0.98438-0.98047-0.21875-1.9023-0.32812-2.7656-0.32812-0.92969 0-1.6211 0.11719-2.0781 0.34375-0.44922 0.23047-0.67188 0.58984-0.67188 1.0781 0 0.38672 0.17188 0.68359 0.51562 0.89062 0.34375 0.21094 0.95703 0.36719 1.8438 0.46875l0.85938 0.125c2.5078 0.32422 4.1953 0.85156 5.0625 1.5781 0.86328 0.73047 1.2969 1.8711 1.2969 3.4219 0 1.6367-0.60547 2.8672-1.8125 3.6875-1.1992 0.8125-2.9922 1.2188-5.375 1.2188-1.0234 0-2.0742-0.078125-3.1562-0.23438-1.0742-0.15625-2.1797-0.39453-3.3125-0.71875v-3.7188c0.96875 0.48047 1.9609 0.83984 2.9844 1.0781 1.0312 0.23047 2.0781 0.34375 3.1406 0.34375 0.95703 0 1.6758-0.12891 2.1562-0.39062 0.47656-0.26953 0.71875-0.66406 0.71875-1.1875 0-0.4375-0.16797-0.75781-0.5-0.96875-0.33594-0.21875-0.99609-0.38281-1.9844-0.5l-0.85938-0.10938c-2.1797-0.26953-3.7031-0.77344-4.5781-1.5156-0.875-0.73828-1.3125-1.8594-1.3125-3.3594 0-1.625 0.55078-2.8281 1.6562-3.6094 1.1133-0.78906 2.8203-1.1875 5.125-1.1875 0.89453 0 1.8359 0.074219 2.8281 0.21875 1 0.13672 2.082 0.35156 3.25 0.64062z"/>
-  </symbol>
-  <symbol id="r" overflow="visible">
-   <path d="m12.422-21.281v3.2188h-2.7031c-0.6875 0-1.1719 0.125-1.4531 0.375-0.27344 0.25-0.40625 0.6875-0.40625 1.3125v1.0625h4.1875v3.5h-4.1875v11.812h-4.8906v-11.812h-2.4375v-3.5h2.4375v-1.0625c0-1.6641 0.46094-2.8984 1.3906-3.7031 0.92578-0.80078 2.3672-1.2031 4.3281-1.2031z"/>
-  </symbol>
-  <symbol id="d" overflow="visible">
-   <path d="m9.6406-12.188c-1.0859 0-1.9141 0.39062-2.4844 1.1719-0.57422 0.78125-0.85938 1.9062-0.85938 3.375s0.28516 2.5938 0.85938 3.375c0.57031 0.77344 1.3984 1.1562 2.4844 1.1562 1.0625 0 1.875-0.38281 2.4375-1.1562 0.57031-0.78125 0.85938-1.9062 0.85938-3.375s-0.28906-2.5938-0.85938-3.375c-0.5625-0.78125-1.375-1.1719-2.4375-1.1719zm0-3.5c2.6328 0 4.6914 0.71484 6.1719 2.1406 1.4766 1.418 2.2188 3.3867 2.2188 5.9062 0 2.5117-0.74219 4.4805-2.2188 5.9062-1.4805 1.418-3.5391 2.125-6.1719 2.125-2.6484 0-4.7148-0.70703-6.2031-2.125-1.4922-1.4258-2.2344-3.3945-2.2344-5.9062 0-2.5195 0.74219-4.4883 2.2344-5.9062 1.4883-1.4258 3.5547-2.1406 6.2031-2.1406z"/>
-  </symbol>
-  <symbol id="q" overflow="visible">
-   <path d="m16.547-12.766c0.61328-0.94531 1.3477-1.6719 2.2031-2.1719 0.85156-0.5 1.7891-0.75 2.8125-0.75 1.7578 0 3.0977 0.54688 4.0156 1.6406 0.92578 1.0859 1.3906 2.6562 1.3906 4.7188v9.3281h-4.9219v-7.9844-0.35938c0.007813-0.13281 0.015625-0.32031 0.015625-0.5625 0-1.082-0.16406-1.8633-0.48438-2.3438-0.3125-0.48828-0.82422-0.73438-1.5312-0.73438-0.92969 0-1.6484 0.38672-2.1562 1.1562-0.51172 0.76172-0.77344 1.8672-0.78125 3.3125v7.5156h-4.9219v-7.9844c0-1.6953-0.14844-2.7852-0.4375-3.2656-0.29297-0.48828-0.8125-0.73438-1.5625-0.73438-0.9375 0-1.6641 0.38672-2.1719 1.1562-0.51172 0.76172-0.76562 1.8594-0.76562 3.2969v7.5312h-4.9219v-15.312h4.9219v2.2344c0.60156-0.86328 1.2891-1.5156 2.0625-1.9531 0.78125-0.4375 1.6406-0.65625 2.5781-0.65625 1.0625 0 2 0.25781 2.8125 0.76562 0.8125 0.51172 1.4258 1.2305 1.8438 2.1562z"/>
-  </symbol>
-  <symbol id="p" overflow="visible">
-   <path d="m2.5781-20.406h5.875l7.4219 14v-14h4.9844v20.406h-5.875l-7.4219-14v14h-4.9844z"/>
-  </symbol>
-  <symbol id="o" overflow="visible">
-   <path d="m2.1875-5.9688v-9.3438h4.9219v1.5312c0 0.83594-0.007813 1.875-0.015625 3.125-0.011719 1.25-0.015625 2.0859-0.015625 2.5 0 1.2422 0.03125 2.1328 0.09375 2.6719 0.070313 0.54297 0.17969 0.93359 0.32812 1.1719 0.20703 0.32422 0.47266 0.57422 0.79688 0.75 0.32031 0.16797 0.69141 0.25 1.1094 0.25 1.0195 0 1.8203-0.39062 2.4062-1.1719 0.58203-0.78125 0.875-1.8672 0.875-3.2656v-7.5625h4.8906v15.312h-4.8906v-2.2188c-0.74219 0.89844-1.5234 1.5586-2.3438 1.9844-0.82422 0.41406-1.7344 0.625-2.7344 0.625-1.7617 0-3.1055-0.53906-4.0312-1.625-0.92969-1.082-1.3906-2.6602-1.3906-4.7344z"/>
-  </symbol>
-  <symbol id="n" overflow="visible">
-   <path d="m17.75-9.3281v9.3281h-4.9219v-7.1406c0-1.3203-0.03125-2.2344-0.09375-2.7344s-0.16797-0.86719-0.3125-1.1094c-0.1875-0.3125-0.44922-0.55469-0.78125-0.73438-0.32422-0.17578-0.69531-0.26562-1.1094-0.26562-1.0234 0-1.8242 0.39844-2.4062 1.1875-0.58594 0.78125-0.875 1.8711-0.875 3.2656v7.5312h-4.8906v-15.312h4.8906v2.2344c0.73828-0.88281 1.5195-1.5391 2.3438-1.9688 0.83203-0.42578 1.75-0.64062 2.75-0.64062 1.7695 0 3.1133 0.54688 4.0312 1.6406 0.91406 1.0859 1.375 2.6562 1.375 4.7188z"/>
-  </symbol>
-  <symbol id="m" overflow="visible">
-   <path d="m2.5781-20.406h8.7344c2.5938 0 4.582 0.57812 5.9688 1.7344 1.3945 1.1484 2.0938 2.7891 2.0938 4.9219 0 2.1367-0.69922 3.7812-2.0938 4.9375-1.3867 1.1562-3.375 1.7344-5.9688 1.7344h-3.4844v7.0781h-5.25zm5.25 3.8125v5.7031h2.9219c1.0195 0 1.8047-0.25 2.3594-0.75 0.5625-0.5 0.84375-1.2031 0.84375-2.1094 0-0.91406-0.28125-1.6172-0.84375-2.1094-0.55469-0.48828-1.3398-0.73438-2.3594-0.73438z"/>
-  </symbol>
-  <symbol id="l" overflow="visible">
-   <path d="m2.3594-15.312h4.8906v15.031c0 2.0508-0.49609 3.6172-1.4844 4.7031-0.98047 1.082-2.4062 1.625-4.2812 1.625h-2.4219v-3.2188h0.85938c0.92578 0 1.5625-0.21094 1.9062-0.625 0.35156-0.41797 0.53125-1.2461 0.53125-2.4844zm0-5.9688h4.8906v4h-4.8906z"/>
-  </symbol>
-  <symbol id="k" overflow="visible">
-   <path d="m14.719-14.828v3.9844c-0.65625-0.45703-1.3242-0.79688-2-1.0156-0.66797-0.21875-1.3594-0.32812-2.0781-0.32812-1.3672 0-2.4336 0.40234-3.2031 1.2031-0.76172 0.79297-1.1406 1.9062-1.1406 3.3438 0 1.4297 0.37891 2.543 1.1406 3.3438 0.76953 0.79297 1.8359 1.1875 3.2031 1.1875 0.75781 0 1.4844-0.10938 2.1719-0.32812 0.6875-0.22656 1.3203-0.56641 1.9062-1.0156v4c-0.76172 0.28125-1.5391 0.48828-2.3281 0.625-0.78125 0.14453-1.5742 0.21875-2.375 0.21875-2.7617 0-4.9219-0.70703-6.4844-2.125-1.5547-1.4141-2.3281-3.3828-2.3281-5.9062 0-2.5312 0.77344-4.5039 2.3281-5.9219 1.5625-1.4141 3.7227-2.125 6.4844-2.125 0.80078 0 1.5938 0.074219 2.375 0.21875 0.78125 0.13672 1.5547 0.35156 2.3281 0.64062z"/>
-  </symbol>
- </defs>
- <g>
-  <path d="m343.67 237.18c0-63.145-51.184-114.34-114.34-114.34-63.152 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.238-49.992-54.75-86.906 5.168 0.73438 10.398 1.2539 15.758 1.2539 63.152 0 114.34-51.184 114.34-114.34z"/>
-  <path d="m585.2 237.18c0-63.145-51.184-114.34-114.34-114.34-63.145 0-108.99 49.426-114.34 112.35-8.1641 96.012 64.773 176.4 153.33 201.98-30.184-18.25-51.234-49.992-54.75-86.906 5.168 0.73438 10.406 1.2539 15.758 1.2539 63.156 0 114.34-51.184 114.34-114.34z"/>
- </g>
-</svg>
-
-                    </span>
-                    I love how <span class="brand-color">FAST and efficient</span> MIRA lasers are. Now, the question is: what will I do with all my left over time?
-                  </p>
-                  <p class="credit">
-                    <span class="brand-color quote-name">Hope Yoder</span><br/>
-                    Designs By Hope Yoder, Inc.<br/>
-                    Sarasota, Florida
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div>
-
-      <div class="row py-4">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-          <div class="flex xs-reset">
-            <div class="flex-center px-2">
-              <h2 class="pt-0">Having a <span class="brand-color">fast, reliable machine</span> is what ultimately determines whether you run your laser or your laser runs you.</h2>
-            </div>
-            <div class="flex-center px-2">
-              <div>
-                <p>When shopping for a laser, making that initial investment and calculating lead times can feel overwhelming. But startup costs alone should not determine your decision.</p> 
-                <p>The long term costs of owning a laser are far more important and oftentimes overlooked. Every time you use your laser, you will be investing your precious time.</p>
-                <p>Less time in front of your laser means higher profits, the ability to be more competitive with your pricing, and more time for doing the things you enjoy with the people you love.</p>
-              </div>
-            </div> 
-          </div>
-        </div>   
-      </div>
-
     </div>
-  </section>
+    <div class="row pb-50">
+      <div class="col-xs-12 col-sm-4 py-1">
+        <img src="/img/diff-bigger-nova.gif" class="img-responsive centered mb-20" alt="Aeon Mira 7 from three angles showing off the clean pack design"/>
+        <h3 class="center-text-mobile">Clean and Compact</h3>
+        <p class="justify-text">Our modular design makes Aeon Lasers ideal for home use and small spaces. The water chiller, exhaust fan, and air pump are mounted inside the machine, which means you can exchange that wasted space for a much <span class="bold">bigger</span> work area.</p>
+      </div>
+      <div class="col-xs-12 col-sm-4 py-1">
+        <img src="/img/diff-faster.jpg" class="img-responsive img-rounded centered mb-20" alt="faster"/>
+        <h3 class="center-text-mobile">Unmatched Speed</h3>
+        <p class="justify-text">When it comes to profit, cycle times are everything. Thanks to our linear rails and lightweight laser head design, Aeon Lasers get the job done <span class="bold">faster</span> than any other laser in its price range.</p>
+      </div>
+      <div class="col-xs-12 col-sm-4 py-1">
+        <img src="/img/diff-stronger.jpg" class="img-responsive img-rounded centered mb-20" alt="stronger"/>
+        <h3 class="center-text-mobile">Superior Protection</h3>
+        <p class="justify-text">Thanks to Aeon’s Clean Pack Design, all moving parts and key components are protected. Less maintenance and repairs, leads to more uptime and greater profits, making you and your laser business that much <span class="bold">stronger</span>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--END: DIFFERENCE-->
+
 
   <section class="bg-ghost">
     <div class="container py-4">
       <div class="row">
         <div class="col-xs-12 centered">
-          <h2>6 Reasons to consider <span class="brand-color">Aeon Laser</span> over GlowForge</h2>
+          <h2>6 Reasons to consider <span class="brand-color">Aeon Laser</span> over Thunder</h2>
         </div>
       </div>
       <div class="row pt-50">
@@ -1021,7 +1294,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           </span>
           <h3 class="brand-color">Lightning-Fast Speeds</h3>
-          <p>No more waiting around for ages while your projects slowly process on your GlowForge. With Aeon Laser, you'll experience lightning-fast engraving speeds that ensure your projects are completed 3-5x faster.</p>
+          <p>With Aeon Laser, you'll experience lightning-fast engraving speeds that ensure your projects are completed 3-5x faster.</p>
         </div>
         <div class="col-xs-12 col-sm-4 centered pb-50">
           <span class="svg-icon baseline">
@@ -1048,7 +1321,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           </span>
           <h3 class="brand-color">Consistent Cutting and Engraving</h3>
-          <p>Say goodbye to the days of uneven results with GlowForge. Aeon Lasers give you greater control and accuracy, ensuring that every detail of your design is executed with utmost precision.</p>
+          <p>Say goodbye to the days of uneven results. Aeon Lasers give you greater control and accuracy, ensuring that every detail of your design is executed with utmost precision.</p>
         </div>
         <div class="col-xs-12 col-sm-4 centered pb-50">
           <span class="svg-icon baseline">
@@ -1080,8 +1353,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </svg>
 
           </span>
-          <h3 class="brand-color">Efficient Cooling</h3>
-          <p>Concerned about overheating issues with GlowForge? Aeon Laser's cooling systems are designed to handle extended usage without compromising performance. Enjoy uninterrupted work sessions and minimize downtime, so you can focus on what matters.</p>
+          <h3 class="brand-color">Zone Control</h3>
+          <p>Our in-house, U.S. made Iris system isolates fume extraction to reduce beam reflection and material charring, for faster cuts and cleaner engraves.</p>
         </div>
         <div class="col-xs-12 col-sm-4 centered pb-50">
           <span class="svg-icon baseline">
@@ -1265,53 +1538,41 @@ l0 -1270 -297 0 c-164 0 -329 5 -368 10 -83 12 -188 60 -261 118 -62 49 -134
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <div class="row py-4">
-        <div class="col-xs-12">
-          <h2 class="text-center">Customers <span class="brand-color">share</span> their experiences with Aeon and Glowforge</h2>
-        </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 video py-1">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?si=RuQBTLa6qGJswAgU&amp;list=PL9PEjwzWK_kd3CMK_1P95cHxfBc49VqmQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
-
-  <!--START: DIFFERENCE-->
-<section class="aeon-difference">
+  <section class="yt-choice">
   <div class="container">
-    <div class="row py-2">
-      <div class="col-xs-12 text-center">
-        <h2>What is The Aeon <span class="brand-color">Difference</span>?</h2>
+    <div class="row py-4">
+      <div class="col-xs-12">
+        <h2 class="text-center">Why I <span class="brand-color">Chose</span> Aeon Laser</h2>
+        <p class="lead text-center">Customer Testimonials</p>
       </div>
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
-        <p class="lead">Not all lasers are created equal. After years of research and listening to our customers, Aeon Lasers have evolved into a class of their own.</p>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 py-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?si=o2MNgLR9jGB-aGq0&amp;list=PL9PEjwzWK_kd3o_TvgUW1SAr-U-nHfW8n" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <figcaption class="text-center">👉 Click on the <i class="fa fa-reorder"></i> menu to see more videos</figcaption>
       </div>
     </div>
+  </div>
+</section> 
+
+
+  <section class="aeon-experience">
+  <div class="container">
+    <h2 class="centered py-1">Wondering <span class="brand-color">how AEON compares</span> to other lasers?</h2>
     <div class="row pb-50">
-      <div class="col-xs-12 col-sm-4 py-1">
-        <img src="/img/diff-bigger-nova.gif" class="img-responsive centered mb-20" alt="Aeon Mira 7 from three angles showing off the clean pack design"/>
-        <h3 class="center-text-mobile">Clean and Compact</h3>
-        <p class="justify-text">Our modular design makes Aeon Lasers ideal for home use and small spaces. The water chiller, exhaust fan, and air pump are mounted inside the machine, which means you can exchange that wasted space for a much <span class="bold">bigger</span> work area.</p>
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 mb-20">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PVBCJXTwLYA" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-4 py-1">
-        <img src="/img/diff-faster.jpg" class="img-responsive img-rounded centered mb-20" alt="faster"/>
-        <h3 class="center-text-mobile">Unmatched Speed</h3>
-        <p class="justify-text">When it comes to profit, cycle times are everything. Thanks to our linear rails and lightweight laser head design, Aeon Lasers get the job done <span class="bold">faster</span> than any other laser in its price range.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4 py-1">
-        <img src="/img/diff-stronger.jpg" class="img-responsive img-rounded centered mb-20" alt="stronger"/>
-        <h3 class="center-text-mobile">Superior Protection</h3>
-        <p class="justify-text">Thanks to Aeon’s Clean Pack Design, all moving parts and key components are protected. Less maintenance and repairs, leads to more uptime and greater profits, making you and your laser business that much <span class="bold">stronger</span>.</p>
+      <div class="col-xs-12 col-sm-5">
+        <h3 class="xs-center mt-0">Test drive the most popular laser brands side-by-side</h3>
+        <p class="xs-center lead">Play with OMTech, Thunder, Boss and Aeon Lasers. Score them using your own criteria. 100% Hands-on! Save hours of research. Learn how you can participate in 2024.</p>
+        <a class="btn btn-brand btn-xl btn-block btn-auto xs-center" href="/aeon-experience.html" >Sign Me Up!</a>
       </div>
     </div>
   </div>
 </section>
-
-<!--END: DIFFERENCE-->
 
 
   <section>
@@ -1329,37 +1590,19 @@ l0 -1270 -297 0 c-164 0 -329 5 -368 10 -83 12 -188 60 -261 118 -62 49 -134
     </div>
   </section>
 
-  <section class="yt-goodbye">
-  <div class="container">
-    <div class="row py-4">
-      <div class="col-xs-12">
-        <h2 class="text-center">We know it's hard to <span class="brand-color">say goodbye</span></h2>
-      </div>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 py-1">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?si=UOld1aZm8r9un6b8&amp;list=PL9PEjwzWK_kdPjcxT_nmpAGx2EvJ1xxiA" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <figcaption class="text-center">👉 Click on the <i class="fa fa-reorder"></i> menu to see more videos</figcaption>
-      </div>
-    </div>
-  </div>
-</section> 
-
-  
-  <section>
+  <section class="bg-ghost">
     <div class="container">
       <div class="row py-4">
         <div class="col-xs-12">
           <h2 class="brand-color centered">Have questions? </h2>
           <p class="text-center lead">We're happy to answer them!</p>
-          <a class="btn btn-brand btn-xl btn-block btn-auto my-2 centered gtmcta" href="#cbb5bdcfdd" id="Glowforge-Contact-Us"> <span class="fa fa-comment-o"></span> Contact Us</a>
+          <a class="btn btn-brand btn-xl btn-block btn-auto my-2 centered gtmcta" href="#" id="Compare-Contact-Us"> <span class="fa fa-comment-o"></span> Contact Us</a>
         </div>
       </div>
     </div>
   </section>
 
   
-
   <!--END: MAIN-->
       <!--START: FOOTER-->
     <footer class="footer">
@@ -1504,17 +1747,34 @@ l0 -1270 -297 0 c-164 0 -329 5 -368 10 -83 12 -188 60 -261 118 -62 49 -134
   vgo('process');
 </script>
 <!--END: ACTIVE CAMPAIGN-->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-tiktok@0.1.0/lite-tiktok.js"></script>
+
+    <!--START BOOTSTRAP-TABLE -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+    
+    <!--END BOOTSTRAP-TABLE -->
 
   <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip(
-        {
-          'placement': 'right',
-          'trigger': 'hover click'
-        }
-      )
-    })
+
+  // $(function () {
+  //   $('[data-toggle="tooltip"]').tooltip(
+  //     {
+  //       'placement': 'right',
+  //       'trigger': 'hover click'
+  //     }
+  //   )
+  // })
+
+  var $table = $('#compare-table');
+  var $button = $('#button');
+
+  $(function() {
+    $button.click(function() {
+      $table.bootstrapTable('showAllColumns')
+    });
+
+  })
 
 
   </script>
