@@ -14323,6 +14323,11 @@ figcaption {
   width: 120px;
 }
 
+.svg-icon.baseline-xl svg {
+  height: 10em;
+  width: 10em;
+}
+
 .ico {
   margin-top: -5px;
 }
