@@ -9,5 +9,6 @@ redirects = [
   {from = "https://aeonlaser.us/guides/multi-roller", to = "https://shop.aeonlaser.us/a/docs/category/multi-roller", force = true},
   {from = "https://aeonlaser.us/guides/4-inch-lens-kit", to = "https://shop.aeonlaser.us/a/docs/accessories/4-inch-lens-kit-mira", force = true},
   {from = "https://aeonlaser.us/guides/removing-chiller", to = "https://shop.aeonlaser.us/a/docs/category/maintenance", force = true},
-  {from = "https://aeonlaser.us/guides/smart-rotary", to = "https://shop.aeonlaser.us/a/docs/accessories/smart-rotary", force = true}
+  {from = "https://aeonlaser.us/guides/smart-rotary", to = "https://shop.aeonlaser.us/a/docs/accessories/smart-rotary", force = true},
+  {from = "https://aeonlaser.us/guides/getting-started", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true}
   ]
