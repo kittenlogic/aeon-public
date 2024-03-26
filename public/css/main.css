@@ -14099,6 +14099,10 @@ h5 {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .featured {
   font-size: 1em;
   font-weight: 600;
