@@ -14448,6 +14448,32 @@ figcaption {
       align-content: space-around;
 }
 
+.grid-thing {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.grid-thing.six {
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-thing.two {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-thing.three {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 767px) {
   .flex.xs-reset {
     display: block;
@@ -14455,6 +14481,30 @@ figcaption {
   .flex.xs-reset .px-10 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .grid-thing {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-thing.six {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-thing.two {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-thing.three {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 468px) {
+  .grid-thing.three,
+  .grid-thing.two {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -16134,6 +16184,16 @@ time {
   background: #fdede9;
 }
 
+.label-series.label-redline {
+  border-bottom: 1px solid #9C0404;
+  border-top: 1px solid #9C0404;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  padding-top: 9px;
+}
+
 @media (max-width: 414px) {
   .product .cta {
     margin: 0;
@@ -16597,6 +16657,10 @@ time {
   color: #ea5529;
 }
 
+.brand-redline {
+  color: #9C0404;
+}
+
 .bg-skewed {
   background: linear-gradient(-10deg, transparent 30%, #FDEBC9 70%);
 }
@@ -16724,6 +16788,7 @@ time {
   }
   footer,
   header,
+  .notification-clock,
   #contact-form,
   #fb-root {
     display: none;
