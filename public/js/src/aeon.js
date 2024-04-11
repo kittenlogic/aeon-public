@@ -167,6 +167,20 @@ jQuery(document).ready(function($){
     } else {
       $( ".cd-product-builder .models-list .radio" ).trigger( "click" );
     }
+
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1; //January is 0!
+  
+    var yyyy = today.getFullYear();
+    if (dd < 10) {
+      dd = '0' + dd;
+    }
+    if (mm < 10) {
+      mm = '0' + mm;
+    }
+    today = mm + '/' + dd + '/' + yyyy;
+    document.getElementById('timestamp').innerHTML = today;
   });
 
   $('.lightbox-close').click(function(){
@@ -202,20 +216,6 @@ jQuery(document).ready(function($){
     placement: 'top',
     trigger: 'click hover focus'
   });
-
-  var today = new Date();
-  var dd = today.getDate();
-  var mm = today.getMonth() + 1; //January is 0!
-
-  var yyyy = today.getFullYear();
-  if (dd < 10) {
-    dd = '0' + dd;
-  }
-  if (mm < 10) {
-    mm = '0' + mm;
-  }
-  today = mm + '/' + dd + '/' + yyyy;
-  document.getElementById('timestamp').innerHTML = today;
 
 });
 

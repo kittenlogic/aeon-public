@@ -14376,6 +14376,16 @@ figcaption {
   content: url("/img/co2-nerd.png");
 }
 
+.underline a,
+.underline a:hover,
+.underline a:focus {
+  text-decoration: underline;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
 @media (max-width: 767px) {
   .center-text-mobile {
     text-align: center;
@@ -14832,6 +14842,19 @@ footer.footer .legal {
   color: #d34d25;
 }
 
+.btn-redline {
+  background-color: #9C0404;
+  color: #fff;
+}
+
+.btn-redline:hover,
+.btn-redlined:focus,
+.btn-redline:active {
+  color: #fff;
+  background-color: #760303;
+  border-color: #760303;
+}
+
 .btn-round {
   font-size: 22px;
   border-radius: 30px;
@@ -14923,6 +14946,11 @@ footer.footer .legal {
 .dropdown-menu > li > a:focus {
   background-color: #ea5529;
   color: #fff;
+}
+
+.dropdown-menu hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -16710,12 +16738,13 @@ time {
   background: #dfe6e9;
 }
 
-.sandy {
-  background-color: #FFF9ED;
+.bg-space {
+  background: #1d1d1d;
+  color: #eaeaea;
 }
 
-.skyblue {
-  background-color: #E0EDFF;
+.sandy {
+  background-color: #FFF9ED;
 }
 
 .stormy {
