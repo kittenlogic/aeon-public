@@ -15216,6 +15216,10 @@ footer.footer .legal {
   background: #212b38;
 }
 
+.notification-clock .countdown-banner.redline {
+  background: #000;
+}
+
 .notification-clock .countdown-banner {
   padding: 8px 0px 5px 0px;
   position: relative;
@@ -15242,6 +15246,10 @@ footer.footer .legal {
 
 .notification-clock .countdown-text a {
   text-decoration: underline;
+}
+
+.notification-clock .countdown-text a.redline {
+  color: white;
 }
 
 .notification-clock .countdown-text.center {
@@ -15449,10 +15457,9 @@ footer.footer .legal {
   margin: 0;
   padding: .3em .2em .2em;
   font-size: 2em;
-  color: white;
-  background: #212b38;
+  color: #000;
+  background: #fff;
   letter-spacing: 0.5px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
 .pricing-list .pricing-cost {
