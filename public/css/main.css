@@ -14257,6 +14257,21 @@ figcaption {
   margin: 100px 0;
 }
 
+.mx-05 {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.mx-1 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.mx-2 {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -14848,11 +14863,24 @@ footer.footer .legal {
 }
 
 .btn-redline:hover,
-.btn-redlined:focus,
+.btn-redline:focus,
 .btn-redline:active {
   color: #fff;
   background-color: #760303;
   border-color: #760303;
+}
+
+.btn-redline-inverse {
+  background-color: #fff;
+  color: #9C0404;
+}
+
+.btn-redline-inverse:hover,
+.btn-redline-inverse:focus,
+.btn-redline-inverse:active {
+  color: #760303;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .btn-round {
