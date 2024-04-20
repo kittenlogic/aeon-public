@@ -11502,6 +11502,7 @@ Step content - basic style
   .cd-step-content .options-list.cd-col-1 > li {
     width: 40%;
     margin: 0 auto;
+    display: inline-block;
   }
 }
 
