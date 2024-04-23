@@ -10,5 +10,15 @@ redirects = [
   {from = "https://aeonlaser.us/guides/4-inch-lens-kit", to = "https://shop.aeonlaser.us/a/docs/accessories/4-inch-lens-kit-mira", force = true},
   {from = "https://aeonlaser.us/guides/removing-chiller", to = "https://shop.aeonlaser.us/a/docs/category/maintenance", force = true},
   {from = "https://aeonlaser.us/guides/smart-rotary", to = "https://shop.aeonlaser.us/a/docs/accessories/smart-rotary", force = true},
-  {from = "https://aeonlaser.us/guides/getting-started", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true}
+  {from = "https://aeonlaser.us/guides/getting-started", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true},
+  {from = "https://aeonlaser.us/guides/rotary", to = "https://shop.aeonlaser.us/a/docs/category/accessories", force = true},
+  {from = "https://aeonlaser.us/guides/unboxing", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true},
+  {from = "/getting-started-mira-pro", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true},
+  {from = "/getting-started-nova", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true},
+  {from = "/customer-spotlight/home-bound-custom-decor", to = "/spotlight/home-bound-custom-decor", force = true},
+  {from = "/customer-spotlight/beyond-laser-creations", to = "/spotlight/beyond-laser-creations", force = true},
+  {from = "/customer-spotlight/designs-by-hope-yoder", to = "/spotlight/designs-by-hope-yoder", force = true}
+  {from = "/customer-spotlight/that-mom-with-a-laser", to = "/spotlight/that-mom-with-a-laser", force = true}
+  {from = "/customer-spotlight/lobo-designs", to = "/spotlight/lobo-designs", force = true}
+  {from = "/customer-spotlight/pearl-and-pine", to = "/spotlight/pearl-and-pine", force = true}
   ]
