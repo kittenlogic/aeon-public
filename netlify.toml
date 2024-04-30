@@ -1,5 +1,0 @@
-redirects = [
-  {from = "/help-center", to = "/training"},
-  {from = "https://shop.aeonlaser.us/makecnc-terms", to = "https://shop.aeonlaser.us/pages/makecnc-terms", force = true},
-  {from = "https://help.aeonlaser.us/", to = "https://shop.aeonlaser.us/a/docs/", force = true}
-  ]
