@@ -14859,7 +14859,7 @@ footer.footer .legal {
 }
 
 .btn-redline {
-  background-color: #9C0404;
+  background-color: #9D1C1F;
   color: #fff;
 }
 
@@ -14873,7 +14873,7 @@ footer.footer .legal {
 
 .btn-redline-inverse {
   background-color: #fff;
-  color: #9C0404;
+  color: #9D1C1F;
 }
 
 .btn-redline-inverse:hover,
@@ -16245,8 +16245,8 @@ time {
 }
 
 .label-series.label-redline {
-  border-bottom: 1px solid #9C0404;
-  border-top: 1px solid #9C0404;
+  border-bottom: 1px solid #9D1C1F;
+  border-top: 1px solid #9D1C1F;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
   background: #fff;
@@ -16723,7 +16723,7 @@ time {
 }
 
 .brand-redline {
-  color: #9C0404;
+  color: #9D1C1F;
 }
 
 .bg-skewed {
