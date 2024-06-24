@@ -14650,9 +14650,29 @@ footer.footer .legal {
   font-size: 36px;
 }
 
+@media (max-width: 991px) {
+  .footer li, .footer h3, .footer h5, .footer p, .footer .social, .footer .disclaimer {
+    text-align: center;
+  }
+  .footer .social li {
+    display: inline-block;
+    margin-right: 6px;
+  }
+  .footer .social a {
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer li, .footer h3, .footer h5, .footer p, .footer .social, .footer .disclaimer {
     text-align: center;
+  }
+  .footer .social li {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .footer .social a {
+    font-size: 36px;
   }
 }
 
