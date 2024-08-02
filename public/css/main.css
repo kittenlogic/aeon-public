@@ -14100,8 +14100,15 @@ h5 {
   font-style: italic;
 }
 
-.underline {
+.underline,
+.underline a,
+.underline a:hover,
+.underline a:focus {
   text-decoration: underline;
+}
+
+.all-caps {
+  text-transform: uppercase;
 }
 
 .featured {
@@ -14121,6 +14128,11 @@ h5 {
 figcaption {
   color: #6d6d6d;
   margin-top: 0.75em;
+}
+
+.img-full-width {
+  width: 100%;
+  height: auto;
 }
 
 .img-shadow {
@@ -14313,6 +14325,10 @@ figcaption {
   margin-bottom: -3em;
 }
 
+.mt--1 {
+  margin-top: -1em;
+}
+
 .svg-icon {
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -14390,16 +14406,6 @@ figcaption {
 
 .nerd-alert:before {
   content: url("/img/co2-nerd.png");
-}
-
-.underline a,
-.underline a:hover,
-.underline a:focus {
-  text-decoration: underline;
-}
-
-.all-caps {
-  text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
