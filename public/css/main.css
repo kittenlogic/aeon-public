@@ -15614,8 +15614,8 @@ footer.footer .legal {
   width: 114rem;
   height: auto !important;
   grid-gap: 6rem;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  -ms-grid-columns: (minmax(22rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   -ms-flex-align: stretch;
       align-items: stretch;
 }
