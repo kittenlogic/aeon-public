@@ -21,4 +21,5 @@ redirects = [
   {from = "/customer-spotlight/that-mom-with-a-laser", to = "/spotlight/that-mom-with-a-laser", force = true}
   {from = "/customer-spotlight/lobo-designs", to = "/spotlight/lobo-designs", force = true}
   {from = "/customer-spotlight/pearl-and-pine", to = "/spotlight/pearl-and-pine", force = true}
+  {from = "/emp-fiber", to = "/emp-galvo-setup", force = true}
   ]
