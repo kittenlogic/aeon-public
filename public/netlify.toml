@@ -17,9 +17,10 @@ redirects = [
   {from = "/getting-started-nova", to = "https://shop.aeonlaser.us/a/docs/category/getting-started", force = true},
   {from = "/customer-spotlight/home-bound-custom-decor", to = "/spotlight/home-bound-custom-decor", force = true},
   {from = "/customer-spotlight/beyond-laser-creations", to = "/spotlight/beyond-laser-creations", force = true},
-  {from = "/customer-spotlight/designs-by-hope-yoder", to = "/spotlight/designs-by-hope-yoder", force = true}
-  {from = "/customer-spotlight/that-mom-with-a-laser", to = "/spotlight/that-mom-with-a-laser", force = true}
-  {from = "/customer-spotlight/lobo-designs", to = "/spotlight/lobo-designs", force = true}
-  {from = "/customer-spotlight/pearl-and-pine", to = "/spotlight/pearl-and-pine", force = true}
-  {from = "/emp-fiber", to = "/emp-galvo-setup", force = true}
+  {from = "/customer-spotlight/designs-by-hope-yoder", to = "/spotlight/designs-by-hope-yoder", force = true},
+  {from = "/customer-spotlight/that-mom-with-a-laser", to = "/spotlight/that-mom-with-a-laser", force = true},
+  {from = "/customer-spotlight/lobo-designs", to = "/spotlight/lobo-designs", force = true},
+  {from = "/customer-spotlight/pearl-and-pine", to = "/spotlight/pearl-and-pine", force = true},
+  {from = "/emp-fiber", to = "/emp-galvo-setup", force = true},
+  {from = "/emp-cabinet", to = "/emp-msc", force = true}
   ]
