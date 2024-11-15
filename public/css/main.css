@@ -14514,6 +14514,11 @@ figcaption {
       grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-thing.five {
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
 @media (max-width: 767px) {
   .flex.xs-reset {
     display: block;
@@ -14526,14 +14531,12 @@ figcaption {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
-  .grid-thing.six {
+  .grid-thing.six,
+  .grid-thing.five {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
-  .grid-thing.two {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
+  .grid-thing.two,
   .grid-thing.three {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
