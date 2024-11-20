@@ -250,6 +250,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </section>
+    <!--START: COUNTDOWN CLOCK-->
+<section class="bg-smokey">
+  <div class="py-3">
+    <h3 class="text-center">Black Friday Sale Ends November 29th at 11:59PM ET</h3>
+    <div class="notification-clock jumbo slate">
+      <div class="countdown-banner activate">
+      <div class="countdown-container">
+        <div class="countdown-clock d-inline-block">
+          <div class="clock-item-container">
+            <div id="clock-item-days" class="clock-item-value">__</div>
+            <div class="clock-item-label">Days</div>
+          </div>
+          <div class="clock-item-container">
+            <div id="clock-item-hours" class="clock-item-value">__</div>
+            <div class="clock-item-label">Hrs</div>
+          </div>
+          <div class="clock-item-container">
+            <div id="clock-item-minutes" class="clock-item-value">__</div>
+            <div class="clock-item-label">Min</div>
+          </div>
+          <div class="clock-item-container">
+            <div id="clock-item-seconds"  class="clock-item-value">__</div>
+            <div class="clock-item-label">Sec</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--END: COUNTDOWN CLOCK-->
+
     <!--START: PREORDER SPECIALS-->
 <section class="our-lasers">
   <div class="container py-4">
@@ -626,7 +658,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div>  
             <img class="img-responsive" src="/img/promo-laser-tube-xmas.jpg" alt="CO2 Laser Tube">
             <h4>Glass Laser Tube Upgrade</h4>
-            <small>Boost your deep engraving and cutting capacity with an increase in power. NOVA DC Glass tubes only.<br/><strong>$1250 Value</strong></small>
+            <small>Boost your deep engraving and cutting capacity with an increase in power. NOVA14S and NOVA16S DC Glass tubes only.<br/><strong>$1250 Value</strong></small>
           </div>
           <div>  
             <img class="img-responsive" src="/img/promo-laserart-xmas.jpg" alt="3D Art Files">
@@ -714,7 +746,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="flex xs-reset">
               <div class="flex-center">
                 <div class="">                  
-                  <h2 class="xs-center">Are you interested in the <span class="brand-color">Black Friday Specials</span>?</h2>
+                  <h2 class="xs-center">Are you interested in these <span class="brand-color">Deals</span>?</h2>
                   <p class="lead xs-center">Our Sales Team is ready to answer your questions.</p>
                   <div class="xs-center">
                     <a class="btn btn-brand btn-lg btn-auto gtmcta" href="#cb4dd32603" id="Talk-to-Our-Team">Talk to Our Team</a>
@@ -812,10 +844,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- ============= Javascript ============= -->
 <script src="/js/main.js"></script>
 <script src="/js/ac-form1.js"></script>
+  <!--START: NOTIFICATION BAR JS-->
+<script>
+    function showBanner(){
+      $(".countdown-banner").addClass("activate");
+    }
+    function hideBanner(){
+      $(".countdown-banner").removeClass("activate");
+      $(".countdown-over").addClass("activate");
+    }
+    function destroyBanner(){
+      $(".notification-clock").remove();
+    }
+
+    $('#hideBanner').on('click', function() {
+       $(".countdown-banner").removeClass("activate");
+    });
+
+    // Set the date we're counting down to
+    var countDownDate = new Date("November 29, 2024 00:00:00 GMT-04:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = ("0" + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
+      var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+      var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
+      var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
+
+      // Display the results
+      document.getElementById("clock-item-days").innerHTML = days;
+      document.getElementById("clock-item-hours").innerHTML = hours;
+      document.getElementById("clock-item-minutes").innerHTML = minutes;
+      document.getElementById("clock-item-seconds").innerHTML = seconds;
+
+      // If the count down is finished, do something
+      if (distance < 0) {
+        clearInterval(x);
+        destroyBanner();
+      }
+    }, 1000);
+</script>
+<!--END: NOTIFICATION BAR JS-->
+
   <!--START: COOKIE CONSENT-->
 
 <!--END: COOKIE CONSENT-->
-
 
   <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
