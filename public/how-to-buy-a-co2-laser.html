@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-xs-12 col-sm-5">
           <h2 class="centered">Master the Art of Choosing a Laser Engraver</h2>
           <p class="text-center lead">Join our free webinar to get insider tips on finding the best laser engraver for your needs</p>
-          <a class="btn btn-brand btn-xl btn-block btn-auto my-2 centered gtmcta" href="#register" id="BESTCO2-Register">Register Today</a>
+          <a class="btn btn-brand btn-xl btn-block btn-auto my-2 centered gtmcta fbevent" href="#register" id="BESTCO2-Register">Register Today</a>
         </div>
       </div>
     </div>
@@ -980,7 +980,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="fa fa-key"></i> <strong>Explore Options</strong>: Understand the importance of test-driving before you buy.<br/>
                 <i class="fa fa-key"></i> <strong>Choose a Supplier</strong>: Find reliable suppliers with lasting support.<br/>
                 <i class="fa fa-key"></i> <strong>Avoid Pitfalls</strong>: Sidestep common mistakes for a regret-free purchase.</p>
-                <a class="btn btn-brand btn-xl btn-block btn-auto my-2 xs-center" href="#register" >Save Your Spot</a>
+                <a class="btn btn-brand btn-xl btn-block btn-auto my-2 xs-center fbevent" href="#register" >Save Your Spot</a>
             </div>
           </div>
         </div>  
@@ -1156,7 +1156,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--END: COOKIE CONSENT-->
 
-
   <!--START: ACTIVE CAMPAIGN-->
 <script type="text/javascript">
   (function(e, t, o, n, p, r, i) {
@@ -1177,6 +1176,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   vgo('process');
 </script>
 <!--END: ACTIVE CAMPAIGN-->
+
+  <script>
+    if (typeof fbq !== 'undefined') {
+        document.addEventListener('DOMContentLoaded', function () {
+            const buttons = document.querySelectorAll('.fbevent');
+            if (buttons.length > 0) {
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        fbq('track', 'Subscribe');
+                        console.log('Subscribe event tracked successfully');
+                    });
+                });
+            } else {
+                console.error('No buttons with the class "fbevent" found.');
+            }
+        });
+    } else {
+        console.error('Facebook Pixel is not initialized.');
+    }
+  </script>
 
 </body>
 
