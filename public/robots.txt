@@ -9,6 +9,7 @@ Disallow: /cookie-policy.html
 Disallow: /shipping-policy.html
 Disallow: /terms-and-conditions.html
 Disallow: /warranty.html
+Disallow: /updates.html
 
 Noindex: /thank-you.html
 Noindex: /thank-you-partner.html
@@ -17,5 +18,6 @@ Noindex: /cookie-policy.html
 Noindex: /shipping-policy.html
 Noindex: /terms-and-conditions.html
 Noindex: /warranty.html
+Noindex: /updates.html
 
 Sitemap: https://aeonlaser.us/sitemap.xml
