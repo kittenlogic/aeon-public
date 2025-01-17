@@ -15017,6 +15017,11 @@ footer.footer .legal {
 .dropdown-menu hr {
   margin-top: 10px;
   margin-bottom: 10px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.dropdown h5 {
+  padding: 0 0.5em;
 }
 
 @media (max-width: 767px) {
@@ -16210,6 +16215,11 @@ time {
   color: #ea5529;
 }
 
+.product .description .fa.brand-redline,
+.product .details .fa.brand-redline {
+  color: #9D1C1F;
+}
+
 .product .description .btn-brand .fa {
   color: #fff;
 }
@@ -16304,6 +16314,14 @@ time {
   }
   .description .price-helper {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product .tab-pane .xs-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -16843,6 +16861,19 @@ time {
 
 .text-bb {
   color: #E0EDFF;
+}
+
+.redline-list {
+  list-style: none;
+}
+
+.redline-list li {
+  font-size: 1.25em;
+  padding-bottom: 0.75em;
+}
+
+.redline-list .fa {
+  margin-left: -1.25em;
 }
 
 .print-header {
