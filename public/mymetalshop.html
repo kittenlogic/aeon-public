@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Metal Shop | Aeon Laser USA</title>
+  <title>My Metal Shop</title>
   <meta name="author" content="Aeon Laser USA">
   <meta name="description" content="Custom Metal Cutting for Aeon VIP+ Members">
   <meta name="keywords"
-    content="laser cutter, laser engraving machine, laser engraver machine, CO2 laser cutter, CO2 laser engraving machine, CO2 laser engraver, tabletop laser cutter, desktop laser cutter, diy laser cutter, desktop laser cutting machine, personal laser engraver, personal laser cutter, benchtop laser cutter, laser cutter engraver, desktop laser cutting machine, laser engraving and cutting machines, laser cut machine for sale, affordable laser cutter,  laser engraving business plan, glowforge laser cutter, glowforge laser">
+    content="metal cutting">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="My Metal Shop" />
@@ -24,7 +24,7 @@
   <!--Twitter Meta-->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@aeonlaserusa" />
-  <meta name="twitter:title" content="My Metal Shop | Aeon Laser USA">
+  <meta name="twitter:title" content="My Metal Shop">
   <meta name="twitter:description" content="Custom Metal Cutting for Aeon VIP+ Members">
   <meta name="twitter:image:src" content="https://aeonlaser.us/img/og-mymetalshop.jpg">
 
@@ -99,7 +99,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <style>
     ul {list-style: none;}
-    li {font-size: 1.2em;}
+    section li {font-size: 1.2em;}
     .rotate-icon {
         transition: transform 0.3s ease;
     }
@@ -111,6 +111,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     .panel-title > a {
       font-size: 1.1em;
+    }
+    .navbar-default {
+      border-bottom: 1px solid #e2a300;
+    }
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    .grid-item {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.4rem;
+        height: 160px;
+        padding:5px;
+        text-align: center;
     }
   </style>
 
@@ -126,13 +146,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Some of our features will not work. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
   <!--START: NAV-->
-  <nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/mymetalshop.html"><img src="/img/logo-MMS-60h.jpg" alt="My Metal Shop logo"></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-main-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/mms-guidelines.html">Guidelines</a></li>
+        <li><a href="/mms-materials.html">Materials</a></li>
+        <li><a href="/mms-faq.html">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--END: NAV -->
+
+  <!--START: NAV-->
+  <!-- <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <img class="py-1" src="/img/logo-aeon-laser-usa.jpg" alt="Aeon Laser USA logo">
+        <img class="py-1" src="/img/logo-MMS-60h.jpg" alt="Aeon Laser USA logo">
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!--END: NAV -->
 
   <!--START: MAIN-->
@@ -141,518 +184,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
           <h1 class="text-center">My Metal Shop</h1>
-          <p class="text-center">Exclusive preview for AEON VIP Metal Cutting Club members. Please review this page for instructions on how to prepare your files and place an order.</p>
+          <p class="text-center">Exclusive preview for AEON VIP Metal Cutting Club members. Please review the resources below for instructions on how to prepare your files, place an order, and learn about available materials.</p>
         </div>
       </div>    
     </div>
   </section>
-
-  <section class="bg-smokey">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h2 class="text-center pb-20">Metal Cutting Design Guidelines</h2>
-          <p class="text-center lead">We’re here to guide you through creating perfectly laser-cut designs. Keep these tips in mind to ensure your file is ready to go.</p>
-          <div class="px-1">
-            <img src="https://placehold.co/600x400?text=video" class="img-responsive centered" alt=""/>
-          </div>
-        </div>
-      </div>    
-    </div>
-  </section>
-
-  <section class="bg-smokey">
-    <div class="container py-2">
-      <h3 class="text-center py-1">File Requirements & File Preparation Guidelines</h3>
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ1">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ1" aria-expanded="true" aria-controls="collapseEZ1">
-                <i class="fa fa-chevron-right rotate-icon"></i> File format requirements for My Metal Shop
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ1">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>File format requirements for My Metal Shop</h3>
-                      <p class="bold">Our software only accepts .DXP or .DWG formats; 10MB maximum file size.</p>
-                      <p>
-                        ✅ We accept 2D vector files in the following formats: DXF (Preferred) and DWG.<br/>
-                        ✅ Maximum file size you can upload to the My Metal Shop app is 10MB per file.<br/>
-                        ❌ We cannot accept raster-type files (JPEG, TIFF, PNG) or any other file type not listed above.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ2">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ2" aria-expanded="true" aria-controls="collapseEZ2">
-                <i class="fa fa-chevron-right rotate-icon"></i> Submit Properly Scaled Artwork
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ2">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Submit Properly Scaled Artwork</h3>
-                      <p class="bold">Ensure your artwork is scaled accurately at a 1:1 ratio. Use millimeters (mm) or inch (in) only.</p>
-                      <p>When submitting your design, ensure it is at the exact size you need, using a 1:1 scale. Our system processes your file as-is, so any dimensions written within the design will not be used.</p> 
-                      <p>We require all files to be in millimeters (mm) for precision. Designs in other metric units, such as centimeters or meters, will not be accepted.</p>
-                      <p>If your design originated as a raster image and was later converted, verify the dimensions are accurate before submitting. Printing the file at its actual size can help you confirm everything is scaled correctly.</p>
-                      <img src="/img/MMS-1-artwork-scale-red.jpg" alt="robot design" class="img-responsive py-1">
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ3">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ3" aria-expanded="true" aria-controls="collapseEZ3">
-                <i class="fa fa-chevron-right rotate-icon"></i> Only Include Your Parts or Cut Paths
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ3">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Only Include Your Parts or Cut Paths</h3>
-                      <p class="bold">Your file should include only the necessary parts or cutting paths.</p>
-                      <p>To ensure a smooth and efficient process, make sure your file only contains the parts and/or cut paths that need to be laser cut. Remove any extra elements such as dimensions, notes, borders, or unused objects before submitting your design.</p>
-                      <p>If you have additional details like quantities or specific instructions, include them in your order notes rather than the design file itself. This helps us focus on your project and speeds up the process. If we have any questions, we’ll be sure to reach out to clarify.</p>   
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-                      <img src="/img/MMS-3-file-cut-paths-green.jpg" alt="robot design" class="img-responsive py-1">
-                    </div>
-                    <div class="col-xs-12 col-sm-5">
-                      <img src="/img/MMS-4-file-cut-path-red.jpg" alt="robot design" class="img-responsive py-1"> 
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ4">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ4" aria-expanded="true" aria-controls="collapseEZ4">
-                <i class="fa fa-chevron-right rotate-icon"></i> Turn Text into Outlines or Shapes
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ4">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Turn Text into Outlines or Shapes</h3>
-                      <p class="bold">Convert any text in your design to outlines or shapes.</p>
-                      <p>If your design includes editable text, it needs to be converted into outlines or shapes before submitting. Active text boxes can't be processed by our laser cutters, so this step is essential to ensure a successful cut.</p>
-                      <p>Not sure if your text is ready? Hover your cursor over the text—if it's still editable, it needs to be converted. Most design programs make this simple: In LightBurn, convert the font to path by selecting the text, then go to: Edit → ”Convert to Path”; in Illustrator, use the “Convert to Outlines” option; or in some CAD programs, look for terms like “Expand” or “Explode.”</p> 
-                      <img src="/img/MMS-5-convert-to-outlines.jpg" alt="Text into Outlines" class="img-responsive py-1">
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ5">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ5" aria-expanded="true" aria-controls="collapseEZ5">
-                <i class="fa fa-chevron-right rotate-icon"></i> Use “bridges” to keep text and shapes connected
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ5">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Use “bridges” to keep text and shapes connected</h3>
-                      <p class="bold">For designs with text or intricate shapes, use “bridges” to connect pieces or stencilize the design.</p>
-                      <p>In designs where inner parts aren't attached to the outer structure, such as the red areas shown in the example below, pieces can fall out during cutting. This can complicate both the cutting process and assembly, particularly for intricate lettering or detailed shapes. To resolve this, incorporate small connectors, often called “bridges,” to link those inner elements to the surrounding design. By planning your artwork as if it were a stencil, you can minimize loose pieces and make the final result both functional and easy to install.</p>                 
-                      <p>Important: The minimum bridging requirement is 1mm (3/64”).</p>                   
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-                      <img src="/img/MMS-12-shapes-bridges-green.jpg" alt="robot" class="img-responsive py-1">
-                    </div>
-                    <div class="col-xs-12 col-sm-5">
-                      <img src="/img/MMS-13-shapes-bridges-red.jpg" alt="robot" class="img-responsive py-1">  
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ6">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ6" aria-expanded="true" aria-controls="collapseEZ6">
-                <i class="fa fa-chevron-right rotate-icon"></i> Ensure holes, cutouts, or internal shapes are at least half the thickness of the material
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ6">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Ensure holes, cutouts, or internal shapes are at least half the thickness of the material</h3>
-                      <p>Make sure all holes and cutouts are at least 50% of your material's thickness.</p>
-                      <p>When designing, remember that features smaller than 50% of the material's thickness may not cut cleanly or precisely. This is due to the laser needing adequate space to “pierce” and start cutting, which can make overly small details difficult to execute accurately.</p>
-                      <p>To avoid issues, check the minimum size guidelines specific to your material. Each material and thickness has its own cutting limitations, and you can reference these specifications on our material information pages.</p>
-                      <img src="/img/MMS-7-cutouts-50-percent-thick-red.jpg" alt="robot" class="img-responsive py-1"> 
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ7">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ7" aria-expanded="true" aria-controls="collapseEZ7">
-                <i class="fa fa-chevron-right rotate-icon"></i> Keep designs free of overlapping or common lines
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ7">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Keep designs free of overlapping or common lines</h3>
-                      <p class="bold">Double-check that no lines overlap, intersect, or share paths.</p>
-                      <p>Double-check that no two parts in your design touch, share a common edge, or overlap. Any intersecting or duplicate lines can confuse the laser, causing errors or incomplete cuts.</p>
-                      <p>For a quick way to identify these issues, switch your design view to wireframe or outline mode in your software. This will help you easily spot and fix any problematic areas before submitting your file.</p> 
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-                      <img src="/img/MMS-8-avoid-intersecting-lines-green.jpg" alt="robot" class="img-responsive py-1">
-                    </div>
-                    <div class="col-xs-12 col-sm-5">
-                      <img src="/img/MMS-9-avoid-intersecting-lines-red.jpg" alt="robot" class="img-responsive py-1"> 
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="EZ8">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEZ8" aria-expanded="true" aria-controls="collapseEZ8">
-                <i class="fa fa-chevron-right rotate-icon"></i> Remove empty objects and ensure all shapes are fully closed
-              </a>
-            </h4>
-          </div>
-          <div id="collapseEZ8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="EZ8">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>Remove empty objects and ensure all shapes are fully closed</h3>
-                      <p class="bold">Eliminate empty objects and ensure all shapes are fully closed, with no open contours.</p>
-                      <p>An "open contour" simply means that a shape isn't fully connected. Since the laser follows the path of a shape, any gaps will cause it to stop cutting prematurely.</p>
-                      <p>To catch and fix open paths, switch to Outline or Wireframe mode in your design software. This view makes it easy to spot incomplete shapes or stray objects that need attention.</p> 
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-                      <img src="/img/MMS-10-no-open-contours-green.jpg" alt="robot" class="img-responsive py-1">
-                    </div>
-                    <div class="col-xs-12 col-sm-5">
-                      <img src="/img/MMS-11-no-open-contours-red.jpg" alt="robot" class="img-responsive py-1"> 
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-      </div><!--end accordion--> 
-    </div>
-  </section> 
 
   <section>
-    <div class="container py-3">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h3 class="text-center">Cut-Ready File Checklist</h3>
-          <ul>
-            <li><i class="fa fa-square-o"></i> Ensure your file is in one of the accepted formats: .dxf, .dwg</li>
-            <li><i class="fa fa-square-o"></i> Ensure your file is under 10MB</li>
-            <li><i class="fa fa-square-o"></i> Confirm the file is built at a 1:1 scale, using either millimeter (mm) or inch (in) units.</li>
-            <li><i class="fa fa-square-o"></i> Verify that all holes and cutouts for laser-cut parts are at least 50% of the material's thickness.</li>
-            <li><i class="fa fa-square-o"></i> Ensure all design elements are placed on the same layer.
-            Remove stray points, duplicate lines, empty objects, and any active text boxes.</li>
-            <li><i class="fa fa-square-o"></i> Check that all shapes are closed, with no open contours.</li>
-            <li><i class="fa fa-square-o"></i> Combine, merge, or unite all overlapping shapes.</li>
-            <li><i class="fa fa-square-o"></i> Convert all text to paths or outlines.</li>
-            <li><i class="fa fa-square-o"></i> For reversed or cut-out text, include bridges or stencilize the design. Make sure your bridges are at least 1mm (3/64”).
-          </ul>
+    <div class="container-fluid">
+      <div class="row py-1">
+        <div class="col-xs-12">
+          <div class="grid-section">
+            <a href="/mms-guidelines.html"><div class="grid-item">Design Guidelines</div></a>
+            <a href="/mms-guidelines.html#ordering"><div class="grid-item">Ordering Guidelines</div></a>
+            <a href="/mms-materials.html"><div class="grid-item">Metals Available</div></a>
+            <a href="/mms-faq.html"><div class="grid-item">FAQ</div></a>
+          </div>
         </div>
       </div>
-    </div>
+    </div>      
   </section>
-
-  <section class="bg-smokey">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h2 class="text-center pb-20">How to Place an Order</h2>
-          <p class="text-center lead">Learn how to upload your cut-ready files, get an instant quote, and place an order on My Metal Shop</p>
-          <div class="px-1">
-            <img src="https://placehold.co/600x400?text=video" class="img-responsive centered" alt=""/>
-          </div>
-        </div>
-      </div>    
-    </div>
-  </section>
-
-
-  <section class="bg-smokey">
-    <div class="container py-2">
-      <h2 class="text-center py-1">FAQ</h2>
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ1">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ1" aria-expanded="true" aria-controls="collapseFAQ1">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-            </h4>
-          </div>
-          <div id="collapseFAQ1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ1">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ2">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ2" aria-expanded="true" aria-controls="collapseFAQ2">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ2">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ3">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ3" aria-expanded="true" aria-controls="collapseFAQ3">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ3">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ4">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ4" aria-expanded="true" aria-controls="collapseFAQ4">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ4">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ5">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ5" aria-expanded="true" aria-controls="collapseFAQ5">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ5">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ6">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ6" aria-expanded="true" aria-controls="collapseFAQ6">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ6">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQ7">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQ7" aria-expanded="true" aria-controls="collapseFAQ7">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQ7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQ7">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="FAQXXX">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFAQXXX" aria-expanded="true" aria-controls="collapseFAQXXX">
-                <i class="fa fa-chevron-right rotate-icon"></i> Q
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFAQXXX" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FAQXXX">
-            <div class="panel-body">
-              <section class="bg-smokey">
-                <div class="container py-3">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                      <h3>A</h3>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-
-      </div><!--end accordion--> 
-    </div>
-  </section> 
-
 
   <!--END: MAIN-->
   <!--START: FOOTER-->
   <footer class="py-2">
     <p class="centered small copyright"><span>© <script>
           document.write(new Date().getFullYear());
-        </script> Engraving Machines Plus. All Rights Reserved.</p>
+        </script> My Metal Shop. All Rights Reserved.</p>
   </footer>
   <!--END: FOOTER-->
   <!-- ============= Javascript ============= -->
