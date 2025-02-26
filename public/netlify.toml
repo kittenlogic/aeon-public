@@ -24,5 +24,6 @@ redirects = [
   {from = "/customer-spotlight/lobo-designs", to = "/spotlight/lobo-designs", force = true},
   {from = "/customer-spotlight/pearl-and-pine", to = "/spotlight/pearl-and-pine", force = true},
   {from = "/emp-fiber", to = "/emp-galvo-setup", force = true},
-  {from = "/emp-cabinet", to = "/emp-msc", force = true}
+  {from = "/emp-cabinet", to = "/emp-msc", force = true},
+  {from = "https://aeonlaser.us/mira-pro", to = "/mira-pro-s", force = true}
   ]
